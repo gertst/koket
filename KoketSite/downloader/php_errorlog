@@ -1,0 +1,18 @@
+[14-Feb-2014 20:56:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2006 MySQL server has gone away' in /home/kokettek/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/kokettek/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/kokettek/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/kokettek/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/kokettek/public_html/lib/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#4 /home/kokettek/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `mag_cor...', Array)
+#5 /home/kokettek/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php(428): Zend_Db_Adapter_Pdo_Abstract->query('SELECT `mag_cor...', Array)
+#6 /home/kokettek/public_html/lib/Zend/Db/Adapter/Abstract.php(825): Varien_Db_Adapter_Pdo_Mysql->query(Object(Varien_Db_Select), Arr in /home/kokettek/public_html/lib/Zend/Db/Statement/Pdo.php on line 234
+[14-Feb-2014 20:58:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2006 MySQL server has gone away' in /home/kokettek/public_html/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/kokettek/public_html/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/kokettek/public_html/lib/Varien/Db/Statement/Pdo/Mysql.php(110): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/kokettek/public_html/app/code/core/Zend/Db/Statement.php(291): Varien_Db_Statement_Pdo_Mysql->_execute(Array)
+#3 /home/kokettek/public_html/lib/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#4 /home/kokettek/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `mag_cor...', Array)
+#5 /home/kokettek/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php(428): Zend_Db_Adapter_Pdo_Abstract->query('SELECT `mag_cor...', Array)
+#6 /home/kokettek/public_html/lib/Zend/Db/Adapter/Abstract.php(825): Varien_Db_Adapter_Pdo_Mysql->query(Object(Varien_Db_Select), Arr in /home/kokettek/public_html/lib/Zend/Db/Statement/Pdo.php on line 234

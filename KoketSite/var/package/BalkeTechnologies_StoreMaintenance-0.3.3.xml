@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<package>
+    <name>BalkeTechnologies_StoreMaintenance</name>
+    <version>0.3.3</version>
+    <stability>stable</stability>
+    <license uri="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>StoreMaintenance allows you to put each storeview separately into maintenance mode</summary>
+    <description>StoreMaintenance allows you to put each storeview separately into maintenance mode. It can be configured from backend, so no need to hack any of your files (like index.php) on your server.&#xD;
+&#xD;
+        Features:&#xD;
+        ========&#xD;
+&#xA0; &#xA0; &#xA0; &#xA0; 0.3.3:&#xD;
+&#xA0; &#xA0; &#xA0; &#xA0; =====&#xD;
+        - stable release&#xD;
+&#xD;
+        0.3.2:&#xD;
+        =====&#xD;
+        - cosmetic changes&#xD;
+&#xD;
+        0.3.1:&#xD;
+        =====&#xD;
+        - added default custom maintenance page&#xD;
+&#xD;
+        0.3.0:&#xD;
+        =====&#xD;
+        - logged in administrators can bypass Store Maintenance if activated&#xD;
+        - custom maintenance page can be defined for each store&#xD;
+        - added comments to backend configuration&#xD;
+&#xD;
+        0.2.0:&#xD;
+        =====&#xD;
+        - list of IP addresses which bypass Store Maintenance can be defined&#xD;
+&#xD;
+        - all access attempts are logged to special log file&#xD;
+        - log file can be defined in backend&#xD;
+        - log verbosity can be defined in backend&#xD;
+        - logging can be switched off</description>
+    <notes>Die Nutzung dieser Extension geschieht auf eigene Gefahr. Der Autor &#xFC;bernimmt keine Haftung f&#xFC;r Sch&#xE4;den die durch die Nutzung dieser Extension entstehen.</notes>
+    <authors><author><name>Matthias Balke</name><user>BalkeTech</user><email>magento@balke-technologies.de</email></author></authors>
+    <date>2012-07-30</date>
+    <time>13:14:49</time>
+    <contents><target name="magecommunity"><dir name="BalkeTechnologies"><dir name="StoreMaintenance"><dir><dir name="Block"><dir name="Adminhtml"><dir name="Form"><dir name="Renderer"><dir name="Config"><file name="Version.php" hash="64a4b21fda8c428a8d2745a4ecc3f111"/></dir></dir></dir></dir></dir><dir name="Controller"><dir name="Router"><file name="Standard.php" hash="01ef7ee601710432c4c0ace594eb10d8"/></dir></dir><dir name="Helper"><file name="Data.php" hash="24e1feeadffa18e8778a36b24d5a0da6"/></dir><dir name="Model"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Source"><file name="Logging.php" hash="769412854e95321d092eec2fa1ca4d97"/></dir></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="a5f952b95603afc2f76cd1d41bd8cba2"/><file name="system.xml" hash="281fde75d64c1ff73eb82024da259561"/></dir></dir><file name="LICENSE" hash="3fb581dbfa2ea4bdd70ece9e2264aa14"/></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="BalkeTechnologies_StoreMaintenance.xml" hash="e29df137633e7504e1b6f1bcc2839139"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
