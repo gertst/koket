@@ -597,7 +597,7 @@ abstract class Mage_Sales_Model_Order_Pdf_Abstract extends Varien_Object
                             'font'      => 'bold'
                         ),
                         array(
-                            'text'      => $totalData['amount'],
+                            'text'      => $totalData['amount'] /*. "gert"*/,
                             'feed'      => 565,
                             'align'     => 'right',
                             'font_size' => $totalData['font_size'],

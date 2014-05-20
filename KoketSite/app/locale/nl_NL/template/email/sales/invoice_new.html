@@ -22,7 +22,7 @@
                         <strong>Beste {{var order.getCustomerName()}}</strong>,<br/>
                         Bedankt voor uw bestelling op {{var order.getStoreGroupName()}}.
                         Uw kunt de status van uw order controleren door  <a href="{{store url="customer/account/"}}" style="color:#1E7EC8;">in te loggen op uw account</a>.
-                        Indien u vragen heeft, neem dan gerust contact op via <a href="mailto:contact@vul_uw_email_in.com" style="color:#1E7EC8;">contact@vul_uw_email_in.com</a> of telefonisch <span class="nobr">0031 000 000000.</span></p>
+                        Indien u vragen heeft, neem dan gerust contact op via <a href="mailto:{{config path="trans_email/ident_general/email"}}" style="color:#1E7EC8;">{{config path="trans_email/ident_general/email"}}</a> of telefonisch <span class="nobr">0031 000 000000.</span></p>
               <h3 style="border-bottom:2px solid #eee; font-size:1.05em; padding-bottom:1px; ">
                         Uw factuur #{{var invoice.increment_id}} voor bestelling #{{var order.increment_id}}
                     </h3>

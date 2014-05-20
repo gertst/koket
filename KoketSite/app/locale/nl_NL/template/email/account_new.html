@@ -1,7 +1,7 @@
 <!--@subject Beste {{var customer.firstname}}, welkom bij {{var customer.store.website.name}}! @-->
 
 <style type="text/css">
-body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; }
+body,td { color:#2f2f2f; font:13px/1.35em Tahoma, Verdana, Arial, Helvetica, sans-serif; }
 </style>
 
 <div style="font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;">
@@ -21,7 +21,7 @@ body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;
                     <tr>
                         <td valign="top">
                             <p><strong>Beste {{var customer.firstname}},</strong><br/>
-                            Dank u voor uw aanmelding bij onze webshop. Om uw gegevens te bekijken kunt u bovenaan iedere pagina op onze webiste klikken op <a href="{{store url="customer/account/"}}" style="color:#1E7EC8;">Inloggen</a> of <a href="{{store url="customer/account/"}}" style="color:#1E7EC8;">Mijn rekening</a>. U hoeft dan alleen uw emailadres en wachtwoord in te vullen.</p>
+                            Dank u voor uw aanmelding bij onze webshop. Om uw gegevens te bekijken kunt u bovenaan iedere pagina op onze webiste klikken op <a href="{{store url="customer/account/"}}" style="color:#1E7EC8;">Inloggen</a> of <a href="{{store url="customer/account/"}}" style="color:#1E7EC8;">Mijn profiel</a>. U hoeft dan alleen uw emailadres en wachtwoord in te vullen.</p>
 
                             <p>Nadat u bent ingelogt kunt het volgende doen:</p>
 
@@ -35,9 +35,10 @@ body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;
                                 <li>Verschillende verzendadressen opslaan om een bestelling naar verschillende adressen te versturen. Handig voor familie en vrienden!</li>
                             </ul>
 
-                            <p>Wanneer u vragen heeft, neem dan gerust contact met ons op. <a style="color: rgb(30, 126, 200);" href="mailto:contact@vul_uw_email_in.com">contact@vul_uw_email_in.com</a> of natuurlijk telefonisch <span class="nobr">0031 000 000000</span></p>
+                            <p>Wanneer u vragen heeft, neem dan gerust contact met ons op via <a style="color: rgb(30, 126, 200);" href="mailto:{{config path="trans_email/ident_general/email"}}">{{config path="trans_email/ident_general/email"}}</a></p>
                             <p>Met vriendelijke groet,</p>
-														<p><strong>{{var customer.store.website.name}}</strong></p>
+							<p><strong>{{var customer.store.website.name}}</strong></p>
+                            <p><a href="{{config path="web/unsecure/base_url"}}">{{config path="web/unsecure/base_url"}}</a></p>
                         </td>
                     </tr>
                 </table>

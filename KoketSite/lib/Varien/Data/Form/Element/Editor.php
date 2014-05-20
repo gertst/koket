@@ -221,7 +221,7 @@ class Varien_Data_Form_Element_Editor extends Varien_Data_Form_Element_Textarea
             'style'     => $visible ? '' : 'display:none',
         ));
         }
-
+		if($this->getConfig('plugins') != null)
         foreach ($this->getConfig('plugins') as $plugin) {
             if (isset($plugin['options']) && $this->_checkPluginButtonOptions($plugin['options'])) {
                 $buttonOptions = $this->_prepareButtonOptions($plugin['options']);

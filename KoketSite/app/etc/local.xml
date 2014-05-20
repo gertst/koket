@@ -41,8 +41,8 @@
             <default_setup>
                 <connection>
                     <host><![CDATA[localhost]]></host>
-                    <username><![CDATA[kokettek_koket]]></username>
-                    <password><![CDATA[P0f01J7@S[]]></password>
+                    <username><![CDATA[kokettek_magento]]></username>
+                    <password><![CDATA[8fW8WN36qv]]></password><!--GbszmJ4/8fW8WN36qv-->
                     <dbname><![CDATA[kokettek_koket]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
@@ -63,4 +63,5 @@
             </adminhtml>
         </routers>
     </admin>
+
 </config>
