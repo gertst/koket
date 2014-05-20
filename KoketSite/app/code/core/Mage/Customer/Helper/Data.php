@@ -618,4 +618,18 @@ class Mage_Customer_Helper_Data extends Mage_Core_Helper_Abstract
     {
         return new SoapClient(self::VAT_VALIDATION_WSDL_URL, array('trace' => $trace));
     }
+
+    /*
+    //Gert: bugfix: http://www.magentocommerce.com/boards/viewthread/280106/P15/
+    protected function _createVatNumberValidationSoapClient($trace = false)
+    {
+        $options = array( 'soap_version'=>SOAP_1_1,
+            'exceptions'=>true,
+            'trace'=>1,
+            'cache_wsdl'=> WSDL_CACHE_NONE,
+            'user_agent' => 'Mozilla',
+            'proxy_port' => 80);
+        return new SoapClient(self::VAT_VALIDATION_WSDL_URL, $options);//array('trace' => $trace));
+    }
+    */
 }
