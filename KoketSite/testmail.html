@@ -1,0 +1,81 @@
+<style type="text/css">
+    body, td {
+        color: #000000;
+        font: 15px/1.35em Tahoma, Verdana, Arial, Helvetica, sans-serif;
+        background-color: #DAD9E0;
+    }
+
+</style>
+
+<div style="font:15px/1.35em Verdana, Arial, Helvetica, sans-serif;">
+    <table cellspacing="0" cellpadding="0" border="0" width="98%"
+           style="margin-top:10px; font:15px/1.35em Verdana, Arial, Helvetica, sans-serif; margin-bottom:10px;">
+        <tr>
+            <td align="center" valign="top">
+                <!-- [ header starts here] -->
+                <table cellspacing="0" cellpadding="0" border="0" width="650">
+                    <tr>
+                        <td valign="top" style="background-color:#FFFFFF;">
+                            <a href="{{config path=" web/unsecure/base_url"}}"><img src="{{skin url="images/logo_email.gif"
+                            _area='frontend'}}" alt="{{var customer.store.website.name}}"
+                            style="margin-bottom:0;" border="0" width="650"/></a></td>
+                    </tr>
+                </table>
+
+                <!-- [ middle starts here] -->
+                <table cellspacing="0" cellpadding="0" border="0" width="650">
+                    <tr>
+                        <td valign="top" style="background-color: #FFFFFF; padding: 30px;">
+                            <p><strong>Beste {{var customer.firstname}},</strong></p>
+
+                            <p>Dank je voor je bezoek aan onze winkel. We hopen dat je tevreden bent over je
+                                aankoop. </p>
+
+                            <p>Als nieuw geregistreerde klant kijg je automatisch kortingspunten bij elke aankoop.<br>
+                                Hiermee krijg je korting bij je volgende aankopen.<br>
+                                Je verdiende bij je aankoop {{var points}} punten, goed voor €{{var reduction}} korting.
+                                Je hoeft hier niets voor te doen: wij houden alles netjes voor je bij en bij je volgende
+                                aankoop in de winkel of de webshop kan je bij het afrekenen je kortingspunten gebruiken.
+                            </p>
+
+                            <p>We maakten een account voor je aan zodat je nu ook bij je online aankopen je
+                                kortingspunten kan gebruiken.</p>
+
+                            <p>Bovenaan iedere pagina op onze website kan je klikken op <a href="{{store url=" customer/account/"}}"
+                                style="color:#1E7EC8;">Inloggen</a> of <a href="{{store url=" customer/account/"}}"
+                                style="color:#1E7EC8;">Mijn profiel</a>. </p>
+
+                            <p>Bij het inloggen gebruik je je email <strong>{{var customer.email}}</strong> en passwoord
+                                <strong>{{var newpass}}</strong></p>
+
+                            <p>Nadat je bent ingelogt kan je het volgende doen:</p>
+
+                            <ul>
+                                <li>Je wachtwoord wijzigen.</li>
+                                <li>Het saldo van je kortingspunten raadplegen. Je hebt er nu {{var points}}.</li>
+                                <li>De status van je bestellingen bekijken.</li>
+                                <li>Je eerdere bestelllingen bekijken. Zowel deze in de winkel als de online shop.</li>
+                                <li>Wijzigingen aanbrengen in je adresgegevens.</li>
+                                <li>Je opgeven voor de nieuwsbrief en andere productberichten.</li>
+                                <li>Verschillende verzendadressen opslaan om een bestelling naar verschillende adressen
+                                    te versturen. Handig voor familie en vrienden!
+                                </li>
+                            </ul>
+
+                            <p>Wij horen het graag als je nog vragen hebt. Meem gerust contact met ons op via <a
+                                    style="color: rgb(30, 126, 200);" href="mailto:{{config path=" trans_email/ident_general/email"}}">{{config
+                                path="trans_email/ident_general/email"}}</a></p>
+
+                            <p>Met vriendelijke groet,</p>
+
+                            <p><strong>{{var customer.store.website.name}}</strong></p>
+
+                            <p><a href="{{config path=" web/unsecure/base_url"}}">{{config
+                                path="web/unsecure/base_url"}}</a></p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>

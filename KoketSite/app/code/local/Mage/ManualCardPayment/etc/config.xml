@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<config>
+    <global>
+        <models>
+            <manualcardpayment>
+                <class>Mage_ManualCardPayment_Model</class>
+            </manualcardpayment>
+            <sales>
+                <rewrite>
+                    <quote>Mage_ManualCardPayment_Model_Quote</quote>
+                </rewrite>
+            </sales> 
+        </models>
+
+        <resources>
+            <manualcardpayment_setup>
+                <setup>
+                    <module>Mage_ManualCardPayment</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </manualcardpayment_setup>
+            <manualcardpayment_write>
+                <use>core_write</use>
+            </manualcardpayment_write>
+            <manualcardpayment_read>
+                <use>core_read</use>
+            </manualcardpayment_read>
+        </resources>
+    </global>
+
+    <default>
+        <payment>
+            <manualcardpayment>
+                <active>0</active>
+                <model>manualcardpayment/manualCardPayment</model>
+                <order_status>1</order_status>
+                <title>Debit / Credit Card</title>
+                <allowspecific>0</allowspecific>
+            </manualcardpayment>
+         </payment>
+    </default>
+
+    <adminhtml>       
+        <translate>
+            <modules>
+                <Mage_ManualCardPayment>
+                    <files>
+                        <default>Mage_ManualCardPayment.csv</default>
+                    </files>
+                </Mage_ManualCardPayment>
+            </modules>
+        </translate>
+    </adminhtml>
+ 
+    <frontend>       
+        <translate>
+            <modules>
+                <Mage_ManualCardPayment>
+                    <files>
+                        <default>Mage_ManualCardPayment.csv</default>
+                    </files>
+                </Mage_ManualCardPayment>
+            </modules>
+        </translate>        
+    </frontend> 
+</config>
