@@ -460,6 +460,8 @@ class Mage_Adminhtml_Block_Widget_Grid extends Mage_Adminhtml_Block_Widget
         return $this;
     }
 
+
+
     protected function _addColumnFilterToCollection($column)
     {
         if ($this->getCollection()) {

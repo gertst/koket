@@ -1,0 +1,28 @@
+{
+      "manifest_version": 2,
+
+      "name": "Magento Order Invoice",
+      "description": "Adds a 'Print Invoice'' button to a magento order",
+      "version": "0.1",
+
+      "content_scripts": [
+            {
+                "matches": ["http://*.kokettekatinka.be/*admin123/sales_order/view/*","https://*.kokettekatinka.be/*admin123/sales_order/view/*"],
+                "css": [],
+                "js": ["jquery-2.1.0.min.js","printReceipt.js"]
+            },
+            {
+                "matches": ["http://*.kokettekatinka.be/*admin123/sales_order_create/*","https://*.kokettekatinka.be/*admin123/sales_order_create/*"],
+                "css": [],
+                "js": ["jquery-2.1.0.min.js","cleanUpCreation.js"]
+            }
+      ],
+      "permissions": [
+      ],
+
+      "web_accessible_resources": [
+            "inject-override.js"
+      ]
+
+
+}
