@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Ampersand_PaymentGateway>
+            <active>true</active>
+            <codePool>core</codePool>
+            <depends>
+                <Mage_Payment/>
+                <Mage_Checkout/>
+                <Ampersand_Core/>
+                <Ampersand_Api/>
+                <Ampersand_Integration/>
+                
+                <!-- 
+                    Ampersand_PaymentGateway_Block_Payment_Form_BillingAgreement 
+                    requires a class from Ampersand_BillingAgreementFix.
+                    Once Magento provide an official fix, this dependency can be removed.
+                -->
+                <Ampersand_BillingAgreementFix/>
+            </depends>
+        </Ampersand_PaymentGateway>
+    </modules>
+</config>

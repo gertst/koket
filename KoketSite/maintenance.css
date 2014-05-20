@@ -1,0 +1,91 @@
+/* @override
+        http://emergentweb.com/test/valign.css
+        */
+
+body {
+    font-family: 'Alef', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 0em;
+    word-spacing: 0em;
+    line-height: 1.4;
+    color:black;
+    background-color: #E7E5F3;
+}
+
+a {
+    color: #2b2560;
+}
+
+h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 2.5rem;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 0em;
+    word-spacing: 0em;
+    line-height: 1.4;
+    color: #2B2560;
+    margin: 0 0;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.6rem;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 0em;
+    word-spacing: 0em;
+    line-height: 1.4;
+    color: #2B2560;
+    margin: 10px 0;
+    padding-bottom: 20px;
+}
+}
+
+p {
+    text-align: left;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+div.frameT {
+    width: 100%;
+    padding: 0;
+    display: table;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+div.frameTC {
+    padding: 0;
+    vertical-align: middle;
+    display: table-cell;
+    margin: 0;
+}
+
+div.content {
+    width: 70%;
+    background-color: #b3d6a3;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    padding-bottom: 20px;
+}

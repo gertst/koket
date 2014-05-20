@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Ampersand_Realex>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Ampersand_PaymentGateway/>
+            </depends>
+        </Ampersand_Realex>
+    </modules>
+</config>

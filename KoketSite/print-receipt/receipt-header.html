@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Receipt</title>
+    <style>
+        body {
+            /*font-family: Myriad Pro Cond;*/
+            font-family: Tahoma;
+            /*font-family: DokChampa;*/
+            /*font-family: "Shruti";*/
+            font-size: 12px;
+            line-height: 17px;
+        }
+
+        h1 {
+            margin: 14px 0px;
+            font-family: Myriad Pro Cond;
+            font-weight: bold;
+        }
+
+        h5 {
+            margin: 0 0 0 0;
+            font-size: 0.8rem;
+        }
+
+        p {
+            margin: 0 0 0 0;
+        }
+
+        .logo {
+            display: block;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        .header {
+            text-align: center;
+        }
+
+        .footer {
+            text-align: center;
+        }
+
+
+
+        hr {
+            border-color: #000000;
+            border-style: solid;
+            border-width: 1px 0 0;
+            clear: both;
+            margin: 3px 0 ;
+            height: 0;
+        }
+
+        .price {
+            /*text-align: right;*/
+            width: 31px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            border: 0 0;
+        }
+
+        tr {
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 10px;
+        }
+
+        .sku {
+            font-weight: bolder;
+            font-size: 0.8em;
+            display: block;
+            margin-top: 5px;
+            margin-bottom: 3px;
+        }
+
+        .small {
+            font-family: Myriad Pro Cond;
+            font-weight: bold;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <p><img class="logo" src='http://www.kokettekatinka.be/print-receipt/logo-print.jpg'></p>
+    <div class="header">
+        <h1>Kokette Katinka</h1>
+        <p><b>Stoffen | Kralen | Juwelen</b></p>
+        <hr>
+        <p>Lombardenstraat 32 | 2000 Antwerpen</p>
+        <p><b>www.kokettekatinka.be</b></p>
+        <p>info@kokettekatinka.be</p>
+        <p>T. 03 227 31 45</p>
+        <hr>
+    </div>
+    {{body}}
+    {{footer}}
+</body>
+</html>

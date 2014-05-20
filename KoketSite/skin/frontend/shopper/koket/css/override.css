@@ -1,0 +1,258 @@
+/*
+@font-face {
+    font-family: 'Le Super Type Regular';
+    src: url('fonts/Le_Super_Type_Regular.eot');
+    src: local('☺'), url('fonts/Le_Super_Type_Regular.woff') format('woff'), url('fonts/Le_Super_Type_Regular.ttf') format('truetype'), url('fonts/Le_Super_Type_Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro);
+
+
+body {
+    font-family: 'Maven+Pro', Tahoma, sans-serif;
+    border-top-width: 0;
+}
+
+h1, h2, h3 {
+    letter-spacing: 0em;
+}
+
+.bullet {
+    list-style: initial;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/*
+a.level-top {
+    font-family: "Le Super Type Regular", 'Source Sans Pro', "sans serif" !important;
+}
+*/
+
+/*menu items*/
+#queldoreiNav>li>a {
+    font-size: 35px;
+    letter-spacing: normal;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+#queldoreiNav>li>a span {
+    padding: 4px 10px;
+}
+
+.footer-info h4 {
+    letter-spacing: normal;
+}
+
+#queldoreiNav div.sub-wrapper {
+    top: 8px;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 960px){
+    .search-field #queldoreiNav, .search-field #nav {
+        width: 420px;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 960px) {
+    .grid_12 {
+        width: 1042px;
+    }
+}
+
+.quick-view {
+    left: 28%;
+}
+
+/*#nav>li>a, #nav ul li a, #nav>li>a>span, #mobile-nav>li>a, #mobile-nav ul li a, #mobile-nav>li>a>span, #queldoreiNav>li>a, #queldoreiNav ul li a, #queldoreiNav>li>a>span {*/
+    /*transition: all 600ms ease-in-out;*/
+    /*-webkit-transition: all 600ms ease-in-out;*/
+    /*-moz-transition: all 600ms ease-in-out;*/
+    /*-o-transition: all 600ms ease-in-out;*/
+/*}*/
+
+/*
+.fixed #queldoreiNav>li>a span {
+    padding: 0px 10px;
+}
+*/
+/*
+.fixed #queldoreiNav>li>a  {
+    font-size: 32px;
+}
+*/
+
+
+.cart-top > a span {
+    font-family: "Yanone Kaffeesatz", Tahoma, Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.block .block-title strong {
+    letter-spacing: normal;
+}
+
+header a.logo {
+    text-decoration: none !important;
+    margin: 0;
+    background: #D6CFCF;
+    background-image:url("/skin/frontend/shopper/default/images/pattern-logo.gif");
+    padding: 16px 32px;
+}
+
+header .grid_12 {
+    margin-left: 0;
+}
+
+header .row {
+    margin: 0 0;
+}
+
+/*smaller logo when scrolling*/
+.fixed .main-logo {
+    width: 60px;
+    height: 60px;
+}
+
+header.fixed a.logo {
+    margin: 0 0;
+}
+
+.slider {
+    padding: 0px 0 20px;
+}
+
+.fullwidthbanner-container .fullwidthbanner {
+    max-height: 400px !important;
+}
+
+.box-rewardpoints-history .box-head h2 {
+    background: none;
+}
+#notice-cookie-block{
+    padding: 8px 20px;
+    background-color: #D8BCD8;
+    text-align: right;
+}
+
+#notice-cookie-block span {
+    background-color: #A297A1;
+}
+
+#notice-cookie-block .actions {
+    padding: 11px 0;
+}
+
+.cart .cart-collaterals h2 {
+    letter-spacing: normal;
+}
+
+#shopping-cart-totals-table strong {
+    letter-spacing: normal;
+}
+
+#discount-coupon-form .discount {
+     margin-top: 70px;
+}
+
+#rewardpoints-needmore-points {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.rewardpoints-index-policy h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: -1.5px;
+}
+
+.rewardpoints-index-policy .ox_list_simple{
+    list-style: inherit;
+    margin: 10px 20px;
+}
+
+.rewardpoints-money {
+    color: #5C9E56;
+    font-size: 19px;
+    font-family: "Yanone Kaffeesatz";
+    font-weight: 200;
+}
+
+.rewardpoints-money a {
+    font-family: 'Maven+Pro', Tahoma, sans-serif;
+    font-size: 0.8rem;
+}
+
+.block-slider .slides > li strong {
+    letter-spacing: normal;
+}
+
+.cms-index-index .block-slider .slides > li strong {
+    letter-spacing: normal;
+}
+
+.account-create #is_subscribed {
+    margin-bottom: 20px;
+}
+
+#login-form .link-tip {
+    margin-left: 5px;
+    font-size: 0.7rem;
+    font-style: italic;
+    display: -webkit-inline-box;
+}
+
+.registered-users .buttons-set {
+    margin-left: 0;
+}
+.registered-users button {
+    margin-left: 30px;;
+}
+
+.rewardpoints-name img {
+    margin-top: -3px;
+}
+
+.rewardpoints-index-index .info-summary p {
+    margin-top: 8px;
+}
+
+.page-title {
+    margin: 0 0 !important;
+}
+
+.col2-left-layout .page-title {
+    margin-left: 0;
+}
+
+.remember-me-popup {
+    border: none;
+}
+
+.remember-me-popup h3 {
+    background-color: #a3d48d;
+    background: #a3d48d;
+}
+
+.remember-me-popup .remember-me-popup-body a {
+    border: 1px solid #a3d48d;
+    background: #a3d48d url('http://www.kokettekatinka.be/skin/frontend/shopper/default/images/btn_overlay.png') 0 0 repeat-x;
+    padding: 0px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+/*.modal-backdrop {*/
+    /*z-index: 40000 !important;*/
+/*}*/
+
+/*.modal {*/
+    /*z-index: 40050 !important;*/
+/*}*/
