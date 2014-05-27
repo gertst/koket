@@ -80,4 +80,12 @@ class Mage_Catalog_Block_Product_View_Attributes extends Mage_Core_Block_Templat
         }
         return $data;
     }
+
+    //GERT
+    function setProduct($productId)
+    {
+        if (!Mage::registry('product') && $productId) {
+            $this->_product = Mage::getModel('catalog/product')->load($productId);
+        }
+    }
 }
