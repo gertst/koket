@@ -216,4 +216,11 @@
 
     #FileETag none
 
+
+
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
+
 SetEnv MAGE_IS_DEVELOPER_MODE "true"
+

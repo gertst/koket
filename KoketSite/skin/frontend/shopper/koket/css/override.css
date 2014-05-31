@@ -323,3 +323,12 @@ header.fixed a.logo {
 #product_addtocart_form .sku {
     font-weight: normal;
 }
+
+#product_addtocart_form .minimum-amount {
+    margin-bottom: 10px;
+}
+
+.hover .price-unit {
+    display: block;
+    color:#fff
+}

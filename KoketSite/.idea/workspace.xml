@@ -2,22 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9614c42-bc15-4ff5-ac12-205185ba7f5f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/catalog/product/view.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/locale/nl_NL/Mage_Review.csv" afterPath="$PROJECT_DIR$/app/locale/nl_NL/Mage_Review.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/core/Mage/Catalog/Block/Product/View/Attributes.php" afterPath="$PROJECT_DIR$/app/code/core/Mage/Catalog/Block/Product/View/Attributes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/rewardpointsrule/cart/item/default.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/rewardpointsrule/cart/item/default1800.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/checkout/onepage/review/item.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/catalog/product/price.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/locale/nl_NL/Mage_Checkout.csv" afterPath="$PROJECT_DIR$/app/locale/nl_NL/Mage_Checkout.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/iwd/opc/checkout.js" afterPath="$PROJECT_DIR$/js/iwd/opc/checkout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/shopper/default/template/checkout/cart/item/default.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/shopper/default/template/checkout/cart/item/default.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/shopper/koket/css/override.css" afterPath="$PROJECT_DIR$/skin/frontend/shopper/koket/css/override.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/shopper/koket/locale/nl_NL/translate.csv" afterPath="$PROJECT_DIR$/app/design/frontend/shopper/koket/locale/nl_NL/translate.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/catalog/product/view.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/catalog/product/view.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="KoketSite.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1400871375156" ignored="false" />
-    <file path="/override.css" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1401224642091" ignored="false" />
-    <file path="/a.dummy" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1401128566508" ignored="false" />
-    <file path="/Mage_XmlConnect.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1400700824026" ignored="false" />
+    <file path="/override.css" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1401386711630" ignored="false" />
+    <file path="/a.dummy" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1401532268986" ignored="false" />
+    <file path="/Mage_XmlConnect.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1401531961320" ignored="false" />
     <file path="/Magestore_RewardPointsReport.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1400700975530" ignored="false" />
     <file path="/Mage_Review.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1400701490603" ignored="false" />
-    <file path="/view.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1401217805964" ignored="false" />
+    <file path="/view.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1401367347139" ignored="false" />
     <file path="/dummy.xml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1400917497722" ignored="false" />
+    <file path="/translate.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1401465388139" ignored="false" />
+    <file path="/price.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1401465679106" ignored="false" />
+    <file path="/default.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1401525842548" ignored="false" />
+    <file path="/cart.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1401390019075" ignored="false" />
+    <file path="/default1800.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1401523634232" ignored="false" />
+    <file path="/Mage_Checkout.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1401392502206" ignored="false" />
+    <file path="/info.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1401393692245" ignored="false" />
+    <file path="/item.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1401529102497" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,51 +57,80 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="override.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/skin/frontend/shopper/koket/css/override.css">
+      <file leaf-file-name="default1800.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/koket/template/rewardpointsrule/cart/item/default1800.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="41" selection-start="2445" selection-end="2445" vertical-scroll-proportion="0.53781515">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/koket/template/catalog/product/view.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="162" column="24" selection-start="6393" selection-end="6667" vertical-scroll-proportion="-5.24">
+            <state line="208" column="116" selection-start="12931" selection-end="13035" vertical-scroll-proportion="-9.458333">
               <folding>
-                <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <marker date="1401217880000" expanded="true" signature="5792:5851" placeholder="..." />
-                <marker date="1401217880000" expanded="true" signature="6808:6930" placeholder="..." />
-                <marker date="1401217880000" expanded="true" signature="7774:7827" placeholder="..." />
+                <element signature="e#6#968#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#dd#0;n#dl#1;n#td#1;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#span#0;n#td#5;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#span#0;n#td#6;n#tr#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Form.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Review/Block/Form.php">
+      <file leaf-file-name="price.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/koket/template/catalog/product/price.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="25" selection-start="2183" selection-end="2183" vertical-scroll-proportion="-21.875">
+            <state line="215" column="64" selection-start="13439" selection-end="13474" vertical-scroll-proportion="-4.64">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mage_Review_Block_Product_View.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/src/Mage_Review_Block_Product_View.php">
+      <file leaf-file-name="item.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/koket/template/checkout/onepage/review/item.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="19" selection-start="2253" selection-end="2253" vertical-scroll-proportion="-30.0">
+            <state line="29" column="103" selection-start="1142" selection-end="1142" vertical-scroll-proportion="-1.28">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#span#1;n#td#1;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#span#1;n#td#2;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#span#1;n#td#4;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#span#1;n#td#5;n#tr#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mage_XmlConnect.csv" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/locale/nl_NL/Mage_XmlConnect.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="713" column="0" selection-start="42061" selection-end="42182" vertical-scroll-proportion="-4.4074073">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="translate.csv" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/koket/locale/nl_NL/translate.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="124" column="14" selection-start="5642" selection-end="5642" vertical-scroll-proportion="-6.4444447">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jstranslator.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Checkout/etc/jstranslator.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="17" selection-start="1599" selection-end="1599" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product_info_review.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/default/template/review/product_info_review.phtml">
+      <file leaf-file-name="checkout.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/iwd/opc/checkout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="27" selection-start="1555" selection-end="1555" vertical-scroll-proportion="-9.375">
+            <state line="671" column="102" selection-start="18654" selection-end="18654" vertical-scroll-proportion="0.3446712">
               <folding />
             </state>
           </provider>
@@ -110,22 +154,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/locale/nl_NL/Mage_Core.csv" />
-        <option value="$PROJECT_DIR$/skin/frontend/base/default/css/iwd/opc/opc.css" />
-        <option value="$PROJECT_DIR$/app/design/frontend/shopper/koket/locale/nl_NL/translate.csv" />
-        <option value="$PROJECT_DIR$/../chrome-extension/manifest.json" />
-        <option value="$PROJECT_DIR$/app/design/frontend/base/default/layout/iwd_opc.xml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/opc/checkout/cart/point.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/opc/wrapper.phtml" />
-        <option value="$PROJECT_DIR$/app/code/core/Mage/Sales/Model/Order/Pdf/Abstract.php" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/checkout/cart/item/default.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/rewardpointsrule/cart/item/default1800.phtml" />
+        <option value="$PROJECT_DIR$/app/locale/nl_NL/Mage_Checkout.csv" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/opc/onepage/review/info.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/catalog/product/price.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/rewardpointsrule/cart/item/default1800.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/shopper/default/template/checkout/cart/item/default.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/shopper/default/template/checkout/cart/sidebar/default.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/shopper/default/template/checkout/onepage/review/item.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/checkout/checkout/onepage/review/item.phtml" />
+        <option value="$PROJECT_DIR$/app/.htaccess" />
+        <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/app/locale/nl_NL/Mage_XmlConnect.csv" />
-        <option value="$PROJECT_DIR$/app/locale/nl_NL/Magestore_RewardPointsReport.csv" />
-        <option value="$PROJECT_DIR$/app/locale/nl_NL/Mage_Review.csv" />
-        <option value="$PROJECT_DIR$/app/design/frontend/shopper/default/template/catalog/product/view.phtml" />
-        <option value="$PROJECT_DIR$/app/code/core/Mage/Catalog/Block/Product/View/Attributes.php" />
-        <option value="$PROJECT_DIR$/app/design/frontend/shopper/default/layout/local.xml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/catalog/product/view.phtml" />
-        <option value="$PROJECT_DIR$/skin/frontend/shopper/koket/css/override.css" />
+        <option value="$PROJECT_DIR$/app/design/frontend/shopper/koket/locale/nl_NL/translate.csv" />
+        <option value="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/checkout/onepage/review/item.phtml" />
+        <option value="$PROJECT_DIR$/js/iwd/opc/checkout.js" />
       </list>
     </option>
   </component>
@@ -261,6 +305,140 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="koket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iwd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iwd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -351,147 +529,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
+              <option name="myItemId" value="checkout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="product" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="koket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sales" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
+              <option name="myItemId" value="onepage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -525,7 +567,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
+              <option name="myItemId" value="koket" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -533,11 +575,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product" />
+              <option name="myItemId" value="checkout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -567,23 +605,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
+              <option name="myItemId" value="koket" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -620,60 +642,6 @@
               <option name="myItemId" value="template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="type" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -727,75 +695,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="shopper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="queldorei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -867,7 +767,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rewardpoints" />
+              <option name="myItemId" value="opc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -905,11 +805,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rewardpoints" />
+              <option name="myItemId" value="opc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="product" />
+              <option name="myItemId" value="onepage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -947,15 +847,141 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rewardpoints" />
+              <option name="myItemId" value="opc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="product" />
+              <option name="myItemId" value="onepage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
+              <option name="myItemId" value="review" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="item" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1006,20 +1032,26 @@
               <option name="myItemId" value="code" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Stogo" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CreateOrder" />
+              <option name="myItemId" value="code" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1041,19 +1073,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Stogo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CreateOrder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="etc" />
+              <option name="myItemId" value="Mage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1075,47 +1099,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="Mage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="community" />
+              <option name="myItemId" value="Catalog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1159,13 +1151,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/checkout/checkout/onepage/review" />
+      <recent name="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/rewardpointsrule/cart/item" />
       <recent name="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/catalog/product" />
       <recent name="C:\gitProjects\koket\KoketSite\app\design\frontend\base\default\template\opc" />
       <recent name="C:\gitProjects\koket\KoketSite\app\design\frontend\shopper\koket\template\customer\account" />
-      <recent name="C:\gitProjects\koket\KoketSite\app\design\frontend\shopper\koket\layout\customer\account" />
-      <recent name="C:\gitProjects\koket\KoketSite\app\design\frontend\shopper\koket\layout" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/checkout" />
       <recent name="C:\gitProjects\koket\KoketSite\app\design\frontend\shopper\koket\layout" />
       <recent name="C:\gitProjects\koket\KoketSite\skin\frontend\shopper\koket\css" />
     </key>
@@ -1223,7 +1216,7 @@
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32716927" sideWeight="0.48703402" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.68095237" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40113798" sideWeight="0.726094" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28165007" sideWeight="0.726094" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.68095237" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297619" sideWeight="0.2682334" order="7" side_tool="true" content_ui="tabs" />
@@ -1231,7 +1224,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3436155" sideWeight="0.598862" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3436155" sideWeight="0.71834993" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1304,119 +1297,135 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/code/local/Stogo/CreateOrder/etc/config.xml">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/rewardpointsrule/cart/item/default.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Stogo/CreateOrder/Model/Create.php">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/checkout/cart/item/default.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/default/template/catalog/product/view.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="11" selection-start="5030" selection-end="5030" vertical-scroll-proportion="30.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Created.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="42" selection-start="2483" selection-end="2483" vertical-scroll-proportion="2.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/view/attributes.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="48" selection-start="1201" selection-end="1218" vertical-scroll-proportion="-8.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/rewardpoints/product/view/earning.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="12" selection-start="771" selection-end="771" vertical-scroll-proportion="0.4074074">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/default/template/catalog/product/view/type/default.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1656" selection-end="1656" vertical-scroll-proportion="0.6122449">
+        <state line="34" column="33" selection-start="1692" selection-end="1692" vertical-scroll-proportion="0.074074075">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/default/template/checkout/cart/item/default.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="189" column="74" selection-start="12192" selection-end="12192" vertical-scroll-proportion="0.39030612">
+        <state line="37" column="33" selection-start="1954" selection-end="1954" vertical-scroll-proportion="0.5185185">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Block/Product/View/Attributes.php">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/default/template/checkout/cart/sidebar/default.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="9" selection-start="2905" selection-end="2905" vertical-scroll-proportion="0.72771084">
+        <state line="52" column="26" selection-start="1947" selection-end="1947" vertical-scroll-proportion="0.38551402">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/default/layout/local.xml">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/default/template/checkout/onepage/review/item.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="226" column="121" selection-start="12388" selection-end="12388" vertical-scroll-proportion="0.3667426">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/default/template/review/product_info_review.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="27" selection-start="1555" selection-end="1555" vertical-scroll-proportion="-9.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/src/Mage_Review_Block_Product_View.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="19" selection-start="2253" selection-end="2253" vertical-scroll-proportion="-30.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Review/Block/Form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="25" selection-start="2183" selection-end="2183" vertical-scroll-proportion="-21.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Block/Product/Abstract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="313" column="47" selection-start="9087" selection-end="9087" vertical-scroll-proportion="0.48554912">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/koket/template/catalog/product/view.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="24" selection-start="6393" selection-end="6667" vertical-scroll-proportion="-5.24">
+        <state line="28" column="4" selection-start="1015" selection-end="15871" vertical-scroll-proportion="0.17523365">
           <folding>
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <marker date="1401217880000" expanded="true" signature="5792:5851" placeholder="..." />
-            <marker date="1401217880000" expanded="true" signature="6808:6930" placeholder="..." />
-            <marker date="1401217880000" expanded="true" signature="7774:7827" placeholder="..." />
+            <element signature="n#style#0;n#div#0;n#span#1;n#td#1;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#span#1;n#td#2;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#span#1;n#td#4;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#span#1;n#td#5;n#tr#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skin/frontend/shopper/koket/css/override.css">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/checkout/onepage/review.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="41" selection-start="2445" selection-end="2445" vertical-scroll-proportion="0.53781515">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/koket/template/catalog/product/price.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="215" column="64" selection-start="13439" selection-end="13474" vertical-scroll-proportion="-4.64">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/opc/onepage/review/info.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="73" selection-start="2138" selection-end="2138" vertical-scroll-proportion="0.8411215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/koket/template/rewardpointsrule/cart/item/default1800.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="208" column="116" selection-start="12931" selection-end="13035" vertical-scroll-proportion="-9.458333">
+          <folding>
+            <element signature="e#6#968#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#dd#0;n#dl#1;n#td#1;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#span#0;n#td#5;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#span#0;n#td#6;n#tr#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.06451613">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="225" column="0" selection-start="6105" selection-end="6105" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Checkout/etc/jstranslator.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="17" selection-start="1599" selection-end="1599" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/koket/locale/nl_NL/translate.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="14" selection-start="5642" selection-end="5642" vertical-scroll-proportion="-6.4444447">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/locale/nl_NL/Mage_XmlConnect.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="713" column="0" selection-start="42061" selection-end="42182" vertical-scroll-proportion="-4.4074073">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/koket/template/checkout/onepage/review/item.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="103" selection-start="1142" selection-end="1142" vertical-scroll-proportion="-1.28">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#span#1;n#td#1;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#span#1;n#td#2;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#span#1;n#td#4;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#span#1;n#td#5;n#tr#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/iwd/opc/checkout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="671" column="102" selection-start="18654" selection-end="18654" vertical-scroll-proportion="0.3446712">
           <folding />
         </state>
       </provider>

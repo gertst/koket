@@ -157,8 +157,18 @@ echo '<div class="product-category-title">'.$_category->getName().'</div>';
                 </div>
 
                     <?php if($_product["stock_item"]["min_sale_qty"] > 0): ?>
-                        <div  class="tmp">
-                            <?php echo $this->__('Minimum amount') . ": " . $_product["stock_item"]["min_sale_qty"]?>
+                        <div  class="minimum-amount">
+                            <?php
+                                $minimumAmount = $_product["stock_item"]["min_sale_qty"];
+                            if ($_product["stock_item"]["is_qty_decimal"] == 1 ){
+                                $minimumAmount = round($minimumAmount*100)/100;
+
+                            } else {
+                                $minimumAmount = round($minimumAmount);
+                            }
+                                //$minimumAmount = $this->formatPrecision($minimumAmount, 2);
+                            ?>
+                            <?php echo $this->__('Minimum order quantity') . ": " . $minimumAmount?>
                         </div>
                     <?php endif; ?>
                 <?php endif; ?>
@@ -309,7 +319,7 @@ echo '<div class="product-category-title">'.$_category->getName().'</div>';
 	                }
 	                this.form.submit();
 	            }
-	            O   bject.extend(Validation.methods, nv);
+	            Object.extend(Validation.methods, nv);
 	        }
 	    }.bind(productAddToCartForm);
     //]]>

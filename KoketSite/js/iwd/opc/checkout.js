@@ -668,7 +668,8 @@ IWD.OPC.Shipping = {
 			if (IWD.OPC.Shipping.validateShippingMethod()===false){
 
 				
-				$j('.opc-message-container').html('Please specify shipping method');
+				//$j('.opc-message-container').html('Please specify shipping method.');
+				$j('.opc-message-container').html(Translator.translate('Please specify shipping method'));
 				$j('.opc-message-wrapper').show();
 				
 				IWD.OPC.Checkout.hideLoader();
