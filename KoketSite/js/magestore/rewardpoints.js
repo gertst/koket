@@ -189,18 +189,22 @@ RewardPointsAjax.prototype = {
 
 function checkOutLoadRewardpoints(json) {
     var eladd = getElementRewardpoints();
-    eladd.insert({
-        before: json.html
-    });
+    if (eladd) {
+        eladd.insert({
+            before: json.html
+        });
+    }
     if ($('p_method_free')) {
         $('p_method_free').checked = true;
     }
 }
 function getElementRewardpoints(){
-    if ($('checkout-payment-method-load').down('#checkout-payment-method-load') == undefined) {
-        return $('checkout-payment-method-load');
-    } else {
-        return $('checkout-payment-method-load').down('#checkout-payment-method-load');
+    if ($('checkout-payment-method-load')) {
+        if ($('checkout-payment-method-load').down('#checkout-payment-method-load') == undefined) {
+            return $('checkout-payment-method-load');
+        } else {
+            return $('checkout-payment-method-load').down('#checkout-payment-method-load');
+        }
     }
 }
 function changeUsePointAjax(el) {
