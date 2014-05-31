@@ -332,3 +332,27 @@ header.fixed a.logo {
     display: block;
     color:#fff
 }
+
+.products-grid li.item {
+    border: none;
+    background: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.products-grid .add-to-links {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-top: 1px solid #f3f3f3;
+    background: #fff;
+}
+
+.regular .button.btn-cart {
+    display: none;
+}
+
+.regular .price-box{
+    display: none;
+}
