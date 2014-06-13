@@ -1,4 +1,5 @@
 <?php
+ob_start();
 error_reporting(E_ALL | E_STRICT);
 $mageFilename = 'app/Mage.php';
 if (!file_exists($mageFilename)) {
@@ -79,6 +80,9 @@ if(!empty($customer))
             }
             $translate->setTranslateInline(true);
             echo("Welcome mail sent to new customer " . $email . ". Password: " . $newPassword);
+
+            registerToNewsletter($email);
+
         } else {
             echo("Send-mail-to-newcustomers: error: empty email template");
         }
@@ -90,6 +94,13 @@ if(!empty($customer))
     echo("Send-mail-to-newcustomers: error: empty customer");
 }
 
-
+function registerToNewsletter($email) {
+    //Mage::log('_autoSubscribe: '.$email);
+    $subscriber = Mage::getModel('newsletter/subscriber')->loadByEmail($email);
+    if($subscriber->getStatus() != Mage_Newsletter_Model_Subscriber::STATUS_SUBSCRIBED &&
+        $subscriber->getStatus() != Mage_Newsletter_Model_Subscriber::STATUS_UNSUBSCRIBED) {
+        $subscriber->setImportMode(true)->subscribe($email);
+    }
+}
 
 ?>

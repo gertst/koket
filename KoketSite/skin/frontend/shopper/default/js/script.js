@@ -572,7 +572,7 @@ jQuery(function($){
                     mousewheel: false,
                     keyboard:false,
                     smoothHeight: false,
-                    slideshowSpeed: 7000,
+                    slideshowSpeed: 12000,
                     animationSpeed: 600,
                     pauseOnAction: true,
                     pauseOnHover: true,

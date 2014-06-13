@@ -101,9 +101,9 @@ class Magestore_RewardPoints_Helper_Point extends Mage_Core_Helper_Abstract
     {
         $points = intval($points);
         if (abs($points) == 1) {
-            return $points . ' ' . $this->getName($store);
+            return $points . '&nbsp;' . $this->getName($store);
         }
-        return $points . ' ' . $this->getPluralName($store);
+        return $points . '&nbsp;' . $this->getPluralName($store);
     }
     
     /**

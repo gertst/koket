@@ -205,7 +205,8 @@
                 <action method="insert"><blockName>global_messages</blockName></action>
                 <action method="unsetChild"><name>additional</name></action>
                 <block type="cms/block" name="queldorei_product_additional">
-                    <action method="setBlockId"><block_id>shopper_product_additional</block_id></action>
+                    <!--<action method="setBlockId"><block_id>shopper_product_additional</block_id></action>-->
+                    <action method="setBlockId"><block_id>shopper_banners_slideshow</block_id></action>
                 </block>
                 <block type="cms/block" name="shopper_product_addthis">
                     <action method="setBlockId"><block_id>shopper_product_addthis</block_id></action>

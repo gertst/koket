@@ -139,7 +139,34 @@ header a.logo {
     }
 }
 
+.links li {
+    padding: 0 3px;
+}
 
+.product-additional .block .block-content li {
+    margin: 3px 0 0 0 !important;
+}
+
+#faq li h3 {
+    cursor: pointer;
+}
+
+#faq li h3:hover {
+    text-decoration: underline;
+}
+
+#faq li div {
+    display: none;
+    /*width: 100%;*/
+    position: relative;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+#faq li div p {
+    padding: 0 0 10px 0;
+    margin: 0 0 0 0;
+}
 
 
 @media only screen and (max-width: 767px) {
@@ -220,7 +247,7 @@ header.fixed a.logo {
 }
 
 .rewardpoints-money {
-    color: #5C9E56;
+    color: #5c9e56;
     font-size: 19px;
     font-family: "Yanone Kaffeesatz";
     font-weight: 200;
@@ -347,12 +374,105 @@ header.fixed a.logo {
     box-shadow: none;
     border-top: 1px solid #f3f3f3;
     background: #fff;
+    font-size: 12px;
+}
+
+.products-grid .add-to-links a {
+    color: #4d4d4d;
 }
 
 .regular .button.btn-cart {
     display: none;
 }
 
+.button.btn-cart span {
+    font-family: 'Maven+Pro', Tahoma, sans-serif;
+}
+
 .regular .price-box{
     display: none;
+}
+
+.box-account.box-info.box-rewardpoints-summary h2 {
+    display: none;
+}
+.box-account.box-info.box-rewardpoints-summary strong.rewardpoints-money a {
+    display: none;
+}
+
+#reward_ajax_loading {
+    margin: 20px;
+}
+.cart .cart-collaterals .cart-total {
+    padding: 0 0 5px 0;
+}
+
+form#co-shipping-method-form li label {
+    font-weight: normal;
+}
+
+#rewardpoints-slider {
+    display: none;
+}
+
+.cart-block .cart-coupon dd {
+    margin: 0;
+}
+
+.rewards-sales-rules .not-logged-in-warning {
+    font-weight: bold;
+    padding-bottom:  20px ;
+}
+
+#cart-rewards-form dd {
+    margin: 0;
+}
+
+.opc-wrapper-opc .order-info {
+    padding: 10px 0 30px 0;
+}
+
+.catalog-product-compare-index #notice-cookie-block{
+    display: none;
+}
+
+.block-content li, .block .block-content li.item, .block-layered-nav .block-content dd li, .product-tabs-content ul.disc li {
+    background-image: none;
+}
+
+button.button span span {
+    text-transform: none;
+}
+
+.cms-page-view h1 {
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.cms-page-view .col-main ul {
+    list-style-type: inherit;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.cms-page-view .col-main ol {
+    list-style-type: decimal;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.cms-privacy-beleid .col-main h2 {
+    padding-top: 20px;
+}
+
+#contactForm h2.legend {
+    float: inherit;
+    font-weight: normal;
+    font-size: 30px;
+    border: none;
+    background: inherit;
+    color: inherit;
+    margin: 0 0 30px 0px;
+    padding: 0 0;
+    position: inherit;
 }
