@@ -5,727 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9614c42-bc15-4ff5-ac12-205185ba7f5f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/rewardpoints/checkout/payment/onestep.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/rewardpoints/checkout/cart/point.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/newsletter/subscribe.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/newsletter/subscribe_home.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/opc/wrapper.phtml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/plugins/buttons/icons/cross.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/plugins/buttons/icons/key.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/plugins/buttons/icons/tick.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/plugins/buttons/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/plugins/buttons/screen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/plugins/fancy-type/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/plugins/fancy-type/screen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/plugins/link-icons/icons/doc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/plugins/link-icons/icons/email.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/plugins/link-icons/icons/external.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/plugins/link-icons/icons/feed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/plugins/link-icons/icons/im.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/plugins/link-icons/icons/pdf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/plugins/link-icons/icons/visited.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/plugins/link-icons/icons/xls.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/plugins/link-icons/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/plugins/link-icons/screen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/plugins/rtl/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/plugins/rtl/screen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/print.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/screen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/src/forms.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/src/grid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/src/grid.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/src/ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/src/print.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/src/reset.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/blueprint-css/src/typography.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/docu.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/blocks1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/blocks2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/blocks3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/c1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/c2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/c3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/c4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/c5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/c6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/caption_popup.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/captions.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/category1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/category2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/category_code1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/category_code2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/cms_page.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/image001psd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/image002psd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/image003psd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/image004.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/image005.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/image_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/image_2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/image_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/install1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/install1_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/install2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/layout1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/layout2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/layout3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/manage_store.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/product_rollover.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/images/product_rollover1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/XRegExp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shAutoloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shBrushAS3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shBrushAppleScript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shBrushBash.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shBrushCSharp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shBrushColdFusion.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shBrushCpp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shBrushCss.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shBrushDelphi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shBrushDiff.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shBrushErlang.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shBrushGroovy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shBrushJScript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shBrushJava.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shBrushJavaFX.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shBrushPerl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shBrushPhp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shBrushPlain.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shBrushPowerShell.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shBrushPython.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shBrushRuby.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shBrushSass.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shBrushScala.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shBrushSql.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shBrushVb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shBrushXml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shCore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/scripts/shLegacy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/styles/shCore.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/styles/shCoreDefault.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/styles/shCoreDjango.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/styles/shCoreEclipse.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/styles/shCoreEmacs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/styles/shCoreFadeToGrey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/styles/shCoreMDUltra.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/styles/shCoreMidnight.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/styles/shCoreRDark.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/styles/shThemeDefault.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/styles/shThemeDjango.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/styles/shThemeEclipse.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/styles/shThemeEmacs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/styles/shThemeFadeToGrey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/styles/shThemeMDUltra.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/styles/shThemeMidnight.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/assets/js/sh/styles/shThemeRDark.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/css/documenter_style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/css/img/info.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/css/img/pre_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/css/img/warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/css/shDocumenter.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/js/jquery.1.6.4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/js/jquery.easing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/js/jquery.scrollTo-1.4.2-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/js/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/js/shBrushCss.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/js/shBrushJScript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/js/shBrushXml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/js/shCore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Documentation/revolution_slider.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Psd/00-MainPage-Sidebar.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Psd/01-MainPage-FullWidth.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Psd/02-Listing-Sidebar.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Psd/04-Listing-ListView.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Psd/05-Product-page.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Psd/06-Bag.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Psd/07-Checkout.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Psd/08-Login-Page.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Psd/09-DropDowns.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Psd/10-Listing-DropDowns.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Psd/labels_vector.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Psd/labels_vector@2x.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Excellence/Ajax/Block/Ajax.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Excellence/Ajax/Block/Cart/Sidebar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Excellence/Ajax/Helper/Data.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Excellence/Ajax/Model/Ajax.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Excellence/Ajax/Model/Mysql4/Ajax.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Excellence/Ajax/Model/Mysql4/Ajax/Collection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Excellence/Ajax/Model/Status.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Excellence/Ajax/controllers/IndexController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Excellence/Ajax/etc/config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Excellence/AjaxWishlist/Block/AjaxWishlist.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Excellence/AjaxWishlist/Helper/Data.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Excellence/AjaxWishlist/controllers/IndexController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Excellence/AjaxWishlist/etc/config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Mage/Page/Block/Html/Footer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Priceslider/Block/Mainslider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Priceslider/Block/Pager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Priceslider/Block/Product/List/Toolbar/Pager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Priceslider/Block/Slider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Priceslider/Block/Tool.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Priceslider/Model/Slider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Priceslider/controllers/SliderController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Priceslider/etc/config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Block/Adminhtml/Activate/Edit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Block/Adminhtml/Activate/Edit/Form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Block/Adminhtml/Restore/Edit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Block/Adminhtml/Restore/Edit/Form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Block/Adminhtml/System/Config/Form/Field/Color.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Block/Adminhtml/System/Config/Form/Field/Font.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Block/Bestsellers.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Block/Brands.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Block/Media.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Block/Navigation.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Block/Product/List.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Block/Product/Sale.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Helper/Color.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Helper/Data.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Helper/Image.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Model/Config/Bg.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Model/Config/Brands/Pages.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Model/Config/Font.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Model/Config/Grid/Onecolumn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Model/Config/Grid/Twocolumns.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Model/Config/Position.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Model/Config/Upsell.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Model/Config/Zoom.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Model/Config/Zoom/Position.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Model/Resource/Mysql4/Setup.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/Model/Settings.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/classes/OAuth.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/classes/twitteroauth.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/controllers/Adminhtml/ActivateController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/controllers/Adminhtml/RestoreController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/etc/cms.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/etc/config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/etc/system.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/sql/shoppersettings_setup/mysql4-install-0.1.0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/sql/shoppersettings_setup/mysql4-upgrade-0.1.0-1.3.0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/sql/shoppersettings_setup/mysql4-upgrade-1.3.0-1.4.0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/sql/shoppersettings_setup/mysql4-upgrade-1.4.0-1.5.2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/ShopperSettings/sql/shoppersettings_setup/mysql4-upgrade-1.5.2-1.5.3.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shoppercategories/Block/Adminhtml/Shoppercategories.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shoppercategories/Block/Adminhtml/Shoppercategories/Edit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shoppercategories/Block/Adminhtml/Shoppercategories/Edit/Form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shoppercategories/Block/Adminhtml/Shoppercategories/Edit/Tab/Form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shoppercategories/Block/Adminhtml/Shoppercategories/Edit/Tabs.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shoppercategories/Block/Adminhtml/Shoppercategories/Grid.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shoppercategories/Helper/Data.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shoppercategories/Lib/Varien/Data/Form/Element/QueldoreiColor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shoppercategories/Lib/Varien/Data/Form/Element/QueldoreiFont.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shoppercategories/Model/Mysql4/Shoppercategories.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shoppercategories/Model/Mysql4/Shoppercategories/Collection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shoppercategories/Model/Shoppercategories.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shoppercategories/Model/Status.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shoppercategories/controllers/Adminhtml/ShoppercategoriesController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shoppercategories/etc/config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shoppercategories/sql/shoppercategories_setup/mysql4-install-0.1.0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shoppercategories/sql/shoppercategories_setup/mysql4-upgrade-0.1.0-0.1.1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shoppercategories/sql/shoppercategories_setup/mysql4-upgrade-0.1.1-0.1.2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Block/Adminhtml/Shopperrevolution.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Block/Adminhtml/Shopperrevolution/Edit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Block/Adminhtml/Shopperrevolution/Edit/Form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Block/Adminhtml/Shopperrevolution/Edit/Tab/Form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Block/Adminhtml/Shopperrevolution/Edit/Tabs.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Block/Adminhtml/Shopperrevolution/Grid.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Block/Adminhtml/Shopperrevolution/Grid/Renderer/Image.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Block/Adminhtml/Shopperslideshow.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Block/Adminhtml/Shopperslideshow/Edit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Block/Adminhtml/Shopperslideshow/Edit/Form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Block/Adminhtml/Shopperslideshow/Edit/Tab/Form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Block/Adminhtml/Shopperslideshow/Edit/Tabs.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Block/Adminhtml/Shopperslideshow/Grid.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Block/Adminhtml/Shopperslideshow/Grid/Renderer/Image.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Block/Slideshow.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Helper/Data.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Model/Config/Effect.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Model/Config/Revolution/Navarrows.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Model/Config/Revolution/Navbar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Model/Config/Revolution/Navbullets.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Model/Config/Revolution/Onoff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Model/Config/Revolution/Shadow.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Model/Config/Revolution/Timeline.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Model/Config/Show.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Model/Config/Slider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Model/Config/Yesno.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Model/Mysql4/Shopperrevolution.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Model/Mysql4/Shopperrevolution/Collection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Model/Mysql4/Shopperslideshow.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Model/Mysql4/Shopperslideshow/Collection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Model/Shopperrevolution.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Model/Shopperslideshow.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/Model/Status.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/controllers/Adminhtml/ShopperrevolutionController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/controllers/Adminhtml/ShopperslideshowController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/etc/config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/etc/system.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/sql/shopperslideshow_setup/mysql4-install-0.1.0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/sql/shopperslideshow_setup/mysql4-upgrade-0.1.0-1.4.0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/code/local/Queldorei/Shopperslideshow/sql/shopperslideshow_setup/mysql4-upgrade-1.4.0-1.5.0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/layout/ajax.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/layout/ajaxwishlist.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/layout/inchoo/prevnext/prevnext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/layout/local.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/layout/queldorei/priceslider.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/layout/queldorei/shoppersettings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/locale/en_US/translate.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/ajax/catalog/product/quick_view.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/ajax/catalog/product/view/addtocart.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/bundle/catalog/product/view/type/bundle.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalog/category/view.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalog/layer/view.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalog/navigation/top.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalog/product/compare/list.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalog/product/compare/sidebar.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalog/product/compare/top.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalog/product/featured_products.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalog/product/featured_products_slider.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalog/product/list.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalog/product/list/related_content.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalog/product/list/toolbar.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalog/product/list/upsell.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalog/product/list/upsell2.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalog/product/new.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalog/product/new_products_slider.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalog/product/sale.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalog/product/sale_products_slider.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalog/product/view.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalog/product/view/addto.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalog/product/view/addtocart.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalog/product/view/media.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalog/product/view/tabs.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalog/product/view/type/default.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalog/product/view/type/grouped.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalogsearch/form.mini.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/catalogsearch/result.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/checkout/cart.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/checkout/cart/cart-top.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/checkout/cart/crosssell.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/checkout/cart/item/configure/updatecart.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/checkout/cart/item/default.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/checkout/cart/noItems.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/checkout/cart/sidebar/default.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/checkout/onepage.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/checkout/onepage/billing.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/checkout/onepage/login.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/checkout/onepage/review/item.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/checkout/onepage/shipping.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/cms/content_heading.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/contacts/form.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/customer/form/forgotpassword.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/customer/form/login.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/directory/currency-top.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/downloadable/catalog/product/type.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/inchoo/prevnext/links.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/newsletter/subscribe.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/newsletter/subscribe_home.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/page/1column.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/page/2columns-left.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/page/2columns-right.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/page/3columns.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/page/html/breadcrumbs.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/page/html/footer.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/page/html/head.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/page/html/header.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/page/html/topmenu.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/page/switch/languages.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/page/template/links.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/persistent/checkout/onepage/billing.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/persistent/checkout/onepage/login.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/persistent/customer/form/login.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/persistent/customer/form/register.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/poll/active.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/queldorei/bestsellers.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/queldorei/block_custom.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/queldorei/block_slideshow.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/queldorei/brands_slider.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/queldorei/cloudzoom/media.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/queldorei/flexslider.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/queldorei/lightbox/media.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/queldorei/navigation/left.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/queldorei/navigation/top.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/queldorei/priceslider/slider_content.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/queldorei/priceslider/slider_content_wrapper.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/queldorei/priceslider/slider_layered_nav.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/queldorei/priceslider/slider_pager.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/queldorei/priceslider/slider_root.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/queldorei/priceslider/slider_toolbar.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/queldorei/revolution.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/queldorei/slideshow.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/reports/product_compared.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/reports/product_viewed.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/review/product_info_review.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/sales/guest/form.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/sales/order/history.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/sales/order/recent.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/tag/list.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/design/frontend/shopper/default/template/tag/popular.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/etc/modules/Excellence_Ajax.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/etc/modules/Excellence_AjaxWishlist.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/etc/modules/Inchoo_Prevnext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/etc/modules/Queldorei_Priceslider.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/etc/modules/Queldorei_ShopperSettings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/etc/modules/Queldorei_Shoppercategories.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/app/etc/modules/Queldorei_Shopperslideshow.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/gettweets.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/cloud-zoom.1.0.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/fancybox/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/fancybox/fancy_close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/fancybox/fancy_loading.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/fancybox/fancy_nav_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/fancybox/fancy_nav_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/fancybox/fancy_shadow_e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/fancybox/fancy_shadow_n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/fancybox/fancy_shadow_ne.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/fancybox/fancy_shadow_nw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/fancybox/fancy_shadow_s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/fancybox/fancy_shadow_se.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/fancybox/fancy_shadow_sw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/fancybox/fancy_shadow_w.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/fancybox/fancy_title_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/fancybox/fancy_title_main.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/fancybox/fancy_title_over.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/fancybox/fancy_title_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/fancybox/fancybox-x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/fancybox/fancybox-y.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/fancybox/fancybox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/fancybox/jquery.fancybox-1.3.4.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/fancybox/jquery.fancybox-1.3.4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/fancybox/jquery.fancybox-1.3.4.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/fancybox/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/froogaloop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/html5shiv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/jquery-1.8.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/jquery-ui-1.8.23.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/jquery.anystretch.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/jquery.blockUI.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/jquery.cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/jquery.cycle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/jquery.easing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/jquery.fitvid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/jquery.flexslider-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/jquery.hoverIntent.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/jquery.jcarousel.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/jquery.masonry.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/jquery.mousewheel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/jquery.noconflict.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/jquery.priceslider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/jquery.themepunch.plugins.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/jquery.themepunch.revolution.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/jquery.ui.totop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/jquery.ui.touch-punch.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/mColorPicker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/mColorPicker/color.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/mColorPicker/grid.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/mColorPicker/meta100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/mColorPicker/picker.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/modernizr-2.5.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/js/queldorei/swipe.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/banner_548_277.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/block/230_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/block/230_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/block/230_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/footer_banner_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/footer_banner_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/i01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/i02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/i03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/login_bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/revolution/black.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/revolution/features_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/revolution/features_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/revolution/slide1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/revolution/slide1_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/revolution/slide3_wide1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/revolution/unique_magento_theme.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/sample_banner_220.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/samples/button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/samples/img_01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/samples/img_02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/samples/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/samples/video.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/samples/videobutton.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/shop_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/shop_icon_2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/slideshow/slide1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/media/queldorei/shopper/slideshow/slide3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/options.css.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/shopper_changelog.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/apple-touch-icon-114x114.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/apple-touch-icon-72x72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/arrow_large_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/arrow_large_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/arrow_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/arrow_left2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/arrow_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/arrow_right2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/arrowleft.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/arrowright.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/black50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/boxed_bgtile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/bullet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/bullet_boxed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/bullets.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/bullets2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/coloredbg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/grain.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/large_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/large_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/loader2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/navigdots.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/navigdots_bgtile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/shadow1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/shadow2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/shadow3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/small_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/small_left_boxed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/small_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/small_right_boxed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/timer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/timerdot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/assets/white50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/animation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/captions.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/cloud-zoom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/default.override.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/facebook.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/local.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/mobile.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/print.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/quick_view.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/settings.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/styles-ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/ui-lightness/images/ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/ui-lightness/images/ui-icons_228ef1_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/ui-lightness/images/ui-icons_ef8c08_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/ui-lightness/images/ui-icons_ffd27a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/ui-lightness/images/ui-icons_ffffff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/ui-lightness/jquery-ui-1.8.23.custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/css/wide_navigation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/arrow_about.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/arrow_about@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/arrow_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/arrow_button@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/arrow_footer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/arrow_footer@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/arrow_item.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/arrow_item@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/arrow_switch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/arrow_switch@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/arrow_totop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/arrow_totop@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/bg_direction_nav.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/bkg_collapse.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/btn_edit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/btn_edit@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/btn_overlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/btn_overlay_product.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/btn_remove.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/btn_remove@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/btn_window_close.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/catalog/product/placeholder/image.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/catalog/product/placeholder/small_image.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/catalog/product/placeholder/thumbnail.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/decor_inside.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/decor_inside_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/decor_testimonial.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/error@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/flags/de.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/flags/default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/flags/en.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/flags/fr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/flags/french.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/flags/german.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/flags/it.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/flags/pl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/footer_links_separator.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/gradient/g30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/gradient/g40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/i_asc_arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/i_asc_arrow@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/i_availability_only_arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/i_desc_arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/i_desc_arrow@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/i_grid_mode.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/i_grid_mode@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/i_list_mode.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/i_list_mode@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/i_msg-error.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/i_msg-error@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/i_msg-note.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/i_msg-note@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/i_msg-notice.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/i_msg-notice@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/i_msg-success.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/i_msg-success@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/i_print.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/i_rss-big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/i_rss.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/icon_breadcrumb.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/icon_breadcrumb@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/icon_cart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/icon_cart@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/icon_cart_listing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/icon_cart_listing@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/icon_cart_listing_mask.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/icon_cart_listing_mask@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/icon_cart_product.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/icon_cart_product@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/icon_compare.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/icon_compare@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/icon_edit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/icon_edit@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/icon_email.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/icon_email@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/icon_search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/icon_search@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/icon_trash.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/icon_trash@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/icon_twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/icon_twitter@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/icon_wishlist.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/icon_wishlist@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/labels.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/labels@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/links_separator.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/logo_2@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/logo_email.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/logo_french@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/magnifier_handle.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/magnifier_handle@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/map_popup_arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/opc-ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/pager_arrow_left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/pager_arrow_left@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/pager_arrow_right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/pager_arrow_right@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/pager_bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/prev_next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/prev_next@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/rating.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/rating@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/remove-popup.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/search_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/selectbox_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/selectbox_arrow@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/slider_bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/slider_btn_zoom_in.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/slider_btn_zoom_in@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/slider_btn_zoom_out.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/slider_btn_zoom_out@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/slider_handle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/slider_handle@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/slideshow_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/slideshow_arrows@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/social_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/social_icons@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/sorter_bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/spacer.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/images/validation_advice_bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/ajaxcart/ajaxcart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/ajaxwishlist/ajaxwishlist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/fancybox/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/fancybox/fancy_close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/fancybox/fancy_loading.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/fancybox/fancy_nav_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/fancybox/fancy_nav_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/fancybox/fancy_shadow_e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/fancybox/fancy_shadow_n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/fancybox/fancy_shadow_ne.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/fancybox/fancy_shadow_nw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/fancybox/fancy_shadow_s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/fancybox/fancy_shadow_se.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/fancybox/fancy_shadow_sw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/fancybox/fancy_shadow_w.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/fancybox/fancy_title_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/fancybox/fancy_title_main.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/fancybox/fancy_title_over.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/fancybox/fancy_title_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/fancybox/fancybox-x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/fancybox/fancybox-y.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/fancybox/fancybox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/fancybox/jquery.fancybox-1.3.4.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/fancybox/jquery.fancybox-1.3.4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/fancybox/jquery.fancybox-1.3.4.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/fancybox/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/opcheckout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/Theme/skin/frontend/shopper/default/js/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8/app/design/frontend/shopper/default/template/ajax/catalog/product/quick_view.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8/app/design/frontend/shopper/default/template/bundle/catalog/product/view/type/bundle.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8/app/design/frontend/shopper/default/template/catalog/product/price.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8/app/design/frontend/shopper/default/template/catalog/product/view.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8/app/design/frontend/shopper/default/template/catalog/product/view/type/default.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8/app/design/frontend/shopper/default/template/catalog/product/view/type/grouped.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8/app/design/frontend/shopper/default/template/checkout/cart.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8/app/design/frontend/shopper/default/template/checkout/cart/cart-top.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8/app/design/frontend/shopper/default/template/checkout/cart/item/default.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8/app/design/frontend/shopper/default/template/checkout/onepage.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8/skin/frontend/shopper/default/js/opcheckout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8_1/app/design/frontend/shopper/default/template/ajax/catalog/product/quick_view.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8_1/app/design/frontend/shopper/default/template/bundle/catalog/product/view/type/bundle.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8_1/app/design/frontend/shopper/default/template/catalog/layer/view.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8_1/app/design/frontend/shopper/default/template/catalog/product/price.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8_1/app/design/frontend/shopper/default/template/catalog/product/view.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8_1/app/design/frontend/shopper/default/template/catalog/product/view/type/default.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8_1/app/design/frontend/shopper/default/template/catalog/product/view/type/grouped.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8_1/app/design/frontend/shopper/default/template/checkout/cart.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8_1/app/design/frontend/shopper/default/template/checkout/cart/cart-top.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8_1/app/design/frontend/shopper/default/template/checkout/cart/item/default.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8_1/app/design/frontend/shopper/default/template/checkout/cart/sidebar/default.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8_1/app/design/frontend/shopper/default/template/checkout/onepage.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8_1/app/design/frontend/shopper/default/template/checkout/onepage/login.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8_1/app/design/frontend/shopper/default/template/checkout/onepage/review/item.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8_1/app/design/frontend/shopper/default/template/customer/form/forgotpassword.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8_1/app/design/frontend/shopper/default/template/customer/form/login.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8_1/app/design/frontend/shopper/default/template/page/1column.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8_1/app/design/frontend/shopper/default/template/page/2columns-left.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8_1/app/design/frontend/shopper/default/template/page/2columns-right.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8_1/app/design/frontend/shopper/default/template/page/3columns.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8_1/app/design/frontend/shopper/default/template/persistent/checkout/onepage/login.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8_1/app/design/frontend/shopper/default/template/persistent/customer/form/login.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/patch_1_8_1/skin/frontend/shopper/default/js/opcheckout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../themeforest-3139960-shopper-magento-theme-responsive-retina-ready/package_1_5_4/quick_start_package_v1_5_4.zip" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/shopper/default/images/opc-ajax-loader.gif" afterPath="$PROJECT_DIR$/skin/frontend/shopper/default/images/opc-ajax-loader.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/locale/nl_NL/Mage_Newsletter.csv" afterPath="$PROJECT_DIR$/app/locale/nl_NL/Mage_Newsletter.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Magestore/RewardPoints/Helper/Point.php" afterPath="$PROJECT_DIR$/app/code/local/Magestore/RewardPoints/Helper/Point.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/shopper/default/css/captions.css" afterPath="$PROJECT_DIR$/skin/frontend/shopper/default/css/captions.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/page/html/footer.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/page/html/footer.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/shopper/default/css/local.css" afterPath="$PROJECT_DIR$/skin/frontend/shopper/default/css/local.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/shopper/default/layout/local.xml" afterPath="$PROJECT_DIR$/app/design/frontend/shopper/default/layout/local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/locale/nl_NL/template/email/newsletter_unsub_success.html" afterPath="$PROJECT_DIR$/app/locale/nl_NL/template/email/newsletter_unsub_success.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/shopper/koket/css/override.css" afterPath="$PROJECT_DIR$/skin/frontend/shopper/koket/css/override.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/shopper/default/js/script.js" afterPath="$PROJECT_DIR$/skin/frontend/shopper/default/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/shopper/default/template/catalog/product/compare/sidebar.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/shopper/default/template/catalog/product/compare/sidebar.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stogoSendMailToNewCustomer.php" afterPath="$PROJECT_DIR$/stogoSendMailToNewCustomer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/shopper/koket/locale/nl_NL/translate.csv" afterPath="$PROJECT_DIR$/app/design/frontend/shopper/koket/locale/nl_NL/translate.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../backups/backup-2.19.2014_13-25-51_kokettek.tar.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../backups/backup-kokettekatinka.be-2-12-2014 (1).tar.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../backups/backup-kokettekatinka.be-2-23-2014.tar.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../backups/backupGert.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../backups/kokettek-cPanel-2014-03-25-08-18-16.tar.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../backups/kokettek_koket (1).sql.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../backups/kokettek_koket (4).sql.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="KoketSite.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1402218376750" ignored="false" />
+    <file path="/Dummy.txt" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1402755356490" ignored="false" />
     <file path="/override.css" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1402681915070" ignored="false" />
     <file path="/a.dummy" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1402603922008" ignored="false" />
     <file path="/Mage_XmlConnect.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1401531961320" ignored="false" />
@@ -787,7 +79,7 @@
       <file leaf-file-name="override.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/skin/frontend/shopper/koket/css/override.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="160" column="7" selection-start="2846" selection-end="2846" vertical-scroll-proportion="0.6775599">
+            <state line="177" column="17" selection-start="3104" selection-end="3104" vertical-scroll-proportion="0.69343066">
               <folding />
             </state>
           </provider>
@@ -796,7 +88,7 @@
       <file leaf-file-name="tmp.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tmp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="7" selection-start="253" selection-end="517" vertical-scroll-proportion="-3.75">
+            <state line="6" column="7" selection-start="253" selection-end="517" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -805,7 +97,7 @@
       <file leaf-file-name="footer.phtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/koket/template/page/html/footer.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="26" selection-start="6792" selection-end="6792" vertical-scroll-proportion="-18.75">
+            <state line="126" column="26" selection-start="6792" selection-end="6792" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -832,7 +124,7 @@
       <file leaf-file-name="form.phtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/default/template/contacts/form.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="57" selection-start="1227" selection-end="1227" vertical-scroll-proportion="-4.25">
+            <state line="30" column="57" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -844,7 +136,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="27" selection-start="5619" selection-end="5619" vertical-scroll-proportion="-3.7407408">
+            <state line="123" column="27" selection-start="5619" selection-end="5619" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1150,6 +442,10 @@
               <option name="myItemId" value="locale" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nl_NL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1166,10 +462,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="locale" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nl_NL" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1764,8 +1056,8 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig" serverName="kokettekatinka.be" serverId="afd05d0a-5c4d-47fe-94fc-1a7b9997ed78" autoUpload="true">
     <servers>
@@ -1848,24 +1140,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="823" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32716927" sideWeight="0.48703402" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32624114" sideWeight="0.48703402" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855093" sideWeight="0.5277383" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21906117" sideWeight="0.726094" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855093" sideWeight="0.5277383" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297619" sideWeight="0.2682334" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855093" sideWeight="0.5277383" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25322813" sideWeight="0.7809388" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855093" sideWeight="0.5277383" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25681493" sideWeight="0.67375886" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297619" sideWeight="0.2682334" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21906117" sideWeight="0.726094" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1936,23 +1228,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/koket/template/newsletter/subscribe_home.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="2639" selection-end="2653" vertical-scroll-proportion="-9.0">
-          <folding />
-        </state>
+        <state line="62" column="0" selection-start="2639" selection-end="2653" vertical-scroll-proportion="-9.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/default/template/newsletter/subscribe.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="984" selection-end="984" vertical-scroll-proportion="-1.1078432">
-          <folding />
-        </state>
+        <state line="27" column="0" selection-start="984" selection-end="984" vertical-scroll-proportion="-1.1078432" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/koket/template/newsletter/subscribe.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="14" selection-start="2957" selection-end="2957" vertical-scroll-proportion="-22.208334">
-          <folding />
-        </state>
+        <state line="73" column="14" selection-start="2957" selection-end="2957" vertical-scroll-proportion="-22.208334" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skin/frontend/shopper/default/css/mobile.css">
@@ -1967,18 +1253,14 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="27" selection-start="5619" selection-end="5619" vertical-scroll-proportion="-3.7407408">
+        <state line="123" column="27" selection-start="5619" selection-end="5619" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skin/frontend/shopper/default/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="8" selection-start="4489" selection-end="4489" vertical-scroll-proportion="-2.6181817">
-          <folding>
-            <marker date="1402251351000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="105" column="8" selection-start="4489" selection-end="4489" vertical-scroll-proportion="-2.6181817" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Contacts/etc/config.xml">
@@ -1990,7 +1272,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/koket/template/page/html/footer.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="26" selection-start="6792" selection-end="6792" vertical-scroll-proportion="-18.75">
+        <state line="126" column="26" selection-start="6792" selection-end="6792" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -2018,25 +1300,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/media/js/07e0db6cc1ac6f907250919e414c8550.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12487" column="32" selection-start="547571" selection-end="547571" vertical-scroll-proportion="0.3908046">
-          <folding>
-            <marker date="1396382383000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1396382383000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1396382383000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1396382383000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1396382383000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1396382383000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1396382383000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1396382383000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1396382383000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1396382383000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="12487" column="32" selection-start="547571" selection-end="547571" vertical-scroll-proportion="0.3908046" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/default/template/contacts/form.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="57" selection-start="1227" selection-end="1227" vertical-scroll-proportion="-4.25">
+        <state line="30" column="57" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -2050,14 +1319,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="253" selection-end="517" vertical-scroll-proportion="-3.75">
+        <state line="6" column="7" selection-start="253" selection-end="517" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skin/frontend/shopper/koket/css/override.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="7" selection-start="2846" selection-end="2846" vertical-scroll-proportion="0.6775599">
+        <state line="177" column="17" selection-start="3104" selection-end="3104" vertical-scroll-proportion="0.69343066">
           <folding />
         </state>
       </provider>
