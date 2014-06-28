@@ -147,12 +147,13 @@ header a.logo {
     margin: 3px 0 0 0 !important;
 }
 
-#faq li h3 {
-    cursor: pointer;
+div#faq a:hover {
+    text-decoration: underline;
 }
 
-#faq li h3:hover {
-    text-decoration: underline;
+div#faq a {
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 19px;
 }
 
 #faq li div {
@@ -160,11 +161,11 @@ header a.logo {
     /*width: 100%;*/
     position: relative;
     padding: 0 0 0 0;
-    margin: 0 0 0 0;
+    margin: 7px 0 27px 0;
 }
 
 #faq li div p {
-    padding: 0 0 10px 0;
+    padding: 0 0 7px 0;
     margin: 0 0 0 0;
 }
 
@@ -218,12 +219,20 @@ header.fixed a.logo {
     padding: 11px 0;
 }
 
+/*.page-title-bg {*/
+    /*background-color: #D8BCD8 !important;*/
+    /*background: #D8BCD8 !important;*/
+/*}*/
+
 .cart .cart-collaterals h2 {
     letter-spacing: normal;
 }
 
 #shopping-cart-totals-table strong {
     letter-spacing: normal;
+    text-transform:  none !important;
+    font-size: inherit !important;
+    font-family: 'Maven+Pro', Tahoma, sans-serif !important;
 }
 
 #discount-coupon-form .discount {
@@ -475,4 +484,29 @@ button.button span span {
     margin: 0 0 30px 0px;
     padding: 0 0;
     position: inherit;
+}
+
+.form-list .customer-dob .dob-day, .form-list .customer-dob .dob-month {
+    width: 30px;
+}
+
+.form-list .customer-dob .dob-year {
+    width: 60px;
+}
+
+.slide-white {
+    color: #ffffff !important;
+}
+
+.category-description a {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.customer-account-login .account-login {
+    padding:0 0;
+}
+
+.customer-account-create .account-create {
+    padding:0 0;
 }

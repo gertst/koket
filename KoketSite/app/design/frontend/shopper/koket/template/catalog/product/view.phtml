@@ -168,7 +168,7 @@ echo '<div class="product-category-title">'.$_category->getName().'</div>';
                             }
                                 //$minimumAmount = $this->formatPrecision($minimumAmount, 2);
                             ?>
-                            <?php echo $this->__('Minimum order quantity') . ": " . $minimumAmount?>
+                            <?php echo $this->__('Minimum order quantity') . ": " . $minimumAmount . " " . $_product->getAttributeText('unit'); ?>
                         </div>
                     <?php endif; ?>
                 <?php endif; ?>

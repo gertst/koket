@@ -965,3 +965,4 @@
 "to","naar"
 "website(%s) scope","Scope website(%s)"
 "{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure Url / Base Secure Url. It is highly recommended to change this value in your Magento <a href=""%s"">configuration</a>.","In de site die u live zet, kunt u {{base_url}} beter niet als uw veilige of onveilig basis-URL gebruiken. We raden u met klem aan om deze waarde te veranderen in uw Magento <a href=""%s"">configuratie</a>."
+"Please enter a valid full date","Voer een geldige datum in a.u.b."

@@ -29,8 +29,8 @@ $pointBalance = 0;
 if (Mage::helper('rewardpoints/customer')->getBalance())
     $pointBalance = Mage::helper('rewardpoints/customer')->getBalanceFormated();
 ?>
-<div class="onestepcheckout-payment-methods">
-    <dl class="sp-methods" id="checkout-payment-method-load1">
+<div class="onestepcheckout-payment-methods-reward">
+    <dl class="sp-methods" id="checkout-payment-method-load-reward">
 
         <?php $rewardpointsEnabled = $this->enableReward() ?>
         <?php if ($rewardpointsEnabled): ?>

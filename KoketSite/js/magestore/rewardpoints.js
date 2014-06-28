@@ -197,10 +197,11 @@ function checkOutLoadRewardpoints(json) {
     }
 }
 function getElementRewardpoints(){
-    if ($('checkout-payment-method-load').down('#checkout-payment-method-load') == undefined) {
-        return $('checkout-payment-method-load');
+    //gert: added "-reward"
+    if ($('checkout-payment-method-load-reward').down('#checkout-payment-method-load-reward') == undefined) {
+        return $('checkout-payment-method-load-reward');
     } else {
-        return $('checkout-payment-method-load').down('#checkout-payment-method-load');
+        return $('checkout-payment-method-load-reward').down('#checkout-payment-method-load-reward');
     }
 }
 function changeUsePointAjax(el) {
