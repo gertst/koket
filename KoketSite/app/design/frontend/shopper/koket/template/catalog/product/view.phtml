@@ -242,6 +242,8 @@ echo '<div class="product-category-title">'.$_category->getName().'</div>';
             jQuery('body').append('<div class="alert"></div>');
             var $alert = jQuery('.alert');
             $alert.slideDown(400);
+            message = "test gert " + message
+            alert("mm:" + message);
             $alert.html(message).append('<button></button>');
             jQuery('button').click(function () {
                 $alert.slideUp(400);
