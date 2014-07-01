@@ -62,11 +62,20 @@
                             <show_in_website>0</show_in_website>
                             <show_in_store>1</show_in_store>
                         </allowedIPs>
+                        <allowedPasswords translate="label">
+                            <label>Allowed passwords</label>
+                            <comment>Comma separated list of passwords that are allowed using your.site?pass={your_password}</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </allowedPasswords>
                         <maintenancePage translate="label">
                             <label>Maintenance Page HTML Code</label>
                             <comment><![CDATA[Instead of blank page, show this HTML code<br />(leave empty for blank page)]]></comment>
                             <frontend_type>textarea</frontend_type>
-                            <sort_order>4</sort_order>
+                            <sort_order>5</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>0</show_in_website>
                             <show_in_store>1</show_in_store>
@@ -75,7 +84,7 @@
                             <label>Log Verbosity</label>
                             <frontend_type>select</frontend_type>
                             <source_model>BalkeTechnologies_StoreMaintenance/adminhtml_system_config_source_logging</source_model>
-                            <sort_order>5</sort_order>
+                            <sort_order>6</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>0</show_in_website>
                             <show_in_store>1</show_in_store>
@@ -84,7 +93,7 @@
                             <label>Logfile</label>
                             <comment><![CDATA[log file to log access while maintenance mode<br />(default: maintenance.log)]]></comment>
                             <frontend_type>text</frontend_type>
-                            <sort_order>6</sort_order>
+                            <sort_order>7</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>0</show_in_website>
                             <show_in_store>1</show_in_store>
@@ -93,7 +102,7 @@
                             <label>Module version</label>
                             <frontend_type>label</frontend_type>
                             <frontend_model>BalkeTechnologies_StoreMaintenance/adminhtml_form_renderer_config_version</frontend_model>
-                            <sort_order>7</sort_order>
+                            <sort_order>8</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>0</show_in_website>
                             <show_in_store>1</show_in_store>

@@ -29,17 +29,33 @@ class BalkeTechnologies_StoreMaintenance_Controller_Router_Standard extends Mage
         if (1 == $enabled) {
 
             $allowedIPsString = $helper->getConfig('allowedIPs', $storeCode);
+            $allowedPasswordsString = $helper->getConfig('allowedPasswords', $storeCode);
 
             // remove spaces from string
             $allowedIPsString = preg_replace('/ /', '', $allowedIPsString);
+            $allowedPasswordsString = preg_replace('/ /', '', $allowedPasswordsString);
 
             $allowedIPs = array();
+            $allowedPasswords = array();
 
             if ('' !== trim($allowedIPsString)) {
                 $allowedIPs = explode(',', $allowedIPsString);
             }
+            if ('' !== trim($allowedPasswordsString)) {
+                $allowedPasswords = explode(',', $allowedPasswordsString);
+            }
 
             $currentIP = $_SERVER['REMOTE_ADDR'];
+
+            if (isset($_GET["pass"])) {
+                $currentPassword = $_GET["pass"];
+            } else {
+                if (isset($_COOKIE["koketPass"])) {
+                    $currentPassword = $_COOKIE["koketPass"];
+                } else {
+                    $currentPassword = "--";
+                }
+            }
 
             $allowFrontendForAdmins = $helper->getConfig('allowFrontendForAdmins', $storeCode);
 
@@ -62,8 +78,8 @@ class BalkeTechnologies_StoreMaintenance_Controller_Router_Standard extends Mage
                 $this->__log('Access granted for admin with IP: ' . $currentIP . ' and store ' . $storeCode, 2, $storeCode);
             } else {
                 // current user allowed to access website?
-                if (!in_array($currentIP, $allowedIPs)) {
-                    $this->__log('Access denied  for IP: ' . $currentIP . ' and store ' . $storeCode, 1, $storeCode);
+                if (!in_array($currentIP, $allowedIPs) && !in_array($currentPassword, $allowedPasswords)) {
+                    $this->__log('Access denied for IP/password: ' . $currentIP . '/' . $currentPassword . ' and store ' . $storeCode, 1, $storeCode);
 
                     $maintenancePage = trim($helper->getConfig('maintenancePage', $storeCode));
                     // if custom maintenance page is defined in backend, display this one
@@ -75,7 +91,7 @@ class BalkeTechnologies_StoreMaintenance_Controller_Router_Standard extends Mage
 
                         $response->setHeader('HTTP/1.1', '503 Service Temporarily Unavailable');
                         $response->setHeader('Status', '503 Service Temporarily Unavailable');
-                        $response->setHeader('Retry-After', '5000');
+                        $response->setHeader('Retry-After', '1000');
 
                         $response->setBody($maintenancePage);
                         $response->sendHeaders();
@@ -83,7 +99,9 @@ class BalkeTechnologies_StoreMaintenance_Controller_Router_Standard extends Mage
                     }
                     exit();
                 } else {
-                    $this->__log('Access granted for IP: ' . $currentIP . ' and store ' . $storeCode, 2, $storeCode);
+                    $this->__log('Access granted for IP/user: ' . $currentIP . '/' . $currentPassword .' and store ' . $storeCode, 2, $storeCode);
+                    $expire=time()+60*60*24*30;
+                    setcookie("koketPass", $currentPassword, $expire);
                 }
             }
         }
