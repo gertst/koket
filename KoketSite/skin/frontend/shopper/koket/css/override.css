@@ -96,8 +96,7 @@ header {
 header a.logo {
     text-decoration: none !important;
     margin: 0;
-    background: #D6CFCF;
-    background-image:url("/skin/frontend/shopper/default/images/pattern-logo.gif");
+    /*background-image:url("/skin/frontend/shopper/default/images/pattern-logo.gif");*/
     padding: 16px 32px;
 }
 
@@ -229,11 +228,14 @@ header.fixed a.logo {
     padding: 11px 0;
 }
 
-/*.page-title-bg {*/
+/*page-title-bg {*/
     /*background-color: #D8BCD8 !important;*/
     /*background: #D8BCD8 !important;*/
 /*}*/
-
+.page-title-bg {
+    background-color: #f5f5f3;
+    background-image: url("/skin/frontend/shopper/default/images/pattern-logo.gif");
+}
 .cart .cart-collaterals h2 {
     letter-spacing: normal;
 }
@@ -289,6 +291,10 @@ header.fixed a.logo {
     margin-bottom: 20px;
 }
 
+.account-create a.back-link {
+    display: none;
+}
+
 #login-form .link-tip {
     margin-left: 5px;
     font-size: 0.7rem;
@@ -313,6 +319,10 @@ header.fixed a.logo {
 
 .page-title {
     margin: 0 0 !important;
+}
+
+div.account-create .page-title {
+    margin: 0 15px !important;
 }
 
 .col2-left-layout .page-title {
