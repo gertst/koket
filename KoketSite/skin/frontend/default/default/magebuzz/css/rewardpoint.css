@@ -1,0 +1,43 @@
+.reward-points{}
+.list-rate-rule{}
+.list-rate-rule .box{ width:100%; margin:0 0 15px;}
+.list-rate-rule .data-table{width:100%; margin:6px 0 0;border: 1px solid #DDDDDD;}
+.list-rate-rule .data-table tbody th{font-weight:bold; padding:5px;}
+.list-rate-rule .data-table td {
+  padding: 3px 8px;
+}
+
+.rewardpoint .box-account .box-head h2 {padding-left:0px;}
+.rewardpoint .info-summary ul.exchange-rate {list-style: disc; padding-left:20px;}
+.rewardpoint .info-summary .exchange-rate li {}
+
+.rewardpoint-info span {
+	background-image:url(../images/award_star.png);
+	background-position: 0 1px;
+	background-repeat: no-repeat;
+	padding-left:25px;
+	min-height:24px;
+	display:block;
+}
+
+
+/**** Shopping cart ****/
+.cart-reward-info {
+	border:1px solid #446423; 
+	background-color: #fff;
+	padding:10px;
+	margin-bottom: 10px;
+}
+
+.cart-reward-info 	p {
+	margin: 0; 
+	color:#3D6611; 
+	font-weight: bold;
+	background-image:url(../images/award_star.png);
+	background-position: 0 1px;
+	background-repeat: no-repeat;
+	padding-left:25px;
+	min-height:24px;
+	display:block;
+}
+

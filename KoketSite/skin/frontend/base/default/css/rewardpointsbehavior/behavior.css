@@ -1,0 +1,37 @@
+.rewardpointsbehavior-checkout-action{
+	/*background-color: #FFE8DB;*/
+	float: left;
+	margin: 2px 2px 7px 0px;
+	padding: 1px;
+	width: 172px;
+	text-align: left;
+}
+.rewardpointsbehavior-checkout-action1{
+	/*background-color: #FFE8DB;*/
+	margin: 2px 2px 7px 0px;
+	padding: 1px;
+	width: 172px;
+	text-align: left;
+}
+.rewardpointsbehavior-checkout-action .rewardpointsbehavior-icon{
+	float: right !important;
+}
+.rewardpointsbehavior-product-view{
+    width: 100%;
+    float: left;
+}
+.rewardpointsbehavior-product-view .rewardpointsbehavior-checkout-action{
+    width: auto;
+}
+
+.twitter-count-horizontal{
+    width: 93px !important;
+    padding-right: 2px !important;
+}
+#fb-send-id-behavior span{
+    vertical-align:baseline !important;
+}
+#___plusone_0, #___plusone_0 iframe{
+    width: 71px !important;
+    padding-right: 2px !important;
+}

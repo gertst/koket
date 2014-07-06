@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package>
+    <name>Devsters_Gift_Cards</name>
+    <version>0.2.1</version>
+    <stability>stable</stability>
+    <license/>
+    <channel>community</channel>
+    <extends/>
+    <summary>Added functionality to automatically send customer an email with Card number upon creation</summary>
+    <description>While in processing state no you can just press the submit comment button (with or without a comment) and it will create the Gift Card number and also send an email directly to the client with the card number. Included in the package is a SQL which you can run to create this email template. If you plan to create this transactional email by yourself MAKE SURE it is called "Order Update with Gift Card Number ". AND include the following line for the Gift card number to Show:&#xD;
+&lt;strong&gt;Your Gift Card Number is: {{var devstersGiftCardNumber}}&lt;/strong&gt;&#xD;
+&#xD;
+These 2 things are mandatory for this functionality to work.&#xD;
+&#xD;
+NOTE: Not yet tested on v1.8. &#xD;
+&#xD;
+Thanks and have a great day, hope this free extension helps you further with this add on functionality.&#xD;
+Devsters.</description>
+    <notes>Sell Gift cards as a product and use as a payment type&#xD;
+&#xD;
+With this Version:  While in processing state now you can just press the submit comment button (with or without a comment) and it will create the Gift Card number and also send an email directly to the client with the card number. Included in the package is a SQL which you can run to create this email template. If you plan to create this transactional email by yourself MAKE SURE it is called "Order Update with Gift Card Number ". AND include the following line for the Gift card number to Show:&#xD;
+&lt;strong&gt;Your Gift Card Number is: {{var devstersGiftCardNumber}}&lt;/strong&gt;&#xD;
+&#xD;
+These 2 things are mandatory for this functionality to work.&#xD;
+&#xD;
+NOTE: Not yet tested on v1.8. &#xD;
+&#xD;
+Thanks and have a great day, hope this free extension helps you further with this add on functionality.&#xD;
+Devsters.</notes>
+    <authors><author><name>Devsters Inc</name><user>auto-converted</user><email>devsters@shopdevsters.com</email></author></authors>
+    <date>2013-12-22</date>
+    <time>05:33:14</time>
+    <contents><target name="magelocal"><dir name="Devsters"><dir name="Gift"><dir name="Block"><dir name="Adminhtml"><dir name="Giftcards"><file name="Edit.php" hash="cc5fb1db26e11c1b862b86845bf023b9"/><file name="Grid.php" hash="7c503a38fe0a9357424aa7e34d54dc4e"/></dir><dir name="Renderer"><file name="Balance.php" hash="14e5ff6202a8695ffcba94a0c502699c"/></dir><file name="Giftcards.php" hash="72fb28829792326e57798ebb6fba9672"/></dir></dir><dir name="Helper"><file name="Data.php" hash="2e886ebd6eab681d0ac48bb4aeff6e31"/></dir><dir name="Model"><dir name="CatalogIndex"><dir name="Data"><file name="Cards.php" hash="19fea4d7b514a30a60b57e675a9c74f5"/></dir></dir><dir name="Mysql4"><dir name="Gift"><file name="Collection.php" hash="30ee898419be6ae7facd3ba56a6c47cd"/></dir><file name="Gift.php" hash="535569315d2cc29d479db954933cb87b"/></dir><dir name="Product"><dir name="Type"><file name="Cards.php" hash="0e704a545f13c315cebbf825822f1b97"/></dir><file name="Price.php" hash="188bb375d6b4b34f008788128c3373ca"/><file name="Type.php" hash="96512db8764f797887351211500c0a92"/></dir><dir name="Sales"><file name="Order.php" hash="9a44dccd5ad64fb7492acec4d4fba3d7"/></dir><file name="Gift.php" hash="ab1edce984952d9d88113a77e5a5a360"/><file name="Observer.php" hash="b03ce692dc1953442bd3dd6c3c7d05d2"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="GiftcardsController.php" hash="718ae35da12827fb36b793471802086f"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="e474bcc5937e938bba1da1baa8b6c58e"/><file name="config.xml" hash="c86467beb0a5c14da1fe5a13ceb42281"/></dir><dir name="sql"><dir name="gift_setup"><file name="mysql4-install-0.1.0.php" hash="d30b282c8ec998bb1524ae82d8b1e0a0"/><file name="mysql4-upgrade-0.1.9-0.2.php" hash="14e55abeb7538eacefb005013917d4bf"/></dir></dir></dir><dir name="Pay"><dir name="Adminhtml"><dir name="Block"><dir name="Sales"><dir name="Order"><dir name="Creditmemo"><file name="Totals.php" hash="c810c7dded6f40ce8bfb1b84b417b5e4"/></dir><dir name="Invoice"><file name="Totals.php" hash="5600fdcb5d62cb9f9943c76a4a5cb14f"/></dir><file name="Totals.php" hash="43df189c21196a51d0ef800f089f5c93"/></dir></dir></dir></dir><dir name="Block"><dir name="Form"><file name="Pay.php" hash="303ec4ace64068bf5d9b2543c54a015f"/></dir><dir name="Info"><file name="Pay.php" hash="5a94537e4d8c8321ef7d29f498384acb"/></dir></dir><dir name="Helper"><file name="Data.php" hash="c5619c2bc96c43aca2b08f4571375098"/></dir><dir name="Model"><dir name="Method"><file name="Pay.php" hash="9561250deff4592c253ff2791a9efa6b"/></dir><dir name="Order"><file name="Creditmemo.php" hash="c702dec1cec919af93b914f69f24158a"/><file name="Invoice.php" hash="43be8d664812aa7fe21d75540c081cc9"/></dir><dir name="Quote"><file name="Discount.php" hash="207c3e58537f0e7a9b08f94c24dc042f"/></dir><file name="Observer.php" hash="0fb29c1b0280d0c6c5a040e15646d672"/></dir><dir name="etc"><file name="config.xml" hash="6bd7322d9297e9450408278eb1fc9f15"/><file name="system.xml" hash="e45e8ad1efe52553bfc48dff67b61a0f"/></dir><dir name="sql"><dir name="pay_setup"><file name="mysql4-install-0.1.0.php" hash="0bffac58eb39e5b8b952d9dfd64f5752"/><file name="mysql4-upgrade-0.1.5-0.1.6.php" hash="a01b10aec5dcf0ac279e386364559c9e"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Devsters_Gift.xml" hash="77c9c1dc4f4074171cc31c44f8e9bfd1"/><file name="Devsters_Pay.xml" hash="8cf1dfd8c27849ad063cb5bf2921a5ba"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="devstersgiftcards.xml" hash="6e522e07fcd4ef1722cbafff07ac46ae"/></dir><dir name="template"><dir name="devsters"><dir name="giftcards"><file name="devsterscardbalance.phtml" hash="7bffe57307885dd00540e43f7402ce80"/></dir></dir></dir></dir></dir></dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="devsters"><dir name="pay"><dir name="form"><file name="pay.phtml" hash="00409aa9bcd2ba45e25599d37b0ca86f"/></dir></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.6.0.0</min><max>1.7</max></package></required></dependencies>
+</package>

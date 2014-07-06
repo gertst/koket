@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+    <name>Llian_FreeAdminShipping</name>
+    <version>0.1.1</version>
+    <stability>stable</stability>
+    <license uri="http://www.gnu.org/licenses/gpl.html">GNU General Public License (GPL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Adds a free shipping method for admin (backend) users only.</summary>
+    <description>Adds a free shipping method for admin (backend) users only. This is useful if you don't want to charge shipping costs from people who come to your store for pickup but don't want front end users give this option.&#xD;
+&#xD;
+Features:&#xD;
+* Allows admin users to offer free shipping while frontend users don't have this option&#xD;
+* Custom labels for this shipping option</description>
+    <notes>Release Notes&#xD;
+&#xD;
+Llian Free Admin Shipping 0.1.1 (2014-04-17)&#xD;
+* tested with Magento 1.6.2, 1.7.0, 1.8.0, 1.8.1 and now considered stable&#xD;
+&#xD;
+Llian Free Admin Shipping 0.1.0 beta (2013-03-28)&#xD;
+* initial public release</notes>
+    <authors><author><name>Llian</name><user>Llian</user><email>info@llian.de</email></author></authors>
+    <date>2014-04-16</date>
+    <time>22:05:24</time>
+    <contents><target name="magecommunity"><dir name="Llian"><dir name="FreeAdminShipping"><dir name="Helper"><file name="Data.php" hash="df588165030b3465e257342a40ca5695"/></dir><dir name="Model"><dir name="Carrier"><file name="Freeadminshipping.php" hash="fc5ee18c4de97724a2695eda969da35e"/></dir></dir><dir name="etc"><file name="config.xml" hash="ab47ebe6fe0b4ff39a2c4e3eb09524b7"/><file name="system.xml" hash="58fea674746913414f8160fecfb1aae2"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Llian_FreeAdminShipping.xml" hash="6aeee5c01c7fabcb55e7b8b286ef87dd"/></dir></target><target name="magelocale"><dir><dir name="de_DE"><file name="Llian_FreeAdminShipping.csv" hash="d42fbb4f9f697b44e02413df12f985d8"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.13</min><max>6.0.0</max></php></required></dependencies>
+</package>

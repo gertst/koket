@@ -1,0 +1,90 @@
+/**
+ * Magestore
+ * 
+ * NOTICE OF LICENSE
+ * 
+ * This source file is subject to the Magestore.com license that is
+ * available through the world-wide-web at this URL:
+ * http://www.magestore.com/license-agreement.html
+ * 
+ * DISCLAIMER
+ * 
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ * 
+ * @category    Magestore
+ * @package     Magestore_RewardPointsRule
+ * @copyright   Copyright (c) 2012 Magestore (http://www.magestore.com/)
+ * @license     http://www.magestore.com/license-agreement.html
+ */
+
+/* ============ Reward Points Rule Stylesheets ============ */
+
+/*************** Product Page ***************/
+.rewardpoints-product-rule {overflow: hidden;}
+.rewardpoints-product-rule select.input-select {max-width: 232px;}
+
+/*************** Checkout Cart Item ***************/
+.reward-points-spending .label, .reward-points-earning .label { color: #1e7ec8; font-weight: bold; }
+.reward-points-spending .content { padding-left: 6px;}
+
+
+/****************my Reward policy*************/
+.rewardpointsrule-rule-name-policy { color: #3182be; font-style: italic;}
+.rewardpointsrule-rule-date-policy {}
+/******product list******/
+.earning-product-list { font-size: 0.9em; clear: both; margin-bottom: 0.9em }
+
+/*Rule*/
+.webpos-dialog-item-rule .top, 
+.webpos-dialog-item-rule .bot{
+    display: none;
+}
+.webpos-dialog-item-rule .dialog_e,
+.webpos-dialog-item-rule .dialog_w {
+	width: 0;	
+}
+.webpos-dialog-item-rule .dialog_content{
+    background-color: transparent;
+}
+.webpos-spend-points{
+    background-color: #f6f6f6;
+    border: 2px solid rgb(196, 193, 188);
+}
+.webpos-dialog-item-rule .dialog_close{
+    display: none;
+}
+.webpos-rule-title{     
+    height: 25px;	
+    padding: 10px 10px 15px 10px;
+    background-color: #FFF4E9;
+    color: #1e7ec8;
+    font-size: 13px;
+    font-weight: bold
+}
+.webpos-spend-points a:hover{
+    text-decoration: underline;
+}
+.webpos-rule-body{
+    margin: 0;
+    padding: 10px;
+    height: 115px;
+    font-size: 13px;
+    color: #454545;
+}
+.webpos-rule-foot{
+    height: 20px;	
+    padding: 10px;
+    background-color: rgb(255, 250, 218);
+}
+
+.webpos-rewardpoints-slider-container {}
+.webpos-rewardpoints-slider { position: relative; z-index: 9; height: 18px; margin: 12px auto 18px; padding: 0 24px; cursor: pointer; width: 209px; float: left;}
+.webpos-rewardpoints-slider-zoom-out { position: absolute; left: 1px; top: 0px;}
+.webpos-rewardpoints-track { position: relative; width: 209px; height: 18px; background: url('images/reward_rule.gif') -1px 0px repeat-x;}
+.webpos-rewardpoints-handle { position: absolute; top: -1px; width: 9px; height: 22px; background: url('images/magnifier_handle.gif') 0 0 no-repeat;}
+.webpos-rewardpoints-slider-zoom-in { position: absolute; right: 1px; top: 0px;}
+
+.webpos-rewardpoints-login-msg, .webpos-rewardpoints-needmore-msg { clear:both; min-height:13px; margin:3px 0 0; padding-left:17px;line-height:13px; background:url('images/validation_advice_bg.gif') 2px 0 no-repeat; color:#eb340a;}
+
+.webpos-rewardpoints-needmore-points { font-size: 13px; font-weight: bold;}
