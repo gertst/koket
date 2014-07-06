@@ -1,0 +1,115 @@
+<dl class="sp-methods" id="checkout-payment-method-load">
+<?php
+	$methods = $this->getMethods();
+	$oneMethod = count($methods) <= 1;
+	$rate = Mage::helper('rewardpoint')->getPointToMoneyRate();
+	if ($rate) {
+		$pointRate = $rate->getPoints();
+		$moneyRate = $rate->getMoney();
+	}
+	$maximum = Mage::helper('rewardpoint')->getCurrentUserBalance();
+	$minimum = Mage::helper('rewardpoint')->getMinimumPointToRedeem();
+	$isEnabled = Mage::helper('rewardpoint')->isEnabled();
+	$oldPoint = $this->getQuote()->getPointUsed();
+	$grandTotal = $this->getQuote()->getOriginalGrandTotal();
+?>
+<?php if ($rate && $maximum > $minimum && $isEnabled) : ?>
+	<dt>
+		<input type="checkbox" id="use_rewardpoint" name="payment[use_rewardpoint]" onclick="show_hide()"/>
+		<label for="use_rewardpoint"><?php echo $this->__('Use %s', Mage::helper('rewardpoint')->getUnitName()) ?></label>
+		<div hidden="true" id="number_of_point_block" name="number_of_point_block">
+			<label for="number_of_point"><?php echo $this->__('Number of %s to use : ', Mage::helper('rewardpoint')->getUnitName()) ?></label>
+			<input type="text" id="number_of_point" name="payment[number_of_point]" class="validate-digits" onkeyup="check()"/>
+			<label for="number_of_point" id="to_money"></label>
+			
+			<?php if ($minimum > 0 ) : ?>
+			<br/><label for="number_of_point"><?php echo $this->__('Minimum allowed : %s %s', $minimum,  Mage::helper('rewardpoint')->getUnitName()) ?></label>
+			<?php else : ?>
+			<?php $minimum = 0 ?>
+			<?php endif; ?>
+			<br/><label for="number_of_point"><?php echo $this->__('Your current balance : %s %s', Mage::helper('rewardpoint')->getCurrentUserBalance(),  Mage::helper('rewardpoint')->getUnitName()) ?></label>
+		</div>
+	</dt>
+<?php endif;?>
+<?php
+    foreach ($methods as $_method):
+        $_code = $_method->getCode();
+?>
+    <dt>
+    <?php if(!$oneMethod): ?>
+        <input id="p_method_<?php echo $_code ?>" value="<?php echo $_code ?>" type="radio" name="payment[method]" title="<?php echo $this->htmlEscape($_method->getTitle()) ?>" onclick="payment.switchMethod('<?php echo $_code ?>')"<?php if($this->getSelectedMethodCode()==$_code): ?> checked="checked"<?php endif; ?> class="radio" />
+    <?php else: ?>
+        <span class="no-display"><input id="p_method_<?php echo $_code ?>" value="<?php echo $_code ?>" type="radio" name="payment[method]" checked="checked" class="radio" /></span>
+        <?php $oneMethod = $_code; ?>
+    <?php endif; ?>
+        <label for="p_method_<?php echo $_code ?>"><?php echo $this->escapeHtml($this->getMethodTitle($_method)) ?> <?php echo $this->getMethodLabelAfterHtml($_method) ?></label>
+    </dt>
+    <?php if ($html = $this->getPaymentMethodFormHtml($_method)): ?>
+    <dd>
+        <?php echo $html; ?>
+    </dd>
+    <?php endif; ?>
+<?php endforeach; ?>
+</dl>
+<?php echo $this->getChildChildHtml('additional'); ?>
+<script type="text/javascript">
+//<![CDATA[
+	<?php echo $this->getChildChildHtml('scripts'); ?>
+	payment.init();
+	<?php if (is_string($oneMethod)): ?>
+		payment.switchMethod('<?php echo $oneMethod ?>');
+	<?php endif; ?>
+	<?php if ($rate && $maximum > $minimum && $isEnabled) : ?>
+		var use_point;
+		var number_of_point_block;
+		var number_of_point;
+		var value;
+		var pointRate = <?php echo $pointRate ?>;
+		var moneyRate = <?php echo $moneyRate ?>;
+		var minimum = <?php echo $minimum?>;
+		var maximum = <?php echo $maximum?>;
+		var max2 = <?php echo $grandTotal ?> * pointRate / moneyRate;
+		if (maximum > max2) maximum = Math.ceil(max2);
+		use_point = document.getElementById('use_rewardpoint');
+		number_of_point_block = document.getElementById('number_of_point_block');
+		number_of_point = document.getElementById('number_of_point');
+		use_point.enable();
+		number_of_point.enable();
+		<?php if($oldPoint > 0): ?>
+			use_point.checked = true;
+			number_of_point.value = <?php echo $oldPoint ?>;
+		<?php else :?>
+			use_point.checked = false;
+		<?php endif; ?>
+		show_hide();
+		
+		function show_hide() {
+			if($('use_rewardpoint').checked == true) {
+				$('number_of_point').value = '';
+				<?php if($oldPoint > 0): ?>
+				$('number_of_point').value = <?php echo $oldPoint ?>;
+				<?php endif;?>
+				$('number_of_point_block').hidden = false;
+			}
+			else {
+				$('number_of_point_block').hidden = true;
+			}
+		}
+		
+		function check() {
+			value = parseInt($('number_of_point').value);
+			if (value) {
+				if(isNaN(value))  {
+					$('to_money').innerHTML = 'Invalid Input' ;
+				}
+				else  {
+					$('to_money').innerHTML = 'Equal to $' + value * moneyRate / pointRate;
+				}
+			} 
+			else {
+				$('to_money').innerHTML = '';
+			}
+		}
+	<?php endif;?>
+//]]>
+</script>

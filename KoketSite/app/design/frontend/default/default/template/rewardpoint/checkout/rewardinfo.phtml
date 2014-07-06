@@ -1,0 +1,9 @@
+<?php if (Mage::getSingleton('customer/session')->isLoggedIn()):?>
+	<?php $earningPoint = $this->getEarningPoint();?>
+	<?php if ($earningPoint > 0):?>	
+		<?php $money = $this->getCorrespondingMoney($earningPoint)?>
+		<div class="cart-reward-info">
+			<p><?php echo $this->__('Checkout now and receive %s %s (%s)', $this->getEarningPoint(), $this->getUnitName(), Mage::helper('core')->currency($money));?></p>
+		</div>
+	<?php endif;?>
+<?php endif;?>

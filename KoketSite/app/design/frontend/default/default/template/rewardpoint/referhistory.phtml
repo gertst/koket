@@ -1,0 +1,40 @@
+<div class="page-title">
+    <h1><?php echo $this->__('Invitation History') ?></h1>
+</div>
+<?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
+<?php $refers = $this->getReferenceHistory(); ?>
+<?php if($refers->getSize()): ?>
+<?php echo $this->getPagerHtml(); ?>
+<table class="data-table" id="my-invitation-history">
+    <col width="1" />
+    <col width="1" />
+    <col width="1" />
+    <col width="1" />
+    <thead>
+        <tr>
+            <th><?php echo $this->__('Reference ID') ?></th>
+            <th><?php echo $this->__('Invited Email') ?></th>
+			<th><?php echo $this->__('Time') ?></th>
+            <th><?php echo $this->__('Status') ?></th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php $_odd = ''; ?>
+        <?php foreach ($refers as $refer): ?>
+        <tr>
+            <td  class="a-center"><?php echo $refer->getId() ?></td>
+            <td><?php echo $refer->getInvitedEmail() ?></td>
+			<td  class="a-center"><?php echo $refer->getCreatedAt() ?></td>
+			<td  class="a-center"><?php echo Mage::helper('rewardpoint')->getSignedStatus($refer); ?></td>
+        </tr>
+        <?php endforeach; ?>
+    </tbody>
+</table>
+<?php echo $this->getPagerHtml(); ?>
+<script type="text/javascript">decorateTable('my-invitation-history');</script>
+<?php else: ?>
+    <p class="note-msg"><?php echo $this->__('You have made no invitation.') ?></p>
+<?php endif ?>
+	<div class="buttons-set">
+        <p class="back-link"><a href="<?php echo $this->getUrl('*') ?>"><small>&laquo;</small>Back</a></p>
+    </div>
