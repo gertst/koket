@@ -16,10 +16,12 @@ Disallow: .svn
 Disallow: .idea
 Disallow: .sql
 Disallow: .tgz
+Disallow: .log
 
 ## GENERAL MAGENTO SETTINGS
 
 ## Do not crawl Magento admin page
+Disallow: /admin123/
 Disallow: /admin/
 
 ## Do not crawl common Magento technical folders
@@ -46,7 +48,7 @@ Disallow: /*?q=*
 
 
 ## Do not crawl 2-nd home page copy (example.com/index.php/). Uncomment it only if you activated Magento SEO URLs.
-## Disallow: /index.php/
+Disallow: /index.php/
 
 ## Do not crawl links with session IDs
 Disallow: /*?SID=
