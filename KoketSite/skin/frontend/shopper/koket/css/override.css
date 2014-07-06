@@ -530,3 +530,11 @@ button.button span span {
 .customer-account-create .account-create {
     padding:0 0;
 }
+
+.footer-info ul.social li a.google {
+    background-color: #a60b08;
+}
+
+li.success-msg a {
+    text-decoration: underline !important;
+}

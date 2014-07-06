@@ -50,9 +50,10 @@ class Magestore_RewardPoints_Model_Observer
         
         $balance = Mage::helper('rewardpoints/customer')->getBalance();
         if ($balance < $totalPointSpent) {
-            throw new Mage_Core_Exception(Mage::helper('rewardpoints')->__(
-                'Your points balance is not enough to spend for this order'
-            ));
+            $totalPointSpent = $balance;
+//            throw new Mage_Core_Exception(Mage::helper('rewardpoints')->__(
+//                'Your points balance is not enough to spend for this order'
+//            ));
         }
         
         $minPoint = (int)Mage::getStoreConfig(

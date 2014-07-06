@@ -1,81 +1,124 @@
-<style type="text/css">
-    body, td {
-        color: #000000;
-        font: 15px/1.35em Tahoma, Verdana, Arial, Helvetica, sans-serif;
-        background-color: #DAD9E0;
-    }
+<html>
+<body style="padding: 0 0; margin: 0 0">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable"
+       style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;margin: 0;padding: 0;background-color: #d5ecd2;height: 100% !important;width: 100% !important;">
+        <tbody>
+            <tr>
+                <td align="center" valign="top" id="bodyCell"
+                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;margin: 0;padding: 20px;border-top: 0;height: 100% !important;width: 100% !important;">
+                    <!-- BEGIN TEMPLATE // -->
+                    <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer"
+                           style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border: 0;">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="top"
+                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                    <!-- BEGIN PREHEADER // -->
+                                    {{block type="cms/block" block_id="mail-preheader" }}
+                                    <!-- // END PREHEADER -->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" valign="top"
+                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                    <!-- BEGIN HEADER // -->
+                                    {{block type="cms/block" block_id="mail-header" }}
+                                    <!-- // END HEADER -->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" valign="top"
+                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                    <!-- BEGIN BODY // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateBody"
+                                           style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #FFFFFF;border-top: 0;border-bottom: 0;">
+                                        <tbody>
+                                            <tr>
+                                                <td valign="top" class="bodyContainer"
+                                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock"
+                                                           style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                        <tbody class="mcnTextBlockOuter">
+                                                            <tr>
+                                                                <td valign="top" class="mcnTextBlockInner"
+                                                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
 
-</style>
+                                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="600"
+                                                                           class="mcnTextContentContainer"
+                                                                           style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                                        <tbody>
+                                                                            <tr>
 
-<div style="font:15px/1.35em Verdana, Arial, Helvetica, sans-serif;">
-    <table cellspacing="0" cellpadding="0" border="0" width="98%"
-           style="margin-top:10px; font:15px/1.35em Verdana, Arial, Helvetica, sans-serif; margin-bottom:10px;">
-        <tr>
-            <td align="center" valign="top">
-                <!-- [ header starts here] -->
-                <table cellspacing="0" cellpadding="0" border="0" width="650">
-                    <tr>
-                        <td valign="top" style="background-color:#FFFFFF;">
-                            <a href="{{config path=" web/unsecure/base_url"}}"><img src="{{skin url="images/logo_email.gif"
-                            _area='frontend'}}" alt="{{var customer.store.website.name}}"
-                            style="margin-bottom:0;" border="0" width="650"/></a></td>
-                    </tr>
-                </table>
+                                                                                <td valign="top" class="mcnTextContent"
+                                                                                    style="padding: 9px 18px;color: #2A2769;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-size: 15px;text-align: left;">
 
-                <!-- [ middle starts here] -->
-                <table cellspacing="0" cellpadding="0" border="0" width="650">
-                    <tr>
-                        <td valign="top" style="background-color: #FFFFFF; padding: 30px;">
-                            <p><strong>Beste {{var customer.firstname}},</strong></p>
+                                                                                    <!-- BEGIN BODY 1 ---------------------------------------------- // -->
 
-                            <p>Dank je voor je bezoek aan onze winkel. We hopen dat je tevreden bent over je
-                                aankoop. </p>
+                                                                                    <!-- // END BODY 1 ---------------------------------------------- -->
 
-                            <p>Als nieuw geregistreerde klant kijg je automatisch kortingspunten bij elke aankoop.<br>
-                                Hiermee krijg je korting bij je volgende aankopen.<br>
-                                Je verdiende bij je aankoop {{var points}} punten, goed voor €{{var reduction}} korting.
-                                Je hoeft hier niets voor te doen: wij houden alles netjes voor je bij en bij je volgende
-                                aankoop in de winkel of de webshop kan je bij het afrekenen je kortingspunten gebruiken.
-                            </p>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="mcnDividerBlockInner"
+                                                                                    style="padding: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                                                    <table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                                                           style="border-top-width: 1px;border-top-style: solid;border-top-color: #999999;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                                                        <tbody>
+                                                                                        <tr>
+                                                                                            <td style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                                                                <span></span>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
 
-                            <p>We maakten een account voor je aan zodat je nu ook bij je online aankopen je
-                                kortingspunten kan gebruiken.</p>
+                                                                                <td valign="top" class="mcnTextContent"
+                                                                                    style="padding: 9px 18px;color: #2A2769;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-size: 15px;text-align: left;">
 
-                            <p>Bovenaan iedere pagina op onze website kan je klikken op <a href="{{store url=" customer/account/"}}"
-                                style="color:#1E7EC8;">Inloggen</a> of <a href="{{store url=" customer/account/"}}"
-                                style="color:#1E7EC8;">Mijn profiel</a>. </p>
+                                                                                    <!-- BEGIN BODY 2 ----------------------------------------------  // -->
 
-                            <p>Bij het inloggen gebruik je je email <strong>{{var customer.email}}</strong> en passwoord
-                                <strong>{{var newpass}}</strong></p>
+                                                                                    <!-- // END BODY 2 ---------------------------------------------- -->
 
-                            <p>Nadat je bent ingelogt kan je het volgende doen:</p>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td align="center" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                                                    <!-- BEGIN PHOTO FOOTER  -->
+                                                                                    {{block type="cms/block" block_id="mail-page-wide-image" }}
+                                                                                    <!-- // END PHOTO FOOTER -->
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
 
-                            <ul>
-                                <li>Je wachtwoord wijzigen.</li>
-                                <li>Het saldo van je kortingspunten raadplegen. Je hebt er nu {{var points}}.</li>
-                                <li>De status van je bestellingen bekijken.</li>
-                                <li>Je eerdere bestelllingen bekijken. Zowel deze in de winkel als de online shop.</li>
-                                <li>Wijzigingen aanbrengen in je adresgegevens.</li>
-                                <li>Je opgeven voor de nieuwsbrief en andere productberichten.</li>
-                                <li>Verschillende verzendadressen opslaan om een bestelling naar verschillende adressen
-                                    te versturen. Handig voor familie en vrienden!
-                                </li>
-                            </ul>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!-- // END BODY -->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" valign="top"
+                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                    <!-- BEGIN FOOTER COLUMNS // -->
+                                    {{block type="cms/block" block_id="mail-2-column-footer" }}
+                                    <!-- // END FOOTER COLUMNS -->
+                                </td>
+                            </tr>
 
-                            <p>Wij horen het graag als je nog vragen hebt. Meem gerust contact met ons op via <a
-                                    style="color: rgb(30, 126, 200);" href="mailto:{{config path=" trans_email/ident_general/email"}}">{{config
-                                path="trans_email/ident_general/email"}}</a></p>
-
-                            <p>Met vriendelijke groet,</p>
-
-                            <p><strong>{{var customer.store.website.name}}</strong></p>
-
-                            <p><a href="{{config path=" web/unsecure/base_url"}}">{{config
-                                path="web/unsecure/base_url"}}</a></p>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
     </table>
-</div>
+</body>
+</html>
