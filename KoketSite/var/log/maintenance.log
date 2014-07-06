@@ -1,0 +1,11 @@
+2014-07-01T18:27:08+00:00 DEBUG (7): Access denied  for IP: 84.198.116.183 and store nl
+2014-07-01T18:28:15+00:00 DEBUG (7): Access denied  for IP: 84.198.116.183 and store nl
+2014-07-01T18:29:35+00:00 DEBUG (7): Access denied  for IP: 84.198.116.183 and store nl
+2014-07-01T18:29:38+00:00 DEBUG (7): Access denied  for IP: 84.198.116.183 and store nl
+2014-07-01T18:31:11+00:00 DEBUG (7): Access denied  for IP: 84.198.116.183 and store nl
+2014-07-01T18:31:19+00:00 DEBUG (7): Access denied  for IP: 84.198.116.183 and store nl
+2014-07-01T18:32:23+00:00 DEBUG (7): Access denied  for IP: 84.198.116.183 and store nl
+2014-07-01T18:33:20+00:00 DEBUG (7): Access granted for IP/user: 84.198.116.183/appel and store nl
+2014-07-01T18:33:31+00:00 DEBUG (7): Access denied for IP/password: 84.198.116.183/-- and store nl
+2014-07-01T18:33:39+00:00 DEBUG (7): Access granted for IP/user: 84.198.116.183/appel and store nl
+2014-07-01T18:33:51+00:00 DEBUG (7): Access granted for IP/user: 84.198.116.183/appel and store nl
