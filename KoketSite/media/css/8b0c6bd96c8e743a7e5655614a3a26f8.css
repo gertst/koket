@@ -2122,7 +2122,7 @@ td { vertical-align: top; }
    ========================================================================== */
 .chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
 /* ==|== primary styles ===================================================== */
-body { font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#1b1a19; background:#fafafa; border-top:5px solid #322c29; }
+body { font-size:14px; font-family:Arial, Helvetica, sans-serif; color:#1b1a19; background:#fafafa; border-top:5px solid #322c29; }
 a { color:#828282; text-decoration:none; outline: none; }
 a:hover { color:#828282; text-decoration:underline; }
 
@@ -2242,7 +2242,7 @@ body.non-responsive {min-width:1200px;}
 .customer-account-login .account-login {padding:30px 0 90px;}
 .customer-account-login h2 {margin:0 0 10px;}
 .customer-account-create .account-create {padding:30px 0;}
-.customer-account-create .account-create h2.legend { margin:25px 0 0; }
+/*.customer-account-create .account-create h2.legend { margin:25px 0 0; }*/
 .customer-account-create .account-create h2.first { margin:0; }
 .customer-account-create .account-create .form-list .field { float:none; width:auto; }
 .customer-account-create .account-create .buttons-set { margin:0; text-align:center; }
@@ -2619,14 +2619,14 @@ footer address{ margin-left:10px; }
 a.product-image {display:block;position:relative;}
 
 .new-label, .sale-label {position: absolute; z-index:10000; width:91px; height:91px; background:url(http://www.kokettekatinka.be/skin/frontend/shopper/default/images/labels.png) 0 0 no-repeat; }
-.sale-top-left {top:-13px; left:-13px; background-position:-182px 0;}
-.sale-top-right {top:-13px; right:-13px; background-position:-273px 0;}
-.sale-bottom-left {bottom:-13px; left:-13px; background-position:-182px -91px;}
-.sale-bottom-right {bottom:-13px; right:-13px; background-position:-273px -91px;}
-.new-top-left {top:-13px; left:-13px; background-position:0 0;}
-.new-top-right {top:-13px; right:-13px; background-position:-91px 0;}
-.new-bottom-left {bottom:-13px; left:-13px; background-position:0 -91px;}
-.new-bottom-right {bottom:-13px; right:-13px; background-position:-91px -91px;}
+.sale-top-left {top:-4px; left:-4px; background-position:-182px 0;}
+.sale-top-right {top:-4px; right:-4px; background-position:-273px 0;}
+.sale-bottom-left {bottom:-4px; left:-4px; background-position:-182px -91px;}
+.sale-bottom-right {bottom:-4px; right:-4px; background-position:-273px -91px;}
+.new-top-left {top:-4px; left:-4px; background-position:0 0;}
+.new-top-right {top:-4px; right:-4px; background-position:-91px 0;}
+.new-bottom-left {bottom:-4px; left:-4px; background-position:0 -91px;}
+.new-bottom-right {bottom:-4px; right:-4px; background-position:-91px -91px;}
 .product-img-box .sale-top-left {top:-4px; left:-4px; }
 .product-img-box .sale-top-right {top:-4px; right:-4px; }
 .product-img-box .new-top-left {top:-4px; left:-4px; }
@@ -5547,99 +5547,99 @@ website:   	http://www.themepunch.com
  -	SHOPPER CAPTIONS	-
 **************************/
 .tp-caption.shopper_large_caption_light { position:absolute; color:#000; color:rgba(0, 0, 0, 0.8); text-shadow:none; text-transform:uppercase; padding:3px 4px; padding-top:1px; margin:0px; border-width:0px; border-style:none; letter-spacing:0px;
-    font-family:"Myriad Pro", sans-serif; font-size:72px; font-weight:300;
+    font-family:'Maven+Pro', sans-serif; font-size:72px; font-weight:300;
     line-height:72px;
 }
 .tp-caption.shopper_large_caption_medium { position:absolute; color:#000; color:rgba(0, 0, 0, 0.8); text-shadow:none; text-transform:uppercase; padding:3px 4px; padding-top:1px; margin:0px; border-width:0px; border-style:none; letter-spacing:0px;
-    font-family:"Myriad Pro", sans-serif; font-size:72px; font-weight:500;
+    font-family:'Maven+Pro', sans-serif; font-size:72px; font-weight:500;
     line-height:72px;
 }
 .tp-caption.shopper_large_caption_bold { position:absolute; color:#000; color:rgba(0, 0, 0, 0.8); text-shadow:none; text-transform:uppercase; padding:3px 4px; padding-top:1px; margin:0px; border-width:0px; border-style:none; letter-spacing:0px;
-    font-family:"Myriad Pro", sans-serif; font-size:72px; font-weight:800;
+    font-family:'Maven+Pro', sans-serif; font-size:72px; font-weight:800;
     line-height:72px;
 }
 
 .tp-caption.shopper_caption_light { position:absolute; color:#000; color:rgba(0, 0, 0, 0.8); text-shadow:none; text-transform:uppercase; padding:3px 4px; padding-top:1px; margin:0px; border-width:0px; border-style:none; letter-spacing:0px;
-    font-family:"Myriad Pro", sans-serif; font-size:60px; font-weight:300;
+    font-family:'Maven+Pro', sans-serif; font-size:60px; font-weight:300;
     line-height:60px;
 }
 .tp-caption.shopper_caption_medium { position:absolute; color:#000; color:rgba(0, 0, 0, 0.8); text-shadow:none; text-transform:uppercase; padding:3px 4px; padding-top:1px; margin:0px; border-width:0px; border-style:none; letter-spacing:0px;
-    font-family:"Myriad Pro", sans-serif; font-size:60px; font-weight:500;
+    font-family:'Maven+Pro', sans-serif; font-size:60px; font-weight:500;
     line-height:60px;
 }
 .tp-caption.shopper_caption_bold { position:absolute; color:#000; color:rgba(0, 0, 0, 0.8); text-shadow:none; text-transform:uppercase; padding:3px 4px; padding-top:1px; margin:0px; border-width:0px; border-style:none; letter-spacing:0px;
-    font-family:"Myriad Pro", sans-serif; font-size:60px; font-weight:800;
+    font-family:'Maven+Pro', sans-serif; font-size:60px; font-weight:800;
     line-height:60px;
 }
 
 .tp-caption.shopper_caption_underline_light { position:absolute; color:#000; color:rgba(0, 0, 0, 0.8); text-shadow:none; text-transform:uppercase; padding:3px 4px 10px; margin:0px; border-width:0px; border-style:none; letter-spacing:0px;
-    font-family:"Myriad Pro", sans-serif; font-size:60px; font-weight:300;
+    font-family:'Maven+Pro', sans-serif; font-size:60px; font-weight:300;
     line-height:60px;
     border-bottom:1px solid rgba(0, 0, 0, 0.09) !important;
 }
 .tp-caption.shopper_caption_underline_medium { position:absolute; color:#000; color:rgba(0, 0, 0, 0.8); text-shadow:none; text-transform:uppercase; padding:3px 4px 10px; margin:0px; border-width:0px; border-style:none; letter-spacing:0px;
-    font-family:"Myriad Pro", sans-serif; font-size:60px; font-weight:500;
+    font-family:'Maven+Pro', sans-serif; font-size:60px; font-weight:500;
     line-height:60px;
     border-bottom:1px solid rgba(0, 0, 0, 0.09) !important;
 }
 .tp-caption.shopper_caption_underline_bold { position:absolute; color:#000; color:rgba(0, 0, 0, 0.8); text-shadow:none; text-transform:uppercase; padding:3px 4px 10px; margin:0px; border-width:0px; border-style:none; letter-spacing:0px;
-    font-family:"Myriad Pro", sans-serif; font-size:60px; font-weight:800;
+    font-family:'Maven+Pro', sans-serif; font-size:60px; font-weight:800;
     line-height:60px;
     border-bottom:1px solid rgba(0, 0, 0, 0.09) !important;
 }
 
 .tp-caption.shopper_small_caption_light { position:absolute; color:#000; color:rgba(0, 0, 0, 0.8); text-shadow:none; text-transform:uppercase; padding:3px 4px; padding-top:1px; margin:0px; border-width:0px; border-style:none; letter-spacing:0px;
-    font-family:"Myriad Pro", sans-serif; font-size:24px; font-weight:300;
+    font-family:'Maven+Pro', sans-serif; font-size:24px; font-weight:300;
     line-height:28px;
 }
 .tp-caption.shopper_small_caption_medium { position:absolute; color:#000; color:rgba(0, 0, 0, 0.8); text-shadow:none; text-transform:uppercase; padding:3px 4px; padding-top:1px; margin:0px; border-width:0px; border-style:none; letter-spacing:0px;
-    font-family:"Myriad Pro", sans-serif; font-size:24px; font-weight:500;
+    font-family:'Maven+Pro', sans-serif; font-size:24px; font-weight:500;
     line-height:28px;
 }
 .tp-caption.shopper_small_caption_bold { position:absolute; color:#000; color:rgba(0, 0, 0, 0.8); text-shadow:none; text-transform:uppercase; padding:3px 4px; padding-top:1px; margin:0px; border-width:0px; border-style:none; letter-spacing:0px;
-    font-family:"Myriad Pro", sans-serif; font-size:24px; font-weight:800;
+    font-family:'Maven+Pro', sans-serif; font-size:24px; font-weight:800;
     line-height:28px;
 }
 
 .tp-caption.shopper_small_text_light { position:absolute; color:#000; color:rgba(0, 0, 0, 0.8); text-shadow:none; text-transform:none; padding:0; margin:0px; border-width:0px; border-style:none; letter-spacing:0px;
-    font-family:Arial, sans-serif !important; font-size:14px; font-weight:300;
+    font-family:'Maven+Pro', sans-serif !important; font-size:14px; font-weight:300;
     line-height:19px;
 }
 .tp-caption.shopper_small_text_medium { position:absolute; color:#000; color:rgba(0, 0, 0, 0.8); text-shadow:none; text-transform:none; padding:0; margin:0px; border-width:0px; border-style:none; letter-spacing:0px;
-    font-family:Arial, sans-serif !important; font-size:14px; font-weight:500;
+    font-family:'Maven+Pro', sans-serif !important; font-size:14px; font-weight:500;
     line-height:19px;
 }
 .tp-caption.shopper_small_text_bold { position:absolute; color:#000; color:rgba(0, 0, 0, 0.8); text-shadow:none; text-transform:none; padding:0; margin:0px; border-width:0px; border-style:none; letter-spacing:0px;
-    font-family:Arial, sans-serif !important; font-size:14px; font-weight:800;
+    font-family:'Maven+Pro', sans-serif !important; font-size:14px; font-weight:800;
     line-height:19px;
 }
 
 
 .tp-caption.shopper_medium_text_light { position:absolute; color:#000; color:rgba(0, 0, 0, 0.8); text-shadow:none; text-transform:none; padding:0; margin:0px; border-width:0px; border-style:none; letter-spacing:0px;
-    font-family:"Myriad Pro", sans-serif; font-size:20px; font-weight:300;
+    font-family:'Maven+Pro', sans-serif; font-size:20px; font-weight:300;
     line-height:28px;
 }
 .tp-caption.shopper_medium_text_medium { position:absolute; color:#000; color:rgba(0, 0, 0, 0.8); text-shadow:none; text-transform:none; padding:0; margin:0px; border-width:0px; border-style:none; letter-spacing:0px;
-    font-family:"Myriad Pro", sans-serif; font-size:20px; font-weight:500;
+    font-family:'Maven+Pro', sans-serif; font-size:20px; font-weight:500;
     line-height:28px;
 }
 .tp-caption.shopper_medium_text_bold { position:absolute; color:#000; color:rgba(0, 0, 0, 0.8); text-shadow:none; text-transform:none; padding:0; margin:0px; border-width:0px; border-style:none; letter-spacing:0px;
-    font-family:"Myriad Pro", sans-serif; font-size:20px; font-weight:800;
+    font-family:'Maven+Pro', sans-serif; font-size:20px; font-weight:800;
     line-height:28px;
 }
 
 .tp-caption.shopper_white_bg_light { position:absolute; color:#000; color:rgba(0, 0, 0, 0.8); text-shadow:none; text-transform:uppercase; padding:0 4px; margin:0px; border-width:0px; border-style:none; letter-spacing:-1.5px;
-    font-family:"Myriad Pro", sans-serif; font-size:36px; font-weight:300;
+    font-family:'Maven+Pro', sans-serif; font-size:36px; font-weight:300;
     line-height:36px;
     background:#fff;
 }
 .tp-caption.shopper_white_bg_medium { position:absolute; color:#000; color:rgba(0, 0, 0, 0.8); text-shadow:none; text-transform:uppercase; padding:0 4px; margin:0px; border-width:0px; border-style:none; letter-spacing:-1.5px;
-    font-family:"Myriad Pro", sans-serif; font-size:36px; font-weight:500;
+    font-family:'Maven+Pro', sans-serif; font-size:36px; font-weight:500;
     line-height:36px;
     background:#fff;
 }
 .tp-caption.shopper_white_bg_bold { position:absolute; color:#000; color:rgba(0, 0, 0, 0.8); text-shadow:none; text-transform:uppercase; padding:0 4px; margin:0px; border-width:0px; border-style:none; letter-spacing:-1.5px;
-    font-family:"Myriad Pro", sans-serif; font-size:36px; font-weight:800;
+    font-family:'Maven+Pro', sans-serif; font-size:36px; font-weight:800;
     line-height:36px;
     background:#fff;
 }
@@ -5654,7 +5654,7 @@ website:   	http://www.themepunch.com
     font-weight: 800;
     font-size: 20px;
     line-height: 20px;
-    font-family: 'Open Sans', sans;
+    font-family: 'Maven+Pro, sans;
     padding: 3px 4px;
     padding-top: 1px;
     margin: 0px;
@@ -5671,7 +5671,7 @@ website:   	http://www.themepunch.com
     font-weight: 700;
     font-size: 36px;
     line-height: 36px;
-    font-family: Arial;
+    font-family: 'Maven+Pro';
     padding: 0px 4px;
     margin: 0px;
     border-width: 0px;
@@ -5688,7 +5688,7 @@ website:   	http://www.themepunch.com
     font-weight: 800;
     font-size: 36px;
     line-height: 36px;
-    font-family: 'Open Sans', sans;
+    font-family: 'Maven+Pro', sans;
     padding: 0px 4px;
     margin: 0px;
     border-width: 0px;
@@ -5704,7 +5704,7 @@ website:   	http://www.themepunch.com
     font-weight: 700;
     font-size: 20px;
     line-height: 20px;
-    font-family: Arial;
+    font-family: 'Maven+Pro';
     padding: 2px 4px;
     margin: 0px;
     border-width: 0px;
@@ -5721,7 +5721,7 @@ website:   	http://www.themepunch.com
     font-weight: 700;
     font-size: 14px;
     line-height: 20px;
-    font-family: Arial;
+    font-family: 'Maven+Pro';
     margin: 0px;
     border-width: 0px;
     border-style: none;
@@ -5736,7 +5736,7 @@ website:   	http://www.themepunch.com
     font-weight: 300;
     font-size: 20px;
     line-height: 20px;
-    font-family: 'Open Sans', sans;
+    font-family: 'Maven+Pro', sans;
     margin: 0px;
     border-width: 0px;
     border-style: none;
@@ -5751,7 +5751,7 @@ website:   	http://www.themepunch.com
     font-weight: 800;
     font-size: 36px;
     line-height: 36px;
-    font-family: 'Open Sans', sans;
+    font-family: 'Maven+Pro', sans;
     margin: 0px;
     border-width: 0px;
     border-style: none;
@@ -5767,7 +5767,7 @@ website:   	http://www.themepunch.com
     font-weight: 300;
     font-size: 42px;
     line-height: 42px;
-    font-family: 'Open Sans', sans;
+    font-family: 'Maven+Pro', sans;
     margin: 0px;
     border-width: 0px;
     border-style: none;
@@ -5872,7 +5872,7 @@ website:   	http://www.themepunch.com
     font-weight: 700;
     font-size: 60px;
     line-height: 60px;
-    font-family: Arial;
+    font-family: 'Maven+Pro';
     margin: 0px;
     border-width: 0px;
     border-style: none;
@@ -5903,7 +5903,7 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption a {
-    color: #ff7302;
+    color: #281f55;
     text-shadow: none;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
@@ -5912,7 +5912,8 @@ website:   	http://www.themepunch.com
 }
 
 .tp-caption a:hover {
-    color: #ffa902;
+    color: rgba(40, 37, 101, 0.78);
+    text-decoration: underline;
 }
 
 /******************************
@@ -5931,7 +5932,7 @@ website:   	http://www.themepunch.com
     font-size: 15px;
     line-height: 45px !important;
     background: url(http://www.kokettekatinka.be/skin/frontend/shopper/default/images/gradient/g30.png) repeat-x top;
-    font-family: arial, sans-serif;
+    font-family: 'Maven+Pro', sans-serif;
     font-weight: bold;
     letter-spacing: -1px;
 }
@@ -6041,16 +6042,6 @@ website:   	http://www.themepunch.com
 
 
 
-/*
-@font-face {
-    font-family: 'Le Super Type Regular';
-    src: url('http://www.kokettekatinka.be/skin/frontend/shopper/koket/css/fonts/Le_Super_Type_Regular.eot');
-    src: local('☺'), url('http://www.kokettekatinka.be/skin/frontend/shopper/koket/css/fonts/Le_Super_Type_Regular.woff') format('woff'), url('http://www.kokettekatinka.be/skin/frontend/shopper/koket/css/fonts/Le_Super_Type_Regular.ttf') format('truetype'), url('http://www.kokettekatinka.be/skin/frontend/shopper/koket/css/fonts/Le_Super_Type_Regular.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-*/
-
 @import url(http://fonts.googleapis.com/css?family=Maven+Pro);
 
 
@@ -6069,11 +6060,6 @@ h1, h2, h3 {
     margin-top: 10px;
 }
 
-/*
-a.level-top {
-    font-family: "Le Super Type Regular", 'Source Sans Pro', "sans serif" !important;
-}
-*/
 
 /*menu items*/
 #queldoreiNav>li>a {
@@ -6102,14 +6088,19 @@ a.level-top {
     }
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 960px) {
-    .grid_12 {
-        width: 1042px;
+
+
+@media only screen and (max-width: 1200px) and (min-width: 960px){
+    .top-dropdowns {
+        top: 20%;
+    }
+    .fixed .top-dropdowns {
+        top: 50%;
     }
 }
-
 .quick-view {
     left: 28%;
+    display: none !important;
 }
 
 /*#nav>li>a, #nav ul li a, #nav>li>a>span, #mobile-nav>li>a, #mobile-nav ul li a, #mobile-nav>li>a>span, #queldoreiNav>li>a, #queldoreiNav ul li a, #queldoreiNav>li>a>span {*/
@@ -6130,6 +6121,11 @@ a.level-top {
 }
 */
 
+header {
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    transition: height 0.3s;
+}
 
 .cart-top > a span {
     font-family: "Yanone Kaffeesatz", Tahoma, Arial, sans-serif;
@@ -6144,17 +6140,101 @@ a.level-top {
 header a.logo {
     text-decoration: none !important;
     margin: 0;
-    background: #D6CFCF;
-    background-image:url("/skin/frontend/shopper/default/images/pattern-logo.gif");
+    /*background-image:url("/skin/frontend/shopper/default/images/pattern-logo.gif");*/
     padding: 16px 32px;
 }
 
+
+@media only screen and (max-width: 959px) and (min-width: 768px){
+    header .grid_12 {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .row {
+        margin:0 auto;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+    .row {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .grid_12 {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .row {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .grid_12 {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.links li {
+    padding: 0 3px;
+}
+
+.product-additional .block .block-content li {
+    margin: 3px 0 0 0 !important;
+}
+
+div#faq a:hover {
+    text-decoration: underline;
+}
+
+div#faq a {
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 19px;
+}
+
+#faq li div {
+    display: none;
+    /*width: 100%;*/
+    position: relative;
+    padding: 0 0 0 0;
+    margin: 7px 0 27px 0;
+}
+
+#faq li div p {
+    padding: 0 0 7px 0;
+    margin: 0 0 0 0;
+}
+
+#faq table td {
+    padding: 0px 4px;
+    font-size: 0.8rem;
+}
+
+#faq .data-table th {
+    padding: 2px 4px !important;
+}
+
+
+@media only screen and (max-width: 767px) {
+    ul.links {
+        float: none;
+        margin: 0 10px;
+    }
+}
 header .grid_12 {
-    margin-left: 0;
+/*margin-left: 0;*/
 }
 
 header .row {
-    margin: 0 0;
+/*margin: 0 0;*/
 }
 
 /*smaller logo when scrolling*/
@@ -6192,12 +6272,23 @@ header.fixed a.logo {
     padding: 11px 0;
 }
 
+/*page-title-bg {*/
+    /*background-color: #D8BCD8 !important;*/
+    /*background: #D8BCD8 !important;*/
+/*}*/
+.page-title-bg {
+    background-color: #f5f5f3;
+    background-image: url("/skin/frontend/shopper/default/images/pattern-logo.gif");
+}
 .cart .cart-collaterals h2 {
     letter-spacing: normal;
 }
 
 #shopping-cart-totals-table strong {
     letter-spacing: normal;
+    text-transform:  none !important;
+    font-size: inherit !important;
+    font-family: 'Maven+Pro', Tahoma, sans-serif !important;
 }
 
 #discount-coupon-form .discount {
@@ -6221,10 +6312,15 @@ header.fixed a.logo {
 }
 
 .rewardpoints-money {
-    color: #5C9E56;
+    color: #5c9e56;
     font-size: 19px;
     font-family: "Yanone Kaffeesatz";
     font-weight: 200;
+}
+
+.rewardpoints-money a {
+    font-family: 'Maven+Pro', Tahoma, sans-serif;
+    font-size: 0.8rem;
 }
 
 .block-slider .slides > li strong {
@@ -6239,11 +6335,22 @@ header.fixed a.logo {
     margin-bottom: 20px;
 }
 
+.account-create a.back-link {
+    display: none;
+}
+
 #login-form .link-tip {
     margin-left: 5px;
     font-size: 0.7rem;
     font-style: italic;
     display: -webkit-inline-box;
+}
+
+.registered-users .buttons-set {
+    margin-left: 0;
+}
+.registered-users button {
+    margin-left: 30px;;
 }
 
 .rewardpoints-name img {
@@ -6254,8 +6361,226 @@ header.fixed a.logo {
     margin-top: 8px;
 }
 
+.page-title {
+    margin: 0 0 !important;
+}
+
+div.account-create .page-title {
+    margin: 0 15px !important;
+}
+
 .col2-left-layout .page-title {
     margin-left: 0;
+}
+
+.remember-me-popup {
+    border: none;
+}
+
+.remember-me-popup h3 {
+    background-color: #a3d48d;
+    background: #a3d48d;
+}
+
+.remember-me-popup .remember-me-popup-body a {
+    border: 1px solid #a3d48d;
+    background: #a3d48d url('http://www.kokettekatinka.be/skin/frontend/shopper/default/images/btn_overlay.png') 0 0 repeat-x;
+    padding: 0px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#product_addtocart_form .info {
+    border-bottom: 1px solid;
+    border-color: rgba(227,227,227,0.61);
+    width: 100%;
+    margin: 18px 0;
+}
+
+/*#product_addtocart_form .info tr {
+    border-bottom: 1px solid;
+    border-color: rgba(227,227,227,0.61);
+}*/
+
+#product_addtocart_form .info th {
+    padding: 3px 24px 6px 3px;
+    font-weight: bold;
+}
+
+#product_addtocart_form table.info td {
+    padding: 3px 24px 6px 3px;
+}
+
+.product-view .qty-container .unit {
+    float: left;
+    margin-left: 10px;
+    line-height: 30px;
+    color: #000;
+    color: rgba(0,0,0,0.67);
+}
+
+#product_addtocart_form .sku {
+    font-weight: normal;
+}
+
+#product_addtocart_form .minimum-amount {
+    margin-bottom: 10px;
+}
+
+.hover .price-unit {
+    display: block;
+    color:#fff
+}
+
+.products-grid li.item {
+    border: none;
+    background: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.products-grid .add-to-links {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-top: 1px solid #f3f3f3;
+    background: #fff;
+    font-size: 12px;
+}
+
+.products-grid .add-to-links a {
+    color: #4d4d4d;
+}
+
+.regular .button.btn-cart {
+    display: none;
+}
+
+.button.btn-cart span {
+    font-family: 'Maven+Pro', Tahoma, sans-serif;
+}
+
+.regular .price-box{
+    display: none;
+}
+
+.box-account.box-info.box-rewardpoints-summary h2 {
+    display: none;
+}
+.box-account.box-info.box-rewardpoints-summary strong.rewardpoints-money a {
+    display: none;
+}
+
+#reward_ajax_loading {
+    margin: 20px;
+}
+.cart .cart-collaterals .cart-total {
+    padding: 0 0 5px 0;
+}
+
+form#co-shipping-method-form li label {
+    font-weight: normal;
+}
+
+#rewardpoints-slider {
+    display: none;
+}
+
+.cart-block .cart-coupon dd {
+    margin: 0;
+}
+
+.rewards-sales-rules .not-logged-in-warning {
+    font-weight: bold;
+    padding-bottom:  20px ;
+}
+
+#cart-rewards-form dd {
+    margin: 0;
+}
+
+.opc-wrapper-opc .order-info {
+    padding: 10px 0 30px 0;
+}
+
+.catalog-product-compare-index #notice-cookie-block{
+    display: none;
+}
+
+.block-content li, .block .block-content li.item, .block-layered-nav .block-content dd li, .product-tabs-content ul.disc li {
+    background-image: none;
+}
+
+button.button span span {
+    text-transform: none;
+}
+
+.cms-page-view h1 {
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.cms-page-view .col-main ul {
+    list-style-type: inherit;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.cms-page-view .col-main ol {
+    list-style-type: decimal;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.cms-privacy-beleid .col-main h2 {
+    padding-top: 20px;
+}
+
+#contactForm h2.legend {
+    float: inherit;
+    font-weight: normal;
+    font-size: 30px;
+    border: none;
+    background: inherit;
+    color: inherit;
+    margin: 0 0 30px 0px;
+    padding: 0 0;
+    position: inherit;
+}
+
+.form-list .customer-dob .dob-day, .form-list .customer-dob .dob-month {
+    width: 30px;
+}
+
+.form-list .customer-dob .dob-year {
+    width: 60px;
+}
+
+.slide-white {
+    color: #ffffff !important;
+}
+
+.category-description a {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.customer-account-login .account-login {
+    padding:0 0;
+}
+
+.customer-account-create .account-create {
+    padding:0 0;
+}
+
+.footer-info ul.social li a.google {
+    background-color: #a60b08;
+}
+
+li.success-msg a {
+    text-decoration: underline !important;
 }
 /**
  * Magestore

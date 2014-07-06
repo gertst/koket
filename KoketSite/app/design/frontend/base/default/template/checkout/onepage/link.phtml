@@ -25,5 +25,10 @@
  */
 ?>
 <?php if ($this->isPossibleOnepageCheckout()):?>
-    <button type="button" title="<?php echo $this->__('Proceed to Checkout') ?>" class="button btn-proceed-checkout btn-checkout<?php if ($this->isDisabled()):?> no-checkout<?php endif; ?>"<?php if ($this->isDisabled()):?> disabled="disabled"<?php endif; ?> onclick="window.location='<?php echo $this->getCheckoutUrl() ?>';"><span><span><?php echo $this->__('Proceed to Checkout') ?></span></span></button>
+    <?php if ($this->helper('customer')->isLoggedIn() ) : ?>
+        <button type="button" title="<?php echo $this->__('Proceed to Checkout') ?>" class="button btn-proceed-checkout btn-checkout<?php if ($this->isDisabled()):?> no-checkout<?php endif; ?>"<?php if ($this->isDisabled()):?> disabled="disabled"<?php endif; ?> onclick="window.location='<?php echo $this->getCheckoutUrl() ?>';"><span><span><?php echo $this->__('Proceed to Checkout') ?></span></span></button>
+    <?php else : ?>
+        <button type="button" title="<?php echo $this->__('Log in') ?>" class="button btn-login" onclick="window.location='<?php echo Mage::getUrl("customer/account/login") ?>';"><span><span><?php echo $this->__('Log in') ?></span></span></button>
+        <button type="button" title="<?php echo $this->__('Register') ?>" class="button btn-register" onclick="window.location='<?php echo Mage::getUrl("customer/account/create") ?>';"><span><span><?php echo $this->__('Register') ?></span></span></button>
+    <?php endif; ?>
 <?php endif?>

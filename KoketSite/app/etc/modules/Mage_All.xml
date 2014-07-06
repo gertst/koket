@@ -397,5 +397,6 @@
                 <Mage_Core/>
             </depends>
         </Mage_Index>
+
     </modules>
 </config>
