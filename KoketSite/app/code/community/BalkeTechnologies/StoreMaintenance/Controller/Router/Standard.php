@@ -89,9 +89,10 @@ class BalkeTechnologies_StoreMaintenance_Controller_Router_Standard extends Mage
 
                         $response = $this->getFront()->getResponse();
 
-                        $response->setHeader('HTTP/1.1', '503 Service Temporarily Unavailable');
-                        $response->setHeader('Status', '503 Service Temporarily Unavailable');
-                        $response->setHeader('Retry-After', '1000');
+                        //gert: removed because google did not want to add ad words to a page with a 503.
+                        //$response->setHeader('HTTP/1.1', '503 Service Temporarily Unavailable');
+                        //$response->setHeader('Status', '503 Service Temporarily Unavailable');
+                        //$response->setHeader('Retry-After', '1000');
 
                         $response->setBody($maintenancePage);
                         $response->sendHeaders();
