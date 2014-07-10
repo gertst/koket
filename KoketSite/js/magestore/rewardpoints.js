@@ -189,19 +189,24 @@ RewardPointsAjax.prototype = {
 
 function checkOutLoadRewardpoints(json) {
     var eladd = getElementRewardpoints();
-    eladd.insert({
-        before: json.html
-    });
+    //next line added by GERT
+    if (eladd) {
+        eladd.insert({
+            before: json.html
+        });
+    }
     if ($('p_method_free')) {
         $('p_method_free').checked = true;
     }
 }
 function getElementRewardpoints(){
     //gert: added "-reward"
-    if ($('checkout-payment-method-load-reward').down('#checkout-payment-method-load-reward') == undefined) {
-        return $('checkout-payment-method-load-reward');
-    } else {
-        return $('checkout-payment-method-load-reward').down('#checkout-payment-method-load-reward');
+    if ($('checkout-payment-method-load-reward')) {
+        if ($('checkout-payment-method-load-reward').down('#checkout-payment-method-load-reward') == undefined) {
+            return $('checkout-payment-method-load-reward');
+        } else {
+            return $('checkout-payment-method-load-reward').down('#checkout-payment-method-load-reward');
+        }
     }
 }
 function changeUsePointAjax(el) {

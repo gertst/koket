@@ -839,6 +839,7 @@ $j(document).ready(function(){
 	IWD.OPC.Login.init();
 	IWD.OPC.Geo.init();
     //added by gert, to put modal login window on top
-    jQuery("#myModal").insertAfter(".header-container")
-    jQuery(".opc-ajax-loader").insertAfter(".header-container")
+    jQuery("#myModal").insertAfter(".header-container");
+    jQuery(".opc-ajax-loader").insertAfter(".header-container");
+    jQuery(".opc-message-wrapper").insertAfter(".top-switch-bg");
 });
