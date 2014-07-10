@@ -72,10 +72,10 @@
                                                             style="padding: 9px 18px;color: #2A2769;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-size: 15px;text-align: left;">
 
                                                             <!-- BEGIN BODY 1 ---------------------------------------------- // -->
-                                                            <p>Dear {{htmlescape var=$customer.name}},</p>
-                                                            <p>{{var store.getFrontendName()}} would like to wish you good health, luck and success on the occasion of your birthday!</p>
-                                                            <p>By the way, please receive our small gift which is {{var point_amount}} to spend at <a href="{{store url=""}}">{{var store.getFrontendName()}}.</a>.</p>
-                                                            <p>Happy Birthday!</p>
+                                                            <p>Beste {{htmlescape var=$customer.name}},</p>
+                                                            <p>Proficiat met je verjaardag! <a href="{{store url=""}}">{{var store.getFrontendName()}}</a> heeft een cadeautje voor jou: een eenmalige korting van {{var point_amount}} op al je aankopen, geldig vanaf nu tot 1 maand na je verjaardag.</p>
+                                                            <p>Om te genieten van je korting, gebruik je deze kortingscode bij je bestelling via de <a href="{{store url=""}}">webshop</a> of breng je een afdruk van deze email mee naar de winkel.</p>
+                                                            <p>Geniet nog van je dag!</p>
                                                             <p>Met vriendelijke groet,</p>
                                                             <p>Astrid<br><strong>{{var order.getStoreGroupName()}}</strong></p>
                                                             <!-- // END BODY 1 ---------------------------------------------- -->

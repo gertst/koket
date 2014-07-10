@@ -220,7 +220,7 @@
 "Use Billing Address","Factuuradres gebruiken"
 "We are processing your order and you will soon receive an email with details of the order. Once the order has shipped you will receive another email with a link to track its progress.","We zijn bezig met het verwerken van je bestelling. Je ontvangt binnenkort een e-mail met de details van je bestelling. Zodra de bestelling verzonden is sturen we je een email."
 "You have no items in your shopping cart.","Je hebt niets in je winkelmandje."
-"You will receive an order confirmation email with details of your order and a link to track its progress.","Je ontvangt een e-mail ter bevestiging van je bestelling met de details van je bestelling."
+"You will receive an order confirmation email with details of your order and a link to track its progress.","Je ontvangt een e-mail ter bevestiging met de details van je bestelling."
 "Your Checkout Progress","Status bestelling"
 "Your order # is: %s","Je bestelnummer is: %s"
 "Your order # is: <a href=""%s"">%s</a>","Je bestelnummer is: <a href=""%s"">%s</a>"

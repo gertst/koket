@@ -1,4 +1,4 @@
-<!--@subject {{var order.getStoreGroupName()}}: Verzending # {{var shipment.increment_id}} voor bestelling # {{var order.increment_id}} @-->
+<!--@subject {{var order.getStoreGroupName()}}: Verzending # {{var shipment.increment_id}} voor bestelnummer {{var order.increment_id}} @-->
 
 <style type="text/css">
     body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; }
@@ -68,7 +68,7 @@
                                                             </p>
 
                                                             <h3 style="border-bottom:2px solid #eee; font-size:1.05em; padding-bottom:1px; ">
-                                                                Je verzending #{{var shipment.increment_id}} voor bestelling #{{var order.increment_id}}
+                                                                Je verzending #{{var shipment.increment_id}} voor bestelling {{var order.increment_id}}
                                                             </h3>
                                                             <table cellspacing="0" cellpadding="0" border="0" width="100%">
                                                                 <thead>

@@ -1,4 +1,4 @@
-<!--@subject {{var order.getStoreGroupName()}}: Nieuwe bestelling # {{var order.increment_id}} @-->
+<!--@subject {{var order.getStoreGroupName()}}: Nieuwe bestelnummer {{var order.increment_id}} @-->
 
 <style type="text/css">
     body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; }
@@ -70,7 +70,7 @@
                                                             <p>Indien je nog vragen hebt, neem dan gerust contact op via <a href="mailto:{{config path="trans_email/ident_general/email"}}" style="color:#1E7EC8;">{{config path="trans_email/ident_general/email"}}</a> of telefonisch op <span class="nobr">+32 (0)3 227 31 45.</span></p>
                                                             <p>Orderbevestiging:</p>
 
-                                                            <h3 style="border-bottom:2px solid #eee; font-size:1.05em; padding-bottom:1px; ">Je bestelling #{{var order.increment_id}} <small>(geplaatst op {{var order.getCreatedAtFormated('long')}})</small></h3>
+                                                            <h3 style="border-bottom:2px solid #eee; font-size:1.05em; padding-bottom:1px; ">Je bestelling {{var order.increment_id}} <small>(geplaatst op {{var order.getCreatedAtFormated('long')}})</small></h3>
                                                             <table cellspacing="0" cellpadding="0" border="0" width="100%">
                                                                 <thead>
                                                                 <tr>

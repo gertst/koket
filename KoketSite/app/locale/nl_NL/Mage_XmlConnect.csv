@@ -659,7 +659,7 @@
 "Ordered Items","Ordered Items"
 "Orders","Orders"
 "Other amount","Other amount"
-"Out of Stock","Out of Stock"
+"Out of Stock","Niet in voorraad"
 "Output format is not specified. Please, specify ""format"" key in constructor, or set it using setFormat().","Output format is not specified. Please, specify ""format"" key in constructor, or set it using setFormat()."
 "Overall Activity","Overall Activity"
 "POST data is not valid.","POST data is not valid."
