@@ -461,6 +461,10 @@ form#co-shipping-method-form li label {
     padding: 10px 0 30px 0;
 }
 
+.opc-wrapper-opc .comment-block {
+    display: none;
+}
+
 .catalog-product-compare-index #notice-cookie-block{
     display: none;
 }
