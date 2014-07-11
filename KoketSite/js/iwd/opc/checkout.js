@@ -212,6 +212,7 @@ IWD.OPC = {
 IWD.OPC.Checkout = {
 		config:null,
 		ajaxProgress:false,
+        doneBefore:false, /*GERT*/
 		xhr: null,
 		isVirtual: false,
 		
@@ -290,7 +291,12 @@ IWD.OPC.Checkout = {
 			IWD.OPC.Checkout.updatePaymentBlock = true;
 			
 			if (IWD.OPC.Checkout.isVirtual===false){
-				IWD.OPC.Shipping.saveShippingMethod();
+                if (this.doneBefore) { //GERT: don't save already on first run
+                    IWD.OPC.Shipping.saveShippingMethod();
+                } else {
+                    this.doneBefore = true;
+                    IWD.OPC.Checkout.hideLoader();
+                }
 			}else{
 				$j('.shipping-block').hide();
 				$j('.payment-block').addClass('clear-margin');
@@ -833,7 +839,7 @@ IWD.OPC.Geo = {
 };
 
 $j(document).ready(function(){
-	IWD.OPC.Checkout.init();
+	IWD.OPC.Checkout.init();//GERT: select shipping adress bug???
 	IWD.OPC.Coupon.init();
 	IWD.OPC.Agreement.init();
 	IWD.OPC.Login.init();
