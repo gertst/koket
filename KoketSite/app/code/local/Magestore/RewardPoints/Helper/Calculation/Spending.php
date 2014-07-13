@@ -125,10 +125,30 @@ class Magestore_RewardPoints_Helper_Calculation_Spending extends Magestore_Rewar
         $applyTaxAfterDiscount = (bool) Mage::getStoreConfig(
                         Mage_Tax_Model_Config::CONFIG_XML_PATH_APPLY_AFTER_DISCOUNT, $quote->getStoreId()
         );
+
+
+        //gert
+        /*
+        Mage::log(
+            '$baseTotal: ' . $baseTotal .
+            ' - $applyTaxAfterDiscount: ' . $applyTaxAfterDiscount .
+            ' - $address->getBaseTaxAmount():' . $address->getBaseTaxAmount(),
+            Zend_Log::DEBUG,  //Log level
+            'stogo.log',         //Log file name; if blank, will use config value (system.log by default)
+            true              //force logging regardless of config setting
+        );
+        */
         if (Mage::getStoreConfig(self::XML_PATH_SPEND_FOR_TAX, $quote->getStoreId()) && !$applyTaxAfterDiscount
         ) {
             $baseTotal += $address->getBaseTaxAmount();
+            //GERT add TAX again ?
+            //$baseTotal += ($address->getBaseTaxAmount() * .21);
         }
+        //GERT: test
+        //$baseTotal += $address->getBaseTaxAmount();
+
+
+
         if (Mage::getStoreConfig(self::XML_PATH_SPEND_FOR_SHIPPING, $quote->getStoreId())) {
             $baseTotal += $address->getBaseShippingAmount();
         }
@@ -136,7 +156,11 @@ class Magestore_RewardPoints_Helper_Calculation_Spending extends Magestore_Rewar
         ) {
             $baseTotal += $address->getBaseShippingTaxAmount();
         }
-        $this->saveCache($cacheKey, $baseTotal);
+
+        //gert test
+        //$baseTotal += 1000;
+
+            $this->saveCache($cacheKey, $baseTotal);
         return $baseTotal;
     }
 
@@ -366,7 +390,7 @@ class Magestore_RewardPoints_Helper_Calculation_Spending extends Magestore_Rewar
                         $discount = $price;
                     }
                 } elseif ($rule->getMaxPriceSpendedType() == 'by_percent') {
-                    $price = $baseTotal * $rule->getMaxPriceSpendedValue() / 100;
+                    $price =    $baseTotal * $rule->getMaxPriceSpendedValue() / 100;
                     if ($price < $discount) {
                         $discount = $price;
                     }
