@@ -17,7 +17,8 @@ h1, h2, h3 {
 }
 
 
-/*menu items*/
+
+
 #queldoreiNav>li>a {
     font-size: 35px;
     letter-spacing: normal;
@@ -38,12 +39,16 @@ h1, h2, h3 {
     top: 8px;
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 960px){
-    .search-field #queldoreiNav, .search-field #nav {
-        width: 420px;
-    }
+.search-field #queldoreiNav {
+    width: auto;
 }
 
+@media only screen and (max-width: 1200px) and (min-width: 960px){
+    .search-field #queldoreiNav, .search-field #nav {
+        /*width: 420px;*/
+        width: auto;
+    }
+}
 
 
 @media only screen and (max-width: 1200px) and (min-width: 960px){
@@ -345,6 +350,10 @@ div.account-create .page-title {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
+}
+
+#remember-me-box .link-tip {
+    padding-left: 14px;
 }
 
 #product_addtocart_form .info {
