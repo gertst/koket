@@ -53,8 +53,11 @@ class Magestore_RewardPoints_Helper_Calculation_Earning extends Magestore_Reward
         }
         //Hai.Tran 21/11
         $grandTotal = $quote->getBaseGrandTotal();
+
         if (!Mage::getStoreConfigFlag(self::XML_PATH_EARNING_BY_SHIPPING, $quote->getStoreId())) {
             $grandTotal -= $address->getBaseShippingAmount();
+            //added by GERT: the TAX on shipping should not be included in earning points, so subtract TAX (21%) on shipping amount
+            $grandTotal -= ($address->getBaseShippingAmount() * .21);
         }
         if (!Mage::getStoreConfigFlag(self::XML_PATH_EARNING_BY_TAX, $quote->getStoreId())) {
             $grandTotal -= $address->getBaseTaxAmount();
@@ -68,6 +71,9 @@ class Magestore_RewardPoints_Helper_Calculation_Earning extends Magestore_Reward
             'quote' => $quote,
             'container' => $container,
         ));
+
+
+
         return $container->getTotalPoints();
     }
     public function getEarningPointByCoupon($quote = null){
@@ -127,6 +133,17 @@ class Magestore_RewardPoints_Helper_Calculation_Earning extends Magestore_Reward
             $points = Mage::helper('rewardpoints/calculator')->round(
                     $baseGrandTotal * $rate->getPoints() / $rate->getMoney(), $store
             );
+
+            //gert
+/*
+            Mage::log(
+                $points . ' - $baseGrandTotal: ' . $baseGrandTotal . ' - $rate->getPoints(): ' . $rate->getPoints() . ' - $rate->getMoney(): ' . $rate->getMoney(),
+                Zend_Log::DEBUG,  //Log level
+                'stogo.log',         //Log file name; if blank, will use config value (system.log by default)
+                true              //force logging regardless of config setting
+            );
+*/
+
             $this->saveCache($cacheKey, $points);
         } else {
             $this->saveCache($cacheKey, 0);
