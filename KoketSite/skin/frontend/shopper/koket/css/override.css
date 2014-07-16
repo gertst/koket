@@ -548,6 +548,25 @@ button.button span span {
     background-color: #a60b08;
 }
 
-li.success-msg a {
+li.success-msg a, li.error-msg a {
     text-decoration: underline !important;
+}
+
+#contactForm ul.form-list {
+    list-style: none;
+}
+.account-create .info {
+    padding: 30px 30px;
+    margin: 20px 12px;
+    background-color: #d5ebcb;
+}
+
+.account-create .info h2{
+    padding: 12px 0;
+    font-family: "yanone kaffeesatz";
+    font-size: 28px;
+}
+
+.account-create .info p{
+    padding: 6px 0;
 }

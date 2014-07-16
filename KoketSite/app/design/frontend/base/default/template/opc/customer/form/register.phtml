@@ -14,7 +14,9 @@
     <div class="page-title">
         <h1><?php echo $this->__('Create an Account') ?></h1>
     </div>
-    <h2 style="padding: 20px 20px;background-color: #a7d194">Hier moet de tekst van de proefkonijnactie komen!</h2>
+<!--    GERT: added static block   -->
+    <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('create_account_info')->toHtml(); ?>
+
     <?php echo $this->getChildHtml('form_fields_before')?>
     <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
     <?php echo $this->getChildHtml('paypalauth.register'); ?>
@@ -166,6 +168,8 @@
         <?php if($this->getShowAddressFields()): ?>
         new RegionUpdater('country', 'region', 'region_id', <?php echo $this->helper('directory')->getRegionJson() ?>, undefined, 'zip');
         <?php endif; ?>
+        //GERT
+        window.scrollTo(0,0);
     //]]>
     </script>
 </div>
