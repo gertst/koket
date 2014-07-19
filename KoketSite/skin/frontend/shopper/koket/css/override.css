@@ -544,6 +544,10 @@ button.button span span {
     padding:0 0;
 }
 
+.footer-info ul.social {
+    margin: 0 0 !important;
+}
+
 .footer-info ul.social li a.google {
     background-color: #a60b08;
 }
@@ -569,4 +573,8 @@ li.success-msg a, li.error-msg a {
 
 .account-create .info p{
     padding: 6px 0;
+}
+
+#queldoreiNav li.level0.nav-4 span {
+    font-weight: bold;
 }

@@ -121,6 +121,7 @@
 "Discount Codes","Cadeaucheque & kortingscode"
 "Enter your coupon code if you have one.","Voer je kortingscode in als je die hebt."
 "Apply Coupon","Kortingscode gebruiken"
+"Cancel Coupon", "Kortingscode annuleren"
 "Apply","Invoeren"
 "Place Order","Bestelling plaatsen"
 "The account information has been saved.","Je gegevens zijn bijgewerkt."
@@ -138,3 +139,5 @@
 "You will receive a discount of € %s.","Je korting bedraagt €&nbsp;%s."
 "Please log in to spend your reward points.","Log in om van je kortingspunten gebruik te kunnen maken!"
 "Use point","Korting"
+"Cancel","Annuleer"
+"Items %s to %s of %s total","Artikelen %s tot %s van de %s"
