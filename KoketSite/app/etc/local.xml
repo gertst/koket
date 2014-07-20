@@ -41,8 +41,8 @@
             <default_setup>
                 <connection>
                     <host><![CDATA[localhost]]></host>
-                    <username><![CDATA[kokettek_magento]]></username>
-                    <password><![CDATA[8fW8WN36qv]]></password><!--GbszmJ4/8fW8WN36qv-->
+                    <username><![CDATA[root]]></username>
+                    <password><![CDATA[root]]></password><!--GbszmJ4/8fW8WN36qv-->
                     <dbname><![CDATA[kokettek_koket]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
@@ -50,6 +50,17 @@
                     <pdoType><![CDATA[]]></pdoType>
                     <active>1</active>
                 </connection>
+                <!--<connection>-->
+                    <!--<host><![CDATA[localhost]]></host>-->
+                    <!--<username><![CDATA[kokettek_magento]]></username>-->
+                    <!--<password><![CDATA[8fW8WN36qv]]></password>&lt;!&ndash;GbszmJ4/8fW8WN36qv&ndash;&gt;-->
+                    <!--<dbname><![CDATA[kokettek_koket]]></dbname>-->
+                    <!--<initStatements><![CDATA[SET NAMES utf8]]></initStatements>-->
+                    <!--<model><![CDATA[mysql4]]></model>-->
+                    <!--<type><![CDATA[pdo_mysql]]></type>-->
+                    <!--<pdoType><![CDATA[]]></pdoType>-->
+                    <!--<active>1</active>-->
+                <!--</connection>-->
             </default_setup>
         </resources>
         <session_save><![CDATA[db]]></session_save>
