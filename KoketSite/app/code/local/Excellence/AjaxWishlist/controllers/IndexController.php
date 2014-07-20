@@ -13,7 +13,12 @@ class Excellence_AjaxWishlist_IndexController extends Mage_Core_Controller_Front
 			if ($product->getId()/* && !$product->isSuper()*/) {
 				Mage::getSingleton('catalog/product_compare_list')->addProduct($product);
 				$response['status'] = 'SUCCESS';
-				$response['message'] = $this->__('The product %s has been added to comparison list.', Mage::helper('core')->escapeHtml($product->getName()));
+                //GERT: added a link "view list" to the popup
+                //$response['message'] = $this->__('The product %s has been added to comparison list.', Mage::helper('core')->escapeHtml($product->getName()));
+                $response['message'] = $this->__("The product %s has been added to comparison list.<br><a %s>View list</a>.",
+                    Mage::helper('core')->escapeHtml($product->getName()),
+                    "href='#' onclick='showComparePopup();return false;'");
+                //end GERT
 				Mage::register('referrer_url', $this->_getRefererUrl());
 				Mage::helper('catalog/product_compare')->calculate();
 				Mage::dispatchEvent('catalog_product_compare_add_product', array('product'=>$product));

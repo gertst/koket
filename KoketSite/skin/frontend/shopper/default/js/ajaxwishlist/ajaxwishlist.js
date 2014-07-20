@@ -22,7 +22,7 @@ jQuery(function ($) {
                 $('.alert').slideUp('400', function () {
                     $(this).slideUp(400, function(){ $(this).detach(); })
                 });
-            }, 7000)
+            }, 30000)
         });
     }
 
