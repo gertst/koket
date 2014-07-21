@@ -578,3 +578,8 @@ li.success-msg a, li.error-msg a {
 #queldoreiNav li.level0.nav-4 span {
     font-weight: bold;
 }
+
+#product_comparison tbody td .std {
+    overflow: auto;
+    max-height: 300px;
+}
