@@ -15,9 +15,11 @@ class Excellence_AjaxWishlist_IndexController extends Mage_Core_Controller_Front
 				$response['status'] = 'SUCCESS';
                 //GERT: added a link "view list" to the popup
                 //$response['message'] = $this->__('The product %s has been added to comparison list.', Mage::helper('core')->escapeHtml($product->getName()));
-                $response['message'] = $this->__("The product %s has been added to comparison list.<br><a %s>View list</a>.",
+                $response['message'] = $this->__("The product %s has been added to comparison list. %s View list %s",
                     Mage::helper('core')->escapeHtml($product->getName()),
-                    "href='#' onclick='showComparePopup();return false;'");
+                    "<br><a href='#' onclick='showComparePopup();return false;'><span class='compare-top' style='display: inline-block; margin: 10px 10px 0 10px'></span><br>",
+                    "</a>"
+                );
                 //end GERT
 				Mage::register('referrer_url', $this->_getRefererUrl());
 				Mage::helper('catalog/product_compare')->calculate();

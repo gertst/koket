@@ -52,7 +52,7 @@
 "%s was updated in your shopping cart.","%s werd aangepast in je mandje"
 "Cannot update the item.","Het product kan niet aangepast worden."
 "The product %s has been added to comparison list.","Het product %s werd aan de vergelijklijst toegevoegd."
-"The product %s has been added to comparison list.<br><a %s>View list</a>.","Het product %s werd aan de vergelijklijst toegevoegd.<br><a %s>Bekijk de lijst</a>."
+"The product %s has been added to comparison list. %s View list %s","%s<br>werd aan de vergelijklijst toegevoegd. %s Bekijk de lijst %s"
 "Wishlist Has Been Disabled By Admin","De verlanglijst is niet in werking"
 "Please Login First","Gelieve eerst in te loggen"
 "Unable to Create Wishlist","Unable to Create Wishlist"
