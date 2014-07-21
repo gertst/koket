@@ -136,6 +136,7 @@
 "Not connect. Verify Network.","Geen connectie. Controlleer je netwerk."
 "Please specify payment method","Kies een betaalwijze aub."
 "Please specify shipping method","Kies een verzendwijze aub."
+"Please specify a shipping method","Kies een verzendwijze aub."
 "You own %s points.","Je verzamelde reeds %s kortingspunten."
 "You will receive a discount of € %s.","Je korting bedraagt €&nbsp;%s."
 "Please log in to spend your reward points.","Log in om van je kortingspunten gebruik te kunnen maken!"
@@ -144,3 +145,4 @@
 "Items %s to %s of %s total","Artikelen %s tot %s van de %s"
 "The requested Payment Method is not available.","De gekozen betalingswijze is niet (meer) beschikbaar."
 "Some of the products are currently out of stock.","Sommige artikels zijn momenteel niet in voorraad."
+"The address has been deleted.","Het adres werd gewist."

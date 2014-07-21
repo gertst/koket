@@ -48,6 +48,12 @@ h1, h2, h3 {
         /*width: 420px;*/
         width: auto;
     }
+    .search-field #search {
+        width: 94px;
+    }
+    #search_mini_form .form-search button {
+        margin: -29px 0 0 109px !important;
+    }
 }
 
 

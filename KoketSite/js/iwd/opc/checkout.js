@@ -666,7 +666,7 @@ IWD.OPC.Shipping = {
 					}
 					IWD.OPC.Checkout.showLoader();
 					IWD.OPC.Checkout.xhr = $j.post(IWD.OPC.Checkout.config.baseUrl + 'onepage/json/saveShipping',form, IWD.OPC.Checkout.prepareAddressResponse);
-			}, 300);
+			}, 2000); //GERT: was 300
 		},
 		
 		saveShippingMethod: function(){
