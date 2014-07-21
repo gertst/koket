@@ -202,7 +202,7 @@ IWD.OPC = {
 			}
 			
 			IWD.OPC.Plugin.dispatch('responseSaveOrder', response);
-		},
+		}
 		
 		
 };
@@ -579,8 +579,8 @@ IWD.OPC.Billing = {
 					}
 					IWD.OPC.Checkout.showLoader();
 					IWD.OPC.Checkout.xhr = $j.post(IWD.OPC.Checkout.config.baseUrl + 'onepage/json/saveBilling',form, IWD.OPC.Checkout.prepareAddressResponse,'json');
-			}, 300);
-		},
+			}, 2000); //GERT was 300
+		}
 		
 		
 
@@ -696,7 +696,7 @@ IWD.OPC.Shipping = {
 				}
 				IWD.OPC.Checkout.showLoader();
 				IWD.OPC.Checkout.xhr = $j.post(IWD.OPC.Checkout.config.baseUrl + 'onepage/json/saveShippingMethod',form, IWD.OPC.Checkout.prepareShippingMethodResponse,'json');
-			}, 300);
+			}, 2000); //GERT: was 300
 		},
 		
 		validateShippingMethod: function(){			
