@@ -267,7 +267,7 @@
 "Welcome Text","Welkomsttekst"
 "Wrong number of arguments for %s","Fout aantal argumenten voor %s"
 "Your order can not be completed at this time as there is no payment methods available for it.","Uw bestelling kan niet worden afgerond omdat er geen betaalwijzen voor beschikbaar zijn"
-"Your order can not be completed at this time as there is no shipping methods available for it. Please make neccessary changes in your shipping address.","Uw bestelling kan niet worden afgerond omdat er geen verzendwijzen voor beschikbaar zijn. Breng de nodige wijzingen aan in uw afleveradres a.u.b."
+"Your order can not be completed at this time as there is no shipping methods available for it. Please make neccessary changes in your shipping address.","Uw bestelling kan niet worden afgerond omdat er geen verzendwijzen voor beschikbaar zijn. Breng de nodige wijzingen aan in uwleveradres a.u.b."
 "Your session has been expired, you will be relogged in now.","Uw sessie is verlopen. U wordt nu opnieuw ingelogd."
 "Card type does not match credit card number.","Kaarttype komt niet overeen met het ingevoerde nummer."
 "Credit card number does not match credit card type.","Kaartnummer niet geldig voor dit kaarttype."

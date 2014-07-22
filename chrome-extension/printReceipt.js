@@ -55,10 +55,10 @@ if (jQuery(".head-sales-order").length > 0) {
                 bodyTxt += "<td colspan='2'>" + totals + "</td>";
                 bodyTxt += "</tr>";
 
-                bodyTxt += "<tr>";
-                bodyTxt += "<td><b>Totaal Incl. BTW</b></td>";
-                bodyTxt += "<td class='price'><b>" + $grandTotal.html() + "</b></td>";
-                bodyTxt += "</tr>";
+//                bodyTxt += "<tr>";
+//                bodyTxt += "<td><b>Totaal Incl. BTW</b></td>";
+//                bodyTxt += "<td class='price'><b>" + $grandTotal.html() + "</b></td>";
+//                bodyTxt += "</tr>";
 
                 bodyTxt += "</table>";
 

@@ -256,6 +256,7 @@ header.fixed a.logo {
     text-transform:  none !important;
     font-size: inherit !important;
     font-family: 'Maven+Pro', Tahoma, sans-serif !important;
+    font-weight: bold;
 }
 
 #discount-coupon-form .discount {
