@@ -1,3 +1,4 @@
+<?php header('Content-Type: text/html; charset=utf-8'); ?>
 <?php
 ob_start();
 error_reporting(E_ALL | E_STRICT);

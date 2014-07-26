@@ -121,11 +121,12 @@ $action = Mage::app()->getFrontController()->getRequest()->getActionName();
     </div>
     <?php endif; // ( !($route == 'customer' && $action == 'login') ) : ?>
     <footer class="row clearfix">
-        <div class="grid_4">
-            <address><?php echo $this->getCopyright(); ?></address>
-        </div>
-        <div class="grid_8">
+        <div>
             <?php echo $this->getChildHtml('shopper_footer_links'); ?>
+        </div>
+
+        <div class="grid_4 kk-copyright">
+            <address ><?php echo $this->getCopyright(); ?></address>
         </div>
     </footer>
 </div>

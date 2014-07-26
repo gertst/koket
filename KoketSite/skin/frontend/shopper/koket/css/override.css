@@ -16,7 +16,9 @@ h1, h2, h3 {
     margin-top: 10px;
 }
 
-
+#queldoreiNav {
+    width: auto;
+}
 
 
 #queldoreiNav>li>a {
@@ -25,6 +27,24 @@ h1, h2, h3 {
     font-weight: 200;
     text-transform: uppercase;
     color: #ffffff;
+    transition: none !important;
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+}
+
+#queldoreiNav>li>a>span {
+     transition: none !important;
+     -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+}
+
+header.fixed #queldoreiNav {
+    margin: 12px 0 14px -14px;
+}
+header.fixed #queldoreiNav>li>a {
+    font-size: 27px;
 }
 
 #queldoreiNav>li>a span {
@@ -57,9 +77,10 @@ h1, h2, h3 {
 }
 
 
-@media only screen and (max-width: 1200px) and (min-width: 960px){
+/*@media only screen and (max-width: 1400px) and (min-width: 960px){*/
+@media only screen and (min-width: 960px){
     .top-dropdowns {
-        top: 20%;
+        top: 20% !important;
     }
     .fixed .top-dropdowns {
         top: 50%;
@@ -187,6 +208,23 @@ div#faq a {
 
 #faq .data-table th {
     padding: 2px 4px !important;
+}
+
+
+#verzenden-en-retourneren table td {
+    padding: 6px 4px;
+    font-size: 0.8rem;
+}
+
+#verzenden-en-retourneren tr:nth-child(4n+3){
+    background-color: #F5F3F3;
+}
+#verzenden-en-retourneren tr:nth-child(4n+4){
+    background-color: #F5F3F3;
+}
+
+#verzenden-en-retourneren table th {
+    padding: 16px 4px !important;
 }
 
 
@@ -558,6 +596,35 @@ button.button span span {
 .footer-info ul.social li a.google {
     background-color: #a60b08;
 }
+@media only screen and (max-width: 900px){
+    .footer-container ul.links {
+        /*width: 100% !important;*/
+
+    }
+    .footer-container ul.links li {
+        width: 200px;
+        display: block;
+        text-align: left;
+        line-height: 0px;
+        margin: 24px 14px;
+    }
+
+}
+
+.footer-container .kk-copyright {
+    float: right;
+    text-align: right;
+}
+footer ul.links {
+    float: left!important;
+}
+
+@media only screen and (max-width: 1200px){
+    .footer-container .kk-copyright {
+        display: none;
+    }
+
+}
 
 li.success-msg a, li.error-msg a {
     text-decoration: underline !important;
@@ -582,11 +649,37 @@ li.success-msg a, li.error-msg a {
     padding: 6px 0;
 }
 
-#queldoreiNav li.level0.nav-4 span {
+#queldoreiNav li.level0.nav-5 span {
     font-weight: bold;
 }
 
 #product_comparison tbody td .std {
     overflow: auto;
     max-height: 300px;
+}
+
+/*mobile*/
+.nav-container li.parent em {
+    height: 44px;
+}
+
+#workshops h1 { 
+    font-family: "Yanone Kaffeesatz";
+    font-size: 40px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+
+#workshops h2 {
+    font-family: "Yanone Kaffeesatz";
+    font-size: 30px;
+    margin: 50px 0 20px 0;
+}
+
+#workshops h3 {
+    margin: 0 0 20px 0;
+}
+
+#workshops p {
+    margin: 10px 0 10px 0;
 }
