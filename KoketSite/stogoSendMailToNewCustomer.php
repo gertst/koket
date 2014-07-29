@@ -25,7 +25,7 @@ $passwordLength = 10;
 if (isset($_GET["custid"])) {
     $customer_id = $_GET['custid'];
 } else {
-    echo ("Send-mail-to-newcustomers: error: no customer id");
+    echo ("Send-mail-to-newcustomers: error: no customer id (?custid=xxx)");
     exit;
 }
 $templateId = 1; //template in Transactional Emails called "New backend account informing password"
@@ -42,50 +42,60 @@ if(!empty($customer))
 
     $orderCollection = Mage::getModel("sales/order")->getCollection()->addFieldToFilter('customer_id', array('eq' => array($customer_id)));
     //only reset pw and send mail when new customer (= has one order)
-
+    $invoiceFound = false;
     if (count($orderCollection) == 1) {
-
-        $newPassword = $customer->generatePassword($passwordLength);
-        $customer->setPassword($newPassword)->save();
-        $mailTemplate = Mage::getModel('core/email_template');
-
-        $translate  = Mage::getSingleton('core/translate');
-
-
-        $template_collection =  $mailTemplate->load($templateId);
-        $template_data = $template_collection->getData();
-        if(!empty($template_data))
-        {
-            $templateId = $template_data['template_id'];
-            $mailSubject = $template_data['template_subject'];
-
-            //fetch sender data from Adminend > System > Configuration > Store Email Addresses > General Contact
-            $from_email = Mage::getStoreConfig('trans_email/ident_general/email'); //fetch sender email
-            $from_name = Mage::getStoreConfig('trans_email/ident_general/name'); //fetch sender name
-
-            $sender = array('name'  => $from_name,
-                'email' => $from_email);
-
-            $vars = array(  'customer'=>$customer,
-                            "newpass"=>$newPassword,
-                            "points"=>$points,
-                            "reduction"=>$reduction); //for replacing the variables in email with data
-            /*This is optional*/
-            $storeId = Mage::app()->getStore()->getId();
-            $model = $mailTemplate->setReplyTo($sender['email'])->setTemplateSubject($mailSubject);
-            $email = $customer->getEmail();
-            $name = $customer->getName();
-            $model->sendTransactional($templateId, $sender, $email, $name, $vars, $storeId);
-            if (!$mailTemplate->getSentSuccess()) {
-                throw new Exception();
+        foreach ($orderCollection as $order) {
+            if ($order->hasInvoices()) {
+                $invoiceFound = true;
             }
-            $translate->setTranslateInline(true);
-            echo("Welcome mail sent to new customer " . $email . ". Password: " . $newPassword);
+        }
+        //only backend sales already have an invoice when printing the receipt - online clients don't
+        if ($invoiceFound) {
 
-            registerToNewsletter($email);
 
+            $newPassword = $customer->generatePassword($passwordLength);
+            $customer->setPassword($newPassword)->save();
+            $mailTemplate = Mage::getModel('core/email_template');
+
+            $translate  = Mage::getSingleton('core/translate');
+
+
+            $template_collection =  $mailTemplate->load($templateId);
+            $template_data = $template_collection->getData();
+            if(!empty($template_data))
+            {
+                $templateId = $template_data['template_id'];
+                $mailSubject = $template_data['template_subject'];
+
+                //fetch sender data from Adminend > System > Configuration > Store Email Addresses > General Contact
+                $from_email = Mage::getStoreConfig('trans_email/ident_general/email'); //fetch sender email
+                $from_name = Mage::getStoreConfig('trans_email/ident_general/name'); //fetch sender name
+
+                $sender = array('name'  => $from_name,
+                    'email' => $from_email);
+
+                $vars = array(  'customer'=>$customer,
+                                "newpass"=>$newPassword,
+                                "points"=>$points,
+                                "reduction"=>$reduction); //for replacing the variables in email with data
+                /*This is optional*/
+                $storeId = Mage::app()->getStore()->getId();
+                $model = $mailTemplate->setReplyTo($sender['email'])->setTemplateSubject($mailSubject);
+                $email = $customer->getEmail();
+                $name = $customer->getName();
+                $model->sendTransactional($templateId, $sender, $email, $name, $vars, $storeId);
+                if (!$mailTemplate->getSentSuccess()) {
+                    throw new Exception();
+                }
+                $translate->setTranslateInline(true);
+                echo("Welcome mail + password sent to new customer " . $email . ". Password: " . $newPassword);
+
+                registerToNewsletter($email);
+            } else {
+                echo("Send-mail-to-newcustomers: error: empty email template");
+            }
         } else {
-            echo("Send-mail-to-newcustomers: error: empty email template");
+            echo("No welcome mail sent: 1 order found, but no invoices yet.");
         }
     } else {
         echo("Not a new client: No welcome mail sent. Order count: " . count($orderCollection));
