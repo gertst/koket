@@ -222,5 +222,5 @@
     Header set Access-Control-Allow-Origin "*"
 </IfModule>
 
-SetEnv MAGE_IS_DEVELOPER_MODE "false"
+SetEnv MAGE_IS_DEVELOPER_MODE "true"
 
