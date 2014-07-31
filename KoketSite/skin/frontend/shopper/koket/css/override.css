@@ -633,10 +633,20 @@ li.success-msg a, li.error-msg a {
 #contactForm ul.form-list {
     list-style: none;
 }
-.account-create .info {
+/*.account-create .info {*/
+    /*padding: 30px 30px;*/
+    /*margin: 20px 12px;*/
+    /*background-color: #d5ebcb;*/
+/*}*/
+
+.message {
     padding: 30px 30px;
-    margin: 20px 12px;
+    margin: 20px 0px;
     background-color: #d5ebcb;
+}
+.message ul {
+    list-style: disc;
+    margin-left: 30px;
 }
 
 .account-create .info h2{
