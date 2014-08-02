@@ -53,6 +53,17 @@ jQuery(function($){
     $('.pager .pages a').live('click', function(){
 	    $.cookie("queldorei_priceslider_page_"+Queldorei_Priceslider.currency_code+Queldorei_Priceslider.category_id, $.getLinkParam( $(this).attr('href'), 'p'), { path: '/' });
         reload($(this).attr('href'));
+        //GERT scroll to top only if start of listing (first .pages class) is not in viewport
+        var $gridTop = jQuery(".pages").first();
+        if($gridTop.position()){
+            console.log($gridTop.position() );
+            if($gridTop.position().top < jQuery(window).scrollTop()){
+                //scroll up
+                jQuery('html,body').animate({scrollTop:$gridTop.position().top+100}, 1000);
+            }
+        }
+
+
         return false;
     });
 
