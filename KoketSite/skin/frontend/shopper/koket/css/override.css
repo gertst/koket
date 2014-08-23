@@ -693,3 +693,11 @@ li.success-msg a, li.error-msg a {
 #workshops p {
     margin: 10px 0 10px 0;
 }
+
+p.workshop-date {
+    font-size: 1.1rem;
+}
+
+.workshop h2.product-name a {
+    font-size: 1.3rem;
+}

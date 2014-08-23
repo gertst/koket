@@ -125,7 +125,7 @@ echo '<div class="product-category-title">'.$_category->getName().'</div>';
                 <?php //echo $this->getChildHtml('product_additional_data')  ?>
 
 
-                <!--gert-->
+                <!--GERT-->
 
                 <table class="info">
                     <?php
@@ -143,46 +143,40 @@ echo '<div class="product-category-title">'.$_category->getName().'</div>';
                 </table>
 
 
-
                 <?php if(!$_product->isGrouped()): ?>
-                <div class="qty-container clearfix">
-                    <label for="qty"><?php echo $this->__('Qty') ?>:</label>
-                    <input type="text" name="qty" id="qty" maxlength="12" value="<?php echo $this->getProductDefaultQty() * 1 ?>" title="<?php echo $this->__('Qty') ?>" class="input-text qty" />
-                    <span class="unit"><?php echo $_product->getAttributeText('unit'); ?></span>
+
+                    <?php //GERT - show qty only when not sold by external party ?>
+                    <?php if($_product['workshop_externaly_sold'] == "0"): ?>
+
+                        <div class="qty-container clearfix">
+                            <label for="qty"><?php echo $this->__('Qty') ?>:</label>
+                            <input type="text" name="qty" id="qty" maxlength="12" value="<?php echo $this->getProductDefaultQty() * 1 ?>" title="<?php echo $this->__('Qty') ?>" class="input-text qty" />
+                            <span class="unit"><?php echo $_product->getAttributeText('unit'); ?></span>
 
 
-                    <p> <?php //echo print_r($_product["stock_item"]->debug());
-                        //echo $_product["stock_item"]["is_qty_decimal"]
-                        ?></p>
-                </div>
-                    <?php //GERT: show minimale bestelhoeveelheid: ?>
-                    <?php if($_product["stock_item"]["min_sale_qty"] > 0): ?>
-                        <div  class="minimum-amount">
-                            <?php
-                                $minimumAmount = $_product["stock_item"]["min_sale_qty"];
-                            if ($_product["stock_item"]["is_qty_decimal"] == 1 ){
-                                $minimumAmount = round($minimumAmount*100)/100;
-
-                            } else {
-                                $minimumAmount = round($minimumAmount);
-                            }
-                                //$minimumAmount = $this->formatPrecision($minimumAmount, 2);
-                            ?>
-                            <?php echo $this->__('Minimum order quantity') . ": " . $minimumAmount . " " . $_product->getAttributeText('unit'); ?>
+                            <p> <?php //echo print_r($_product["stock_item"]->debug());
+                                //echo $_product["stock_item"]["is_qty_decimal"]
+                                ?></p>
                         </div>
+
                     <?php endif; ?>
+
                 <?php endif; ?>
 
 
 
                 <?php if (!$this->hasOptions()):?>
-                    <div class="add-to-box">
-                        <?php if($_product->isSaleable()): ?>
-                            <?php echo $this->getChildHtml('addtocart') ?>
-                        <?php endif; ?>
-                    </div>
-                    <?php echo $this->getChildHtml('extra_buttons') ?>
-                <?php endif; ?>
+
+                    <?php //GERT - show add btn only when not sold by external party ?>
+                    <?php if($_product['workshop_externaly_sold'] == "0"): ?>
+                        <div class="add-to-box">
+                            <?php if($_product->isSaleable()): ?>
+                                <?php echo $this->getChildHtml('addtocart') ?>
+                            <?php endif; ?>
+                        </div>
+                        <?php echo $this->getChildHtml('extra_buttons') ?>
+                    <?php endif; ?>
+                 <?php endif; ?>
 
                 <?php if ($_product->isSaleable() && $this->hasOptions()):?>
                     <?php echo $this->getChildChildHtml('container1', '', true, true) ?>
