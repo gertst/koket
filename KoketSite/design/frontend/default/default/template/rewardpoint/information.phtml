@@ -1,0 +1,22 @@
+<?php
+	$unitName = Mage::helper('rewardpoint')->getUnitName();
+	$customer_id = Mage::helper('customer')->getCustomer()->getId();
+?>
+<div class="box-account">
+	<div class="box-head">
+		<h2><?php echo $this->__('Reward Information') ?></h2>
+		<a style="float:right" href="<?php echo Mage::getUrl('rewardpoint/index/viewCommission') ?>"><?php echo $this->__('View Detail History') ?></a>
+	</div>
+	<div class="info-summary">
+		<p><?php echo $this->__('Your current balance is <strong>%s %s</strong>',$this->getBalance($customer_id), $unitName) ?></p>
+		<?php $pointToMoneyRate = Mage::helper('rewardpoint')->getPointToMoneyRate($customer_id)?>
+		<?php $moneyToPointRate = Mage::helper('rewardpoint')->getMoneyToPointRate($customer_id)?>
+		<?php if ($pointToMoneyRate && $moneyToPointRate):?>
+		<p><b><?php echo $this->__('Exchange Rate');?></b></p>
+		<ul class="exchange-rate">
+			<li><?php echo $this->__('%s %s can be exchanged for %s when purchasing', $pointToMoneyRate->getPoints(), $unitName, Mage::helper('core')->currency($pointToMoneyRate->getMoney()));?></li>
+			<li><?php echo $this->__('Spend %s to receive %s %s', Mage::helper('core')->currency($moneyToPointRate->getMoney()), $moneyToPointRate->getPoints(), $unitName);?></li>
+		</ul>
+		<?php endif;?>
+	</div>
+</div>

@@ -47,6 +47,10 @@
     <!--GERT: add next line to have static page on cart - eg to inform about vacation-->
     <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('cart_extra_info')->toHTML(); ?>
     <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
+
+    <?php //GERT - get products for free when cart over 25 EUR ?>
+    <?php include "free-product.php" ?>
+
     <?php echo $this->getChildHtml('form_before') ?>
     <form action="<?php echo $this->getUrl('checkout/cart/updatePost') ?>" method="post">
         <?php echo $this->getBlockHtml('formkey'); ?>

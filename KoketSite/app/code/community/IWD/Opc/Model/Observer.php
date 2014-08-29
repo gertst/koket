@@ -48,9 +48,12 @@ class IWD_Opc_Model_Observer{
 			$order->addStatusHistoryComment($comment)->setIsVisibleOnFront(true)->setIsCustomerNotified(true);
 			$order->save();
 			$order->sendOrderUpdateEmail(true, $comment);
+
 		}catch(Exception $e){
 			Mage::logException($e);
 		}
 	}
+
+
 	
 }

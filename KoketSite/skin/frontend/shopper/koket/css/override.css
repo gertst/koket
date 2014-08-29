@@ -701,3 +701,44 @@ p.workshop-date {
 .workshop h2.product-name a {
     font-size: 1.3rem;
 }
+
+div#gifts {
+    padding: 40px;
+    background-color: #d5ebcb;
+}
+
+#gifts h2 {
+    font-size: 1.7rem;
+    font-family: Yanone Kaffeesatz;
+}
+
+#gifts p {
+    padding-top: 10px;
+}
+
+
+
+#gifts ul {
+    padding-top: 25px;
+}
+
+#gifts li {
+    float: left;
+    padding-right: 1px;
+    width: 180px;
+}
+
+#gifts button {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+@media only screen and (min-width: 960px){
+    #gifts button {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #gifts p.label {
+        /*min-height: 58px;*/
+    }
+}

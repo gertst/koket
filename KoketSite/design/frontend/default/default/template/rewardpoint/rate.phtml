@@ -1,0 +1,24 @@
+<?php
+	$unitName = Mage::helper('rewardpoint')->getUnitName();
+	$rule1 = Mage::helper('rewardpoint')->getPointToMoneyRate();
+	$rule2 = Mage::helper('rewardpoint')->getMoneyToPointRate();
+?>
+<div class="box">
+	<div class="box-title">
+		<h3><?php echo $this->__('Rate') ?></h3>
+	</div>
+	<p><?php echo $this->__('Your group name : ')?><strong><?php echo Mage::getModel('customer/group')->load(Mage::getSingleton('customer/session')->getCustomerGroupId())->getCode() ?></strong></p>
+	<p><?php echo $this->__('Exchange rate : ')?></p>
+	<ul>
+		<?php if ($rule1) : ?>
+		<li><?php echo $unitName ?><?php echo $this->__(' to money : ')?><strong> <?php echo $rule1->getPoints()?> <?php echo $unitName ?> </strong><?php echo $this->__(' for ')?><strong><?php echo Mage::app()->getLocale()->currency(Mage::app()->getStore()->getCurrentCurrencyCode())->getSymbol() . round($rule1->getMoney(), 2) ?></strong></li>
+		<?php else : ?>
+		<p class="note-msg"><?php echo $this->__('%s to money rate is not defined.', $unitName); ?></p>
+		<?php endif; ?>
+		<?php if ($rule2) : ?>
+		<li><?php echo $this->__('Money to ')?><?php echo $unitName ?> : <strong><?php echo Mage::app()->getLocale()->currency(Mage::app()->getStore()->getCurrentCurrencyCode())->getSymbol() . round($rule2->getMoney(), 2) ?></strong><?php echo $this->__(' for ')?><strong><?php echo $rule2->getPoints()?> <?php echo $unitName ?></strong></li>
+		<?php else : ?>
+		<p class="note-msg"><?php echo $this->__('Money to %s rate is not defined.', $unitName); ?></p>
+		<?php endif; ?>
+	</ul>
+</div>

@@ -1,0 +1,16 @@
+<config>
+    <modules>
+        <Stogo_CreateOrder>
+            <version>0.0.1</version>
+        </Stogo_CreateOrder>
+    </modules>
+    <global>
+        <models>
+            <adminhtml>
+                <rewrite>
+                    <sales_order_create>Stogo_CreateOrder</sales_order_create>
+                </rewrite>
+            </adminhtml>
+        </models>
+    </global>
+</config>

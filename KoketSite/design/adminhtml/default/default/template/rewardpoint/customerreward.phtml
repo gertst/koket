@@ -1,0 +1,28 @@
+<div class="entry-edit">
+	<div class="entry-edit-head"><h4 class="icon-head"><?php echo $this->__('Reward Points');?></h4></div>
+	<fieldset>
+		<?php echo $this->__('Current Balance: %s %s', $this->getCurrentBalance(), $this->getUnitName());?>
+	</fieldset>
+	
+	<div class="entry-edit-head"><h4 class="icon-head"><?php echo $this->__('Update Points');?></h4></div>
+	<fieldset>
+		<table cellspacing="2" class="form-list">
+			<tbody>
+				<tr>
+					<td class="label"><label><?php echo $this->__('Add points');?></label></td>
+					<td class="value"><input type="text" name="add_point" value="" class="input-text"/></td>
+        </tr>				
+				<tr>
+					<td class="label"><label><?php echo $this->__('Substract points')?></label></td>
+					<td class="value"><input type="text" name="substract_point" value="" class="input-text"/></td>
+        </tr>
+				<tr>
+					<td class="label"><label><?php echo $this->__('Message')?></label></td>
+					<td class="value">
+						<textarea name="change_reason" id="change_reason"></textarea>
+					</td>
+        </tr>
+			</tbody>
+		</table>
+	</fieldset>
+</div>
