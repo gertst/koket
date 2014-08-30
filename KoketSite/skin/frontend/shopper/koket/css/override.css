@@ -742,3 +742,11 @@ div#gifts {
         /*min-height: 58px;*/
     }
 }
+
+.cms-nieuwe-stoffen ul.products-grid {
+    list-style: none;
+}
+
+.cms-nieuwe-stoffen .toolbar-dropdown.over ul {
+    list-style: none;
+}

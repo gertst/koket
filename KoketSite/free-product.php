@@ -4,6 +4,11 @@
  * User: Gert
  * Date: 26/08/14
  * Time: 10:54
+ *
+ * call this code at KoketSite/app/design/frontend/shopper/koket/template/checkout/cart.phtml like this:
+ * <?php //GERT - get products for free when cart over 25 EUR ?>
+ * <?php include "free-product.php" ?>
+ *
  */
 
 $category_id_to_check = 30;//30;//27;//category id of gift products to choose from
@@ -60,8 +65,11 @@ if ($priceInclVat >= $priceThreshold) {
                 <li>
                     <img src="<?php echo $this->helper('catalog/image')->init($product, 'small_image')->resize(170, 170); ?>" alt="<?php echo $this->htmlEscape($product->getName()) ?>"/>
                     <p class="label"><?php echo $this->htmlEscape($product->getName()) ?></p>
-                    <button class="button" onclick="window.location='<?php echo (string)Mage::helper('checkout/cart')->getAddUrl($product);?>'"><span><span>Toevoegen</span></span></button>
-
+                    <?php if ($product->getStockItem()->getIsInStock()){ ?>
+                        <button class="button" onclick="window.location='<?php echo (string)Mage::helper('checkout/cart')->getAddUrl($product);?>'"><span><span>Toevoegen</span></span></button>
+                    <?php } else { ?>
+                        <p class="out-of-stock">Niet meer in voorraad</p>
+                    <?php } ?>
                 </li>
             <?php
             }
