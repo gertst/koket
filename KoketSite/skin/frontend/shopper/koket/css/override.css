@@ -743,10 +743,10 @@ div#gifts {
     }
 }
 
-.cms-nieuwe-stoffen ul.products-grid {
+.cms-nieuw ul.products-grid {
     list-style: none;
 }
 
-.cms-nieuwe-stoffen .toolbar-dropdown.over ul {
+.cms-nieuw div.toolbar ul {
     list-style: none;
 }

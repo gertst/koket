@@ -49,7 +49,7 @@
     <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
 
     <?php //GERT - get products for free when cart over 25 EUR ?>
-    <?php //include "free-product.php" ?>
+    <?php include "free-product.php" ?>
 
     <?php echo $this->getChildHtml('form_before') ?>
     <form action="<?php echo $this->getUrl('checkout/cart/updatePost') ?>" method="post">
