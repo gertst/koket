@@ -84,6 +84,8 @@ if ($priceInclVat >= $priceThreshold) {
     <div id="gifts">
         <h2>Koop voor minstens € 25.00 en je krijgt van ons een geschenkje!</h2>
         <p>Deze actie loopt nog gedurende de hele maand september.</p>
+
+        <p><a href="/acties">Meer info</a></p>
     </div>
 <?php
 }

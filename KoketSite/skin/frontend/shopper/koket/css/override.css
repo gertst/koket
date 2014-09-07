@@ -750,3 +750,18 @@ div#gifts {
 .cms-nieuw div.toolbar ul {
     list-style: none;
 }
+
+.category-products h2 a {
+    font-size: 17px;
+    text-transform: none;
+    margin-left: 25px;
+    text-decoration: underline !important;
+}
+
+p.show-all-new-products {
+    margin-top: 30px;
+}
+
+p.show-all-new-products a {
+    text-decoration: underline !important;
+}
