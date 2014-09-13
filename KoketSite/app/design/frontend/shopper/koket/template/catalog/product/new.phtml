@@ -23,7 +23,7 @@ $imgY = $helper->calculateHeight($imgX);
 ?>
 <?php if($_productCollection->getSize()): ?>
 <div class="category-products">
-    <h2>Nieuwe producten <a href="/nieuw">Toon alle nieuwe producten</a></h2>
+    <h2>Nieuwe producten <a href="/nieuw?mode=list">Toon alle nieuwe producten</a></h2>
 
 
     <ul class="products-grid <?php echo $grid_class; ?>">
@@ -121,6 +121,6 @@ $imgY = $helper->calculateHeight($imgX);
         </li>
         <?php endforeach ?>
     </ul>
-    <p class="show-all-new-products"><a href="/nieuw">Toon alle nieuwe producten</a></p>
+    <p class="show-all-new-products"><a href="/nieuw?mode=list">Toon alle nieuwe producten</a></p>
 </div>
 <?php endif; ?>
