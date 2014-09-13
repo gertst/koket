@@ -5,7 +5,7 @@
         <reference name="head">
             <action method="addJs" ifconfig="shoppersettings/ajax/wishlist"><script>queldorei/jquery-1.8.2.min.js</script></action>
 			<action method="addJs" ifconfig="shoppersettings/ajax/wishlist"><script>queldorei/jquery.noconflict.js</script></action>
-            <action method="addItem" ifconfig="shoppersettings/ajax/wishlist"><type>skin_js</type><name>js/ajaxwishlist/ajaxwishlist.js</name></action>
+            <!--<action method="addItem" ifconfig="shoppersettings/ajax/wishlist"><type>skin_js</type><name>js/ajaxwishlist/ajaxwishlist.js</name></action>-->
         </reference>
     </cms_page>
 
@@ -13,7 +13,7 @@
         <reference name="head">
             <action method="addJs" ifconfig="shoppersettings/ajax/wishlist"><script>queldorei/jquery-1.8.2.min.js</script></action>
 			<action method="addJs" ifconfig="shoppersettings/ajax/wishlist"><script>queldorei/jquery.noconflict.js</script></action>
-            <action method="addItem" ifconfig="shoppersettings/ajax/wishlist"><type>skin_js</type><name>js/ajaxwishlist/ajaxwishlist.js</name></action>
+            <!--<action method="addItem" ifconfig="shoppersettings/ajax/wishlist"><type>skin_js</type><name>js/ajaxwishlist/ajaxwishlist.js</name></action>-->
         </reference>
     </catalog_product_view>
 
@@ -21,7 +21,7 @@
         <reference name="head">
             <action method="addJs" ifconfig="shoppersettings/ajax/wishlist"><script>queldorei/jquery-1.8.2.min.js</script></action>
 			<action method="addJs" ifconfig="shoppersettings/ajax/wishlist"><script>queldorei/jquery.noconflict.js</script></action>
-            <action method="addItem" ifconfig="shoppersettings/ajax/wishlist"><type>skin_js</type><name>js/ajaxwishlist/ajaxwishlist.js</name></action>
+            <!--<action method="addItem" ifconfig="shoppersettings/ajax/wishlist"><type>skin_js</type><name>js/ajaxwishlist/ajaxwishlist.js</name></action>-->
         </reference>
     </catalog_category_default>
 
@@ -29,7 +29,7 @@
         <reference name="head">
             <action method="addJs" ifconfig="shoppersettings/ajax/wishlist"><script>queldorei/jquery-1.8.2.min.js</script></action>
 			<action method="addJs" ifconfig="shoppersettings/ajax/wishlist"><script>queldorei/jquery.noconflict.js</script></action>
-            <action method="addItem" ifconfig="shoppersettings/ajax/wishlist"><type>skin_js</type><name>js/ajaxwishlist/ajaxwishlist.js</name></action>
+            <!--<action method="addItem" ifconfig="shoppersettings/ajax/wishlist"><type>skin_js</type><name>js/ajaxwishlist/ajaxwishlist.js</name></action>-->
         </reference>
     </catalog_category_layered>
 
@@ -37,7 +37,7 @@
         <reference name="head">
             <action method="addJs" ifconfig="shoppersettings/ajax/wishlist"><script>queldorei/jquery-1.8.2.min.js</script></action>
 			<action method="addJs" ifconfig="shoppersettings/ajax/wishlist"><script>queldorei/jquery.noconflict.js</script></action>
-            <action method="addItem" ifconfig="shoppersettings/ajax/wishlist"><type>skin_js</type><name>js/ajaxwishlist/ajaxwishlist.js</name></action>
+            <!--<action method="addItem" ifconfig="shoppersettings/ajax/wishlist"><type>skin_js</type><name>js/ajaxwishlist/ajaxwishlist.js</name></action>-->
         </reference>
     </catalogsearch_advanced_result>
 
@@ -45,7 +45,7 @@
         <reference name="head">
             <action method="addJs" ifconfig="shoppersettings/ajax/wishlist"><script>queldorei/jquery-1.8.2.min.js</script></action>
 			<action method="addJs" ifconfig="shoppersettings/ajax/wishlist"><script>queldorei/jquery.noconflict.js</script></action>
-            <action method="addItem" ifconfig="shoppersettings/ajax/wishlist"><type>skin_js</type><name>js/ajaxwishlist/ajaxwishlist.js</name></action>
+            <!--<action method="addItem" ifconfig="shoppersettings/ajax/wishlist"><type>skin_js</type><name>js/ajaxwishlist/ajaxwishlist.js</name></action>-->
         </reference>
     </catalogsearch_result_index>
 
@@ -53,7 +53,7 @@
         <reference name="head">
             <action method="addJs" ifconfig="shoppersettings/ajax/wishlist"><script>queldorei/jquery-1.8.2.min.js</script></action>
 			<action method="addJs" ifconfig="shoppersettings/ajax/wishlist"><script>queldorei/jquery.noconflict.js</script></action>
-            <action method="addItem" ifconfig="shoppersettings/ajax/wishlist"><type>skin_js</type><name>js/ajaxwishlist/ajaxwishlist.js</name></action>
+            <!--<action method="addItem" ifconfig="shoppersettings/ajax/wishlist"><type>skin_js</type><name>js/ajaxwishlist/ajaxwishlist.js</name></action>-->
         </reference>
     </tag_product_list>
 
