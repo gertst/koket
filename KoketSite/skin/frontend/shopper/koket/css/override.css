@@ -301,6 +301,10 @@ header.fixed a.logo {
      margin-top: 70px;
 }
 
+#discount-coupon-form .buttons-set button.button {
+    margin-bottom: 4px;
+}
+
 #rewardpoints-needmore-points {
     font-size: inherit;
     font-weight: inherit;
@@ -344,6 +348,27 @@ header.fixed a.logo {
 .account-create a.back-link {
     display: none;
 }
+
+
+.customer-account-create .account-create p.required {
+    text-align: left;
+    padding-left: 14px;
+}
+
+.account-create .buttons-set .back-link {
+    float: left;
+    padding: 20px 14px;
+}
+
+.account-create h2 {
+    visibility: hidden;
+}
+
+.account-create #form-validate li {
+    margin: 0 50px 50px 0;
+    float: left;
+}
+
 
 #login-form .link-tip {
     margin-left: 5px;
@@ -449,6 +474,7 @@ div.account-create .page-title {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
+    height: 303px; /*to avoid empty grid cells when product name on 2 lines */
 }
 
 .products-grid .add-to-links {
@@ -588,6 +614,7 @@ button.button span span {
 .customer-account-create .account-create {
     padding:0 0;
 }
+
 
 .footer-info ul.social {
     margin: 0 0 !important;
