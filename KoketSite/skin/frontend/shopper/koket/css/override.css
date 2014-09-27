@@ -792,3 +792,8 @@ p.show-all-new-products {
 p.show-all-new-products a {
     text-decoration: underline !important;
 }
+
+.alert-stock a {
+    color: crimson;
+    text-decoration: underline;
+}
