@@ -122,17 +122,24 @@ class Webshopapps_Matrixrate_Model_Carrier_Matrixrate
 
 
         //changed by GERT to check on BE and neighbouring countries and enable free shipping when threshold is met
-        if (is_numeric($this->getConfigData('free_shipping_threshold'))) {
-            $threshold = 0;
-            if ($request->getDestCountryId() == "BE") {
-                $threshold = $this->getConfigData('free_shipping_threshold');
-            } else if (strrpos("DE,FR,NL,LU", $request->getDestCountryId()) != false) {
-                $threshold = $this->getConfigData('free_shipping_threshold_neighbours');
-            }
-            if ($threshold > 0 && $request->getPackageValue() + $tax >= $threshold) {
-                $freeShipping=true;
-            }
+        $threshold = 0;
+        if ($request->getDestCountryId() == "BE") {
+            $threshold = $this->getConfigData('free_shipping_threshold_BE');
+        } else if ($request->getDestCountryId() == "NL") {
+            $threshold = $this->getConfigData('free_shipping_threshold_NL');
+        } else if ($request->getDestCountryId() == "DE") {
+            $threshold = $this->getConfigData('free_shipping_threshold_DE');
+        } else if ($request->getDestCountryId() == "FR") {
+            $threshold = $this->getConfigData('free_shipping_threshold_FR');
+        } else if ($request->getDestCountryId() == "LU") {
+            $threshold = $this->getConfigData('free_shipping_threshold_LU');
         }
+
+        if ($threshold > 0 && $request->getPackageValue() + $tax >= $threshold) {
+            $freeShipping=true;
+        }
+
+        //end-GERT
 
     	if ($this->getConfigData('allow_free_shipping_promotions') &&
 	        ($request->getFreeShipping() === true || 

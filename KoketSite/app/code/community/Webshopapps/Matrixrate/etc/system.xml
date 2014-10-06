@@ -143,7 +143,7 @@
               <show_in_website>1</show_in_website>
               <show_in_store>1</show_in_store>
             </free_method_text>
-            <free_shipping_threshold translate="label">
+            <free_shipping_threshold_BE translate="label">
               <label>Minimum Order Amount For Free Shipping in BE</label>
               <frontend_type>text</frontend_type>
               <sort_order>100</sort_order>
@@ -153,18 +153,52 @@
               <show_in_default>1</show_in_default>
               <show_in_website>1</show_in_website>
               <show_in_store>1</show_in_store>
-            </free_shipping_threshold>
-            <free_shipping_threshold_neighbours translate="label">
-                  <label>Minimum Order Amount For Free Shipping in neighbouring countries</label>
+            </free_shipping_threshold_BE>
+              <free_shipping_threshold_NL translate="label">
+                  <label>Minimum Order Amount For Free Shipping in NL</label>
                   <frontend_type>text</frontend_type>
-                  <sort_order>101</sort_order>
+                  <sort_order>100</sort_order>
                   <tooltip>
                       Apply free shipping if this amount is exceeded
                   </tooltip>
                   <show_in_default>1</show_in_default>
                   <show_in_website>1</show_in_website>
                   <show_in_store>1</show_in_store>
-              </free_shipping_threshold_neighbours>
+              </free_shipping_threshold_NL>
+              <free_shipping_threshold_LU translate="label">
+                  <label>Minimum Order Amount For Free Shipping in LU</label>
+                  <frontend_type>text</frontend_type>
+                  <sort_order>100</sort_order>
+                  <tooltip>
+                      Apply free shipping if this amount is exceeded
+                  </tooltip>
+                  <show_in_default>1</show_in_default>
+                  <show_in_website>1</show_in_website>
+                  <show_in_store>1</show_in_store>
+              </free_shipping_threshold_LU>
+              <free_shipping_threshold_FR translate="label">
+                  <label>Minimum Order Amount For Free Shipping in FR</label>
+                  <frontend_type>text</frontend_type>
+                  <sort_order>100</sort_order>
+                  <tooltip>
+                      Apply free shipping if this amount is exceeded
+                  </tooltip>
+                  <show_in_default>1</show_in_default>
+                  <show_in_website>1</show_in_website>
+                  <show_in_store>1</show_in_store>
+              </free_shipping_threshold_FR>
+              <free_shipping_threshold_DE translate="label">
+                  <label>Minimum Order Amount For Free Shipping in DE</label>
+                  <frontend_type>text</frontend_type>
+                  <sort_order>100</sort_order>
+                  <tooltip>
+                      Apply free shipping if this amount is exceeded
+                  </tooltip>
+                  <show_in_default>1</show_in_default>
+                  <show_in_website>1</show_in_website>
+                  <show_in_store>1</show_in_store>
+              </free_shipping_threshold_DE>
+
             <include_free_ship_items translate="label">
               <label>Include Free Shipping Items in Rate Calculation</label>
               <frontend_type>select</frontend_type>
