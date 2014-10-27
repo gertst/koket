@@ -128,7 +128,7 @@ class Magestore_RewardPoints_Helper_Calculation_Spending extends Magestore_Rewar
 
 
         //gert
-        /*
+
         Mage::log(
             '$baseTotal: ' . $baseTotal .
             ' - $applyTaxAfterDiscount: ' . $applyTaxAfterDiscount .
@@ -137,7 +137,7 @@ class Magestore_RewardPoints_Helper_Calculation_Spending extends Magestore_Rewar
             'stogo.log',         //Log file name; if blank, will use config value (system.log by default)
             true              //force logging regardless of config setting
         );
-        */
+
         if (Mage::getStoreConfig(self::XML_PATH_SPEND_FOR_TAX, $quote->getStoreId()) && !$applyTaxAfterDiscount
         ) {
             $baseTotal += $address->getBaseTaxAmount();

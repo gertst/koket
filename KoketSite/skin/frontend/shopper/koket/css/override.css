@@ -63,6 +63,7 @@ header.fixed #queldoreiNav>li>a {
     width: auto;
 }
 
+
 @media only screen and (max-width: 1200px) and (min-width: 960px){
     .search-field #queldoreiNav, .search-field #nav {
         /*width: 420px;*/
@@ -83,7 +84,7 @@ header.fixed #queldoreiNav>li>a {
         top: 20% !important;
     }
     .fixed .top-dropdowns {
-        top: 50%;
+        top: 50% !important;
     }
 }
 .quick-view {
@@ -159,6 +160,11 @@ header a.logo {
     }
 }
 
+.header-container .links li {
+    padding: 0 3px;
+    margin: 0 0;
+}
+
 @media only screen and (max-width: 767px) {
     .row {
         margin: 0 auto;
@@ -169,11 +175,20 @@ header a.logo {
         width: 100%;
         margin: 0;
     }
+
+    .header-container  .links li {
+        padding: 10px 10px;
+        display: block;
+        text-align: left;
+        float: left;
+    }
+
+    .header-container .links li.separator {
+        display: none;
+    }
 }
 
-.links li {
-    padding: 0 3px;
-}
+
 
 .product-additional .block .block-content li {
     margin: 3px 0 0 0 !important;
@@ -227,13 +242,6 @@ div#faq a {
     padding: 16px 4px !important;
 }
 
-
-@media only screen and (max-width: 767px) {
-    ul.links {
-        float: none;
-        margin: 0 10px;
-    }
-}
 header .grid_12 {
 /*margin-left: 0;*/
 }
@@ -377,11 +385,22 @@ header.fixed a.logo {
     display: -webkit-inline-box;
 }
 
+#login-form .buttons-set {
+    padding: 15px 0px 35px 0;
+    margin: 0 0px;
+    text-align: right;
+}
+
 .registered-users .buttons-set {
     margin-left: 0;
 }
-.registered-users button {
-    margin-left: 30px;;
+
+.registered-users #forgot span {
+    background-color: #B7BAB8;
+}
+
+.registered-users input.input-text {
+    width: 268px;
 }
 
 .rewardpoints-name img {
@@ -477,7 +496,8 @@ div.account-create .page-title {
     height: 303px; /*to avoid empty grid cells when product name on 2 lines */
 }
 
-.products-grid .add-to-links {
+.category-products .add-to-links {
+    display: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -486,7 +506,7 @@ div.account-create .page-title {
     font-size: 12px;
 }
 
-.products-grid .add-to-links a {
+.category-products .add-to-links a {
     color: #4d4d4d;
 }
 
@@ -574,6 +594,7 @@ button.button span span {
     padding-bottom: 10px;
 }
 
+
 .cms-privacy-beleid .col-main h2 {
     padding-top: 20px;
 }
@@ -608,11 +629,11 @@ button.button span span {
 }
 
 .customer-account-login .account-login {
-    padding:0 0;
+    padding:0 10px;
 }
 
 .customer-account-create .account-create {
-    padding:0 0;
+    padding:0 10px;
 }
 
 
@@ -796,4 +817,51 @@ p.show-all-new-products a {
 .alert-stock a {
     color: crimson;
     text-decoration: underline;
+}
+
+li.level1.nav-1-9 span {
+    font-weight: bold;
+}
+
+li.level1.nav-2-5 span {
+    font-weight: bold;
+}
+
+.old-browser-notice {
+    margin: 0;
+    padding: 6px 10px;
+    background: #d75f07;
+    font-size: 12px;
+    line-height: 1.15;
+    text-align: center;
+    color: #fff;
+}
+
+.old-browser-notice a {
+    color: #F4EA35;
+}
+
+div.free-sample-holder {
+    clear: both;
+    padding: 10px 0;
+}
+
+div.free-sample {
+    clear: both;
+    margin: 20px 0;
+    display: none;
+    background: #fff;
+    border: none;
+    border-top: 6px solid #a3d48d;
+    padding: 10px 30px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.10);
+}
+
+div.free-sample p {
+    margin: 10px 0;
 }

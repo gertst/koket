@@ -19,7 +19,7 @@ if (jQuery(".head-sales-order").length > 0) {
         var bodyTxt = "";
 
         jQuery.ajax({
-            url : "http://www.kokettekatinka.be/print-receipt/receipt-header.html?" + cacheNr,
+            url : "https://www.kokettekatinka.be/print-receipt/receipt-header.html?" + cacheNr,
             dataType: "text",
             success : function (header) {
 
@@ -65,7 +65,7 @@ if (jQuery(".head-sales-order").length > 0) {
                 html = html.split("{{body}}").join(bodyTxt);
 
                 jQuery.ajax({
-                    url : "http://www.kokettekatinka.be/print-receipt/receipt-footer.html" + cacheNr,
+                    url : "https://www.kokettekatinka.be/print-receipt/receipt-footer.html" + cacheNr,
                     dataType: "text",
                     success : function (footer) {
 
@@ -164,7 +164,7 @@ function resetPasswordAndSendMailToFirstTimeUsers() {
         dataType:"html",
         type:"get",
         data: { custid:custId },
-        url: "http://www.kokettekatinka.be/stogoSendMailToNewCustomer.php"
+        url: "https://www.kokettekatinka.be/stogoSendMailToNewCustomer.php"
     }).done(function(response) {
             jQuery("<p style='color: #eb5e00;'>" + response + "</p>").insertAfter(jQuery(".content-header"));
         });

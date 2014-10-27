@@ -87,6 +87,7 @@ echo '<div class="product-category-title">'.$_category->getName().'</div>';
         <div class="product-shop">
             <?php
             $output = '';
+
             switch ($replace_upsell) {
                 case 'always':
                     $output = $this->getChildHtml('queldorei_product_additional');
@@ -99,6 +100,8 @@ echo '<div class="product-category-title">'.$_category->getName().'</div>';
                     if ( empty($output) ) $output = $this->getChildHtml('queldorei_product_additional');
                     break;
             }
+
+
             if(!empty($output)){
                 echo '<div class="product-additional">'.$output.'</div>';
             }
@@ -122,38 +125,35 @@ echo '<div class="product-category-title">'.$_category->getName().'</div>';
 
                 <?php echo $this->getChildHtml('other');?>
 
-                <?php //echo $this->getChildHtml('product_additional_data')  ?>
 
 
-                <!--gert-->
+                <?php //GERT - show product attribute table if not a sample  ?>
+                <?php if(!strrpos($_product->getSku(), "sample")):?>
+                    <table class="info">
+                        <?php
+                        $add = new Mage_Catalog_Block_Product_View_Attributes();
+                        $add->setProduct($_product->getId());
+                        $_additional = $add->getAdditionalData();
+                        ?>
+                        <?php foreach ($_additional as $_data): ?>
+                            <tr>
+                                <th><?php echo $_data['label'] ?></th>
+                                <td><?php echo $_data['value'] ?></td>
+                            </tr>
+                        <?php endforeach; ?>
 
-                <table class="info">
-                    <?php
-                    $add = new Mage_Catalog_Block_Product_View_Attributes();
-                    $add->setProduct($_product->getId());
-                    $_additional = $add->getAdditionalData();
-                    ?>
-                    <?php foreach ($_additional as $_data): ?>
-                        <tr>
-                            <th><?php echo $_data['label'] ?></th>
-                            <td><?php echo $_data['value'] ?></td>
-                        </tr>
-                    <?php endforeach; ?>
+                    </table>
+                <?php endif; ?>
 
-                </table>
-
-
-
-                <?php if(!$_product->isGrouped()): ?>
+                <?php //GERT ?>
+                <?php if(!$_product->isGrouped() && !strrpos($_product->getSku(), "sample")): ?>
                 <div class="qty-container clearfix">
                     <label for="qty"><?php echo $this->__('Qty') ?>:</label>
                     <input type="text" name="qty" id="qty" maxlength="12" value="<?php echo $this->getProductDefaultQty() * 1 ?>" title="<?php echo $this->__('Qty') ?>" class="input-text qty" />
                     <span class="unit"><?php echo $_product->getAttributeText('unit'); ?></span>
 
 
-                    <p> <?php //echo print_r($_product["stock_item"]->debug());
-                        //echo $_product["stock_item"]["is_qty_decimal"]
-                        ?></p>
+                    <p> </p>
                 </div>
 
                     <?php if($_product["stock_item"]["min_sale_qty"] > 0): ?>
@@ -174,10 +174,9 @@ echo '<div class="product-category-title">'.$_category->getName().'</div>';
                 <?php endif; ?>
 
 
-
                 <?php if (!$this->hasOptions()):?>
                     <div class="add-to-box">
-                        <?php if($_product->isSaleable()): ?>
+                        <?php if($_product->isSaleable() && !strrpos($_product->getSku(), "sample")):?>
                             <?php echo $this->getChildHtml('addtocart') ?>
                         <?php endif; ?>
                     </div>
@@ -187,6 +186,83 @@ echo '<div class="product-category-title">'.$_category->getName().'</div>';
                 <?php if ($_product->isSaleable() && $this->hasOptions()):?>
                     <?php echo $this->getChildChildHtml('container1', '', true, true) ?>
                 <?php endif;?>
+
+                <?php //GERT: next lines add a button to buy a sample if attribute set == "stoffen"
+                /**
+                 * WJB - Order Samples in Magento 1.8
+                 *
+                 * https://gist.github.com/WazzaJB/8083094
+                 *
+                 * Upload this file to the root of your Magento installation and then you will
+                 * need to add the following snippet to your 'template/catalog/product/view.phtml'
+                 *
+                 * You may need to change some of the values below in the sample creation code
+                 * but this is all commented so it should be simple enough - my advice would be
+                 * to read through and edit where necessary
+                 **/
+                ?>
+                <?php if (Mage::getModel('eav/entity_attribute_set')->load($_product->getAttributeSetId())->getAttributeSetName() == "Stoffen"
+                    && !strrpos($_product->getSku(), "sample")) :?>
+
+                    <div class="free-sample-holder">
+                        <button type="button"
+                            title="Gratis staaltje?"
+                            onclick="toggleFreeSample();"
+                            class="button btn-cart"
+                            class="lwd-button lwd-button-sample">
+                            <span><span>Gratis staaltje?</span></span>
+                        </button>
+                    </div>
+                    <div class="free-sample">
+                        <p>Een staaltje kost €0,30 maar dit bedrag krijg je integraal terug in de vorm van kortingspunten.</p>
+                        <p>Deze worden automatisch verrekend bij je volgende aankoop, zowel in de webshop als in de winkel. </p>
+                        <p>Met kortingspunten kan je geen staaltjes kopen.</p>
+                        <p>Afmeting staaltje: 10 x 10 cm</p>
+                        <input type="hidden" name="sample-sku" value="<?php echo $this->htmlEscape($_product->getSku()) ?>" />
+                        <button type="button"
+                        title="Bestel"
+                        onclick="sampleAddToCart(this)"
+                        class="button btn-cart"
+                        class="lwd-button lwd-button-sample">
+                            <span><span>Bestel staaltje</span></span>
+                        </button>
+                    </div>
+                    <script type="text/javascript">
+                        function toggleFreeSample() {
+                            jQuery('.free-sample-holder').hide();
+                            jQuery('.free-sample').show();
+                            jQuery('.free-sample').css("display", "inline-block");
+                        }
+
+                        function sampleAddToCart(sample)
+                        {
+                            var do_continue = true;
+
+                            var sku = jQuery(sample).data('sku');
+
+                            jQuery('.required-entry[name^="super_attribute"]').each( function() {
+                                if( !jQuery(this).val() )
+                                {
+                                    jQuery(this).addClass('validation-failed');
+                                    jQuery(this).after('<div class="validation-advice" id="advice-required-entry-attribute">This is a required field.</div>');
+                                    do_continue = false;
+                                }
+                            });
+
+                            if( do_continue )
+                            {
+                                console.log('lets go');
+                                jQuery('#product_addtocart_form')
+                                    .attr('action', '/create-sample.php' )
+                                    .submit();
+                            }
+
+                            return false;
+                        }
+                    </script>
+                    <?php //END GERT staaltje ?>
+                <?php endif;?>
+
 
                 <?php echo $this->getChildHtml('addto') ?>
                 <div class="clear"></div>

@@ -171,6 +171,7 @@ echo '<div class="product-category-title">'.$_category->getName().'</div>';
                             <?php echo $this->__('Minimum order quantity') . ": " . $minimumAmount . " " . $_product->getAttributeText('unit'); ?>
                         </div>
                     <?php endif; ?>
+
                 <?php endif; ?>
 
 
@@ -197,6 +198,7 @@ echo '<div class="product-category-title">'.$_category->getName().'</div>';
 	    <?php if ($_product->isSaleable() && $this->hasOptions()):?>
 	        <?php echo $this->getChildChildHtml('container2', '', true, true) ?>
 	    <?php endif;?>
+
     </form>
     <script type="text/javascript">
     //<![CDATA[
