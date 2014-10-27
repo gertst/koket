@@ -41,10 +41,10 @@ class Magestore_RewardPoints_Model_Total_Pdf_Pointearn extends Mage_Sales_Model_
      */
     public function getTotalsForDisplay()
     {
-        $amount = $this->getOrder()->formatPriceTxt($this->getAmount());
-        if ($this->getAmountPrefix()) {
-            $amount = $this->getAmountPrefix().$amount;
-        }
+        $amount = str_replace("€", "", $this->getOrder()->formatPriceTxt($this->getAmount()));
+//        if ($this->getAmountPrefix()) {
+//            $amount = $this->getAmountPrefix().$amount;
+//        }
         $label = Mage::helper('rewardpoints')->__($this->getTitle()) . ':';
         $fontSize = $this->getFontSize() ? $this->getFontSize() : 7;
         $total = array(
