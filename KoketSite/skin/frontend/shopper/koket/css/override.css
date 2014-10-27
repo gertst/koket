@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Maven+Pro);
+@import url(https://fonts.googleapis.com/css?family=Maven+Pro);
 
 
 body {
@@ -146,6 +146,7 @@ header a.logo {
         margin:0 auto;
         width: 100%;
     }
+
 }
 
 @media only screen and (max-width: 767px) and (min-width: 480px) {
@@ -185,6 +186,10 @@ header a.logo {
 
     .header-container .links li.separator {
         display: none;
+    }
+
+    header a.logo img {
+        max-width: 20%;
     }
 }
 
@@ -434,7 +439,7 @@ div.account-create .page-title {
 
 .remember-me-popup .remember-me-popup-body a {
     border: 1px solid #a3d48d;
-    background: #a3d48d url('http://www.kokettekatinka.be/skin/frontend/shopper/default/images/btn_overlay.png') 0 0 repeat-x;
+    background: #a3d48d url('/skin/frontend/shopper/default/images/btn_overlay.png') 0 0 repeat-x;
     padding: 0px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
