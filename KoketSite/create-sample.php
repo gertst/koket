@@ -141,7 +141,7 @@ if ( !$pId )
     $product->setAttributeSetId(10); // THIS NEEDS CHANGING - IN MY CASE IT WAS 4 - stoffen
 
     $product->setCategoryIds("33"); // CHECK YOUR VALUE(s) staaltjes: 28
-    $product->setWeight(100); // SET THE SAMPLES WEIGHT HERE IF YOU HAVE WEIGHT BASED SHIPPING
+    $product->setWeight(4); // SET THE SAMPLES WEIGHT HERE IF YOU HAVE WEIGHT BASED SHIPPING
     $product->setTaxClassId(5); // SET THE TAX GROUP: hoog
     $product->setVisibility(Mage_Catalog_Model_Product_Visibility::VISIBILITY_IN_CATALOG);
     $product->setStatus(1); // ENABLE THE PRODUCT

@@ -201,8 +201,7 @@ echo '<div class="product-category-title">'.$_category->getName().'</div>';
                  * to read through and edit where necessary
                  **/
                 ?>
-                <?php if (Mage::getModel('eav/entity_attribute_set')->load($_product->getAttributeSetId())->getAttributeSetName() == "Stoffen"
-                    && !strrpos($_product->getSku(), "sample")) :?>
+                <?php if ($_product->getData('toon_staaltje') == 1 && !strrpos($_product->getSku(), "sample")) :?>
 
                     <div class="free-sample-holder">
                         <button type="button"
