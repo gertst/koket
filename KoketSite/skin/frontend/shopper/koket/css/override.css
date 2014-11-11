@@ -501,6 +501,12 @@ div.account-create .page-title {
     height: 303px; /*to avoid empty grid cells when product name on 2 lines */
 }
 
+.products-grid .product-image img {
+    border-width: 1px;
+    border-color: #E7EDEB;
+    border-style: solid;
+}
+
 .category-products .add-to-links {
     display: none;
     -webkit-box-shadow: none;
