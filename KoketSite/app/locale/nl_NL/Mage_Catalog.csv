@@ -594,7 +594,7 @@
 "Zoom Out","Uitzoomen"
 "[GLOBAL]","[GLOBAAL]"
 "and","en"
-"and above","en hoger"
+"%s and above","%s en meer"
 "cache refresh needed","Cache moet ververst worden"
 "categories","Categorie&euml;n"
 "comma separated","komma-gescheiden"
