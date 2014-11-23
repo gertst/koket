@@ -450,15 +450,51 @@ class Mage_Core_Model_Email_Template extends Mage_Core_Model_Template
         $mail->setSubject('=?utf-8?B?' . base64_encode($this->getProcessedTemplateSubject($variables)) . '?=');
         $mail->setFrom($this->getSenderEmail(), $this->getSenderName());
 
+        //GERT REPLACED TO TEST MAILS LOCALLY: http://inchoo.net/magento/magento-l-e-s-s/
+//        try {
+//            $mail->send();
+//            $this->_mail = null;
+//        }
+//        catch (Exception $e) {
+//            $this->_mail = null;
+//            Mage::logException($e);
+//            return false;
+//        }
+
+        /* START LESS - (L)ocalhost (E)mail (S)erver (S)imulator */
+        $time = date('dmY_His');
+        /* END LESS - (L)ocalhost (E)mail (S)erver (S)imulator */
+
+
         try {
             $mail->send();
+
+            /* START LESS - (L)ocalhost (E)mail (S)erver (S)imulator */
+            if($this->isPlain()) {
+                Mage::log($text, null, 'inchoo_less_email_ok_text_'.$time.'.log', true);
+            } else {
+                Mage::log($text, null, 'inchoo_less_email_ok_text_'.$time.'.html', true);
+            }
+            /* END LESS - (L)ocalhost (E)mail (S)erver (S)imulator */
+
             $this->_mail = null;
         }
         catch (Exception $e) {
             $this->_mail = null;
+
+            /* START LESS - (L)ocalhost (E)mail (S)erver (S)imulator */
+            if($this->isPlain()) {
+                Mage::log($text, null, 'inchoo_less_email_exception_text_'.$time.'.log', true);
+            } else {
+                Mage::log($text, null, 'inchoo_less_email_exception_text_'.$time.'.html', true);
+            }
+            /* END LESS - (L)ocalhost (E)mail (S)erver (S)imulator */
+
             Mage::logException($e);
             return false;
         }
+
+        //END REPLACE GERT
 
         return true;
     }
