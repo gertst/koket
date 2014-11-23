@@ -1,7 +1,0 @@
-<?php if (Mage::helper('rewardpoint')->displayInProductPage()):?>
-	<div class="rewardpoint-info">
-		<?php if ($rewardPoint = $this->getRewardPointByProduct()):?>
-			<p><span><?php echo $this->__('You will receive %s %s for purchasing this product', $rewardPoint, $this->getUnitName());?></span></p>
-		<?php endif;?>	
-	</div>
-<?php endif;?>

@@ -42,7 +42,7 @@
 "There was an error while adding item to wishlist: %s","Fout tijdens het toevoegen van artikel aan verlanglijst: %s"
 "There was an error while deleting item from wishlist.","Fout tijdens het verwijderen van artikel van verlanglijst"
 "There was an error while deleting item from wishlist: %s","Fout opgetreden tijdens het verwijderen van artikel van verlanglijst: %s"
-"This product(s) is currently out of stock:","Dit product is momenteel niet in voorraad"
+"This product(s) is currently out of stock:","Dit product is momenteel niet in voorraad. Verwijder het uit je mandje om verder te kunnen gaan."
 "Update Wishlist","Verlanglijst updaten"
 "View Product","Product bekijken"
 "Wishlist","Verlanglijst"

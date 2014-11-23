@@ -144,7 +144,7 @@ class Mollie_Mpm_Helper_Data extends Mage_Core_Helper_Abstract
 	 */
 	public function getApiKey()
 	{
-		return trim(Mage::getStoreConfig("payment/mollie/apikey"));
+		return trim(Mage::getStoreConfig("payment/mollie/apikey", $this->getCurrentStore()));
 	}
 
 	/**
@@ -161,9 +161,19 @@ class Mollie_Mpm_Helper_Data extends Mage_Core_Helper_Abstract
 		$paymentmethods = array('mollie');
 
 		if(in_array($key, $arr) && in_array($paymentmethod, $paymentmethods))
-			return Mage::getStoreConfig("payment/{$paymentmethod}/{$key}");
+			return Mage::getStoreConfig("payment/{$paymentmethod}/{$key}", $this->getCurrentStore());
 
 		return NULL;
+	}
+
+	/**
+	 * Gets selected store in admin
+	 *
+	 * @return string
+	 */
+	public function getCurrentStore()
+	{
+		return Mage::app()->getRequest()->getParam('store');
 	}
 
 	/**
@@ -303,6 +313,23 @@ class Mollie_Mpm_Helper_Data extends Mage_Core_Helper_Abstract
 		return '<b>'.$core->__('Status').'</b><br /><span style="color:green">'.$core->__('Module status: OK!').'</span>';
 	}
 
+	/**
+	 * Gets status from order_id
+	 *
+	 * @param int $order_id
+	 * @return string|NULL
+	 */
+	public function getWaitingPayment($order_id)
+	{
+		$order = Mage::getModel('sales/order')->loadByIncrementId($order_id);
+		if ($order['status'] == Mage_Sales_Model_Order::STATE_PENDING_PAYMENT)
+		{
+			return '<span class="mpm_waiting_msg">'. Mage::helper('core')->__($this->__('Your order is awaiting payment before being released for processing and shipment.')) .'</span>';
+		}
+		return NULL;
+	}
+	
+	
 	public function getModuleVersion()
 	{
 		return Mage::getConfig()->getNode('modules')->children()->Mollie_Mpm->version;
