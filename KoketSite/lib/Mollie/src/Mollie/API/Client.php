@@ -34,7 +34,7 @@ class Mollie_API_Client
 	/**
 	 * Version of our client.
 	 */
-	const CLIENT_VERSION = "1.1.4";
+	const CLIENT_VERSION = "1.1.6";
 
 	/**
 	 * Endpoint of the remote API.
@@ -188,18 +188,12 @@ class Mollie_API_Client
 			"X-Mollie-Client-Info: " . php_uname(),
 		);
 
+		curl_setopt($ch, CURLOPT_CUSTOMREQUEST, $http_method);
+		
 		if ($http_body !== NULL)
 		{
 			$request_headers[] = "Content-Type: application/json";
-
-			if ($http_method == self::HTTP_POST)
-			{
-				curl_setopt($ch, CURLOPT_POST, 1);
-			}
-			else
-			{
-				curl_setopt($ch, CURLOPT_CUSTOMREQUEST, $http_method);
-			}
+			curl_setopt($ch, CURLOPT_POST, 1);
 			curl_setopt($ch, CURLOPT_POSTFIELDS, $http_body);
 		}
 
@@ -219,6 +213,20 @@ class Mollie_API_Client
 			curl_setopt($ch, CURLOPT_HTTPHEADER, $request_headers);
 			curl_setopt($ch, CURLOPT_CAINFO, realpath(dirname(__FILE__) . "/cacert.pem"));
 			$body = curl_exec($ch);
+
+			if (strpos(curl_error($ch), "error setting certificate verify locations") !== FALSE)
+			{
+				/*
+				 * Error setting CA-file. Could be missing, or there is a bug in OpenSSL with too long paths.
+				 * We give up. Don't do any peer validations.
+				 *
+				 * @internal #MOL017891004
+				 */
+				array_shift($request_headers);
+				$request_headers[] = "X-Mollie-Debug: unable to use shipped root certificaties, no peer validation.";
+				curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
+				$body = curl_exec($ch);
+			}
 		}
 
 		if (strpos(curl_error($ch), "certificate subject name 'mollie.nl' does not match target host") !== FALSE)
