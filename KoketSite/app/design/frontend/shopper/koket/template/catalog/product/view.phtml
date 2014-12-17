@@ -200,8 +200,11 @@ echo '<div class="product-category-title">'.$_category->getName().'</div>';
                  * but this is all commented so it should be simple enough - my advice would be
                  * to read through and edit where necessary
                  **/
+
                 ?>
-                <?php if ($_product->getData('toon_staaltje') == 1 && !strrpos($_product->getSku(), "sample")) :?>
+                <?php if ($_product->getData('toon_staaltje') == 1
+                        && !strrpos($_product->getSku(), "sample") ) : ?>
+
 
                     <div class="free-sample-holder">
                         <button type="button"
@@ -227,6 +230,11 @@ echo '<div class="product-category-title">'.$_category->getName().'</div>';
                         </button>
                     </div>
                     <script type="text/javascript">
+
+                        //hide btn if out of stock
+                        if (jQuery(".availability.out-of-stock").length > 0) {
+                            jQuery(".free-sample-holder").hide();
+                        }
                         function toggleFreeSample() {
                             jQuery('.free-sample-holder').hide();
                             jQuery('.free-sample').show();
