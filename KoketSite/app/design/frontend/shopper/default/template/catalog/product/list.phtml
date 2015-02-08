@@ -147,6 +147,7 @@ $empty_category_block = Mage::getModel('cms/block')
                     <?php echo $this->helper('shoppersettings')->getLabel($_product);  ?>
                     <img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize($imgX, $imgY) ?>" data-srcX2="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize($imgX*2, $imgY*2) ?>" width="<?php echo $imgX; ?>" height="<?php echo $imgY; ?>" alt="<?php echo $this->htmlEscape($_product->getName()) ?>" />
                 </a>
+
                 <div class="product-info">
                     <div class="button-container">
                         <?php if($_product->isSaleable()): ?>

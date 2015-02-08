@@ -34,7 +34,7 @@
 "The minimum quantity allowed for purchase is %s.","Het minimale aankoopaantal is %s."
 "The requested quantity for ""%s"" is not available.","Het gewenste aantal voor “%s” is niet beschikbaar."
 "The requested quantity is not available.","Het gewenste aantal is niet beschikbaar."
-"This product is currently out of stock.","Dit product is momenteel niet in voorraad"
+"This product is currently out of stock.","Dit product is momenteel niet in voorraad. Verwijder het uit je mandje om verder te kunnen gaan."
 "To Fixed Value","Tot vast bedrag"
 "To Percentage","Naar percentage"
 "Update","Update"

@@ -161,6 +161,12 @@ header a.logo {
     }
 }
 
+@media only screen and (max-width: 480px) {
+    .top-switch-bg {
+        display: none;
+    }
+}
+
 .header-container .links li {
     padding: 0 3px;
     margin: 0 0;
@@ -377,10 +383,10 @@ header.fixed a.logo {
     visibility: hidden;
 }
 
-.account-create #form-validate li {
-    margin: 0 50px 50px 0;
-    float: left;
-}
+/*.account-create #form-validate li {*/
+    /*margin: 0 50px 50px 0;*/
+    /*float: left;*/
+/*}*/
 
 
 #login-form .link-tip {
@@ -529,8 +535,10 @@ div.account-create .page-title {
     font-family: 'Maven+Pro', Tahoma, sans-serif;
 }
 
-.regular .price-box{
-    display: none;
+@media only screen and (min-width: 960px){
+    .regular .price-box{
+        display: none;
+    }
 }
 
 .box-account.box-info.box-rewardpoints-summary h2 {
@@ -582,6 +590,11 @@ form#co-shipping-method-form li label {
 
 .block-content li, .block .block-content li.item, .block-layered-nav .block-content dd li, .product-tabs-content ul.disc li {
     background-image: none;
+}
+
+#narrow-by-list li, #left-nav li, .currently li {
+    margin-top: 12px !important;
+    margin-bottom: 12px !important;
 }
 
 button.button span span {
@@ -830,7 +843,7 @@ p.show-all-new-products a {
     text-decoration: underline;
 }
 
-li.level1.nav-1-9 span {
+li.level1.nav-1-10 span {
     font-weight: bold;
 }
 
@@ -876,3 +889,116 @@ div.free-sample {
 div.free-sample p {
     margin: 10px 0;
 }
+
+.gift-messages {
+    background-image: url("/media/queldorei/shopper/gift.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    background-position-y: 21px;
+    padding-bottom: 32px;
+
+}
+
+.gift-messages-form {
+    background-color: #f5f5f5;
+    padding: 0px 10px 10px 10px;
+    margin: 10px 0px;
+}
+
+/*#allow-gift-message-container > .inner-box {*/
+    /*display: none;*/
+/*}*/
+
+
+#narrow-by-list dt {
+    padding-top: 12px;
+    font-size: 18px;
+}
+
+.top-opc li .number {
+    display: block;
+    float: left;
+    width: 23px;
+    height: 23px;
+    margin: 7px 5px 0 0;
+    background: #dbdbdb;
+    line-height: 21px;
+    font-family: "Myriad Pro",serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+}
+
+.top-opc li h2 {
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+#billing-address-select, #shipping-address-select {
+    width: inherit;
+}
+
+textarea#ordercomment-comment {
+    width: inherit;
+}
+
+div.inchoo-socialconnect-facebook {
+    float: left;
+    margin-top: 7px;
+}
+
+div.inchoo-socialconnect-login .content {
+    min-height: inherit !important;
+}
+
+div.inchoo-socialconnect-facebook {
+    margin-bottom: 30px;
+}
+
+#facebook-badge {
+    border:none;
+    overflow:hidden;
+    width:270px;
+    height:558px;
+}
+
+#twitter-badge {
+    margin-left: 12px;
+}
+
+#google-badge iframe{
+    zoom: 1.0;
+    -webkit-transform: scale(0.86);
+    -webkit-transform-origin: 0 0;
+    -moz-transform: scale(0.86);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.86);
+    -o-transform-origin: 0 0;
+}
+
+.twitter-timeline {
+    width: 270px;
+}
+
+@media only screen and (max-width: 1200px){
+    #facebook-badge {
+        width: 192px;
+    }
+    #twitter-badge {
+        margin-left: 0;
+    }
+    #google-badge iframe{
+        -webkit-transform: scale(0.69);
+        -webkit-transform-origin: 0 0;
+        -moz-transform: scale(0.69);
+        -moz-transform-origin: 0 0;
+        -o-transform: scale(0.69);
+        -o-transform-origin: 0 0;
+    }
+}
+

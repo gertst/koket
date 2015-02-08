@@ -58,7 +58,8 @@ Colour.fromString = function( colourString )
     }
 
     var hex6 = /\#([0-9a-f][0-9a-f])([0-9a-f][0-9a-f])([0-9a-f][0-9a-f])/i;
-    var rgbStr = /rgba\( *([0-9]+) *, *([0-9]+) *, *([0-9]+) *, *([0-9\.]+) *\)/;
+    //var rgbStr = /rgba\( *([0-9]+) *, *([0-9]+) *, *([0-9]+) *, *([0-9\.]+) *\)/;
+    var rgbStr = /rgb\( *([0-9]+) *, *([0-9]+) *, *([0-9]+) *\)/;
     var r, g, b,a;
 
     var m = hex6.exec( colourString );
@@ -73,7 +74,7 @@ Colour.fromString = function( colourString )
             r = parseFloat(m[1])/255;
             g = parseFloat(m[2])/255;
             b = parseFloat(m[3])/255;
-            a = parseFloat(m[4]);
+            a = 1;
         } else {
             // default colour
             r = 1.0;

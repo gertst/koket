@@ -473,7 +473,8 @@ class Mage_Core_Model_Email_Template extends Mage_Core_Model_Template
             if($this->isPlain()) {
                 Mage::log($text, null, 'inchoo_less_email_ok_text_'.$time.'.log', true);
             } else {
-                Mage::log($text, null, 'inchoo_less_email_ok_text_'.$time.'.html', true);
+                //Mage::log($text, null, 'inchoo_less_email_ok_text_'.$time.'.html', true);
+                Mage::log($text, null, 'inchoo_less_email_ok_text_'.$time.'-'.$this->getProcessedTemplateSubject($variables).'.html', true);
             }
             /* END LESS - (L)ocalhost (E)mail (S)erver (S)imulator */
 
@@ -486,7 +487,7 @@ class Mage_Core_Model_Email_Template extends Mage_Core_Model_Template
             if($this->isPlain()) {
                 Mage::log($text, null, 'inchoo_less_email_exception_text_'.$time.'.log', true);
             } else {
-                Mage::log($text, null, 'inchoo_less_email_exception_text_'.$time.'.html', true);
+                Mage::log($text, null, 'inchoo_less_email_exception_text_'.$time.'-'.$this->getProcessedTemplateSubject($variables).'.html', true);
             }
             /* END LESS - (L)ocalhost (E)mail (S)erver (S)imulator */
 

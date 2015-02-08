@@ -6,7 +6,7 @@ User-agent: *
 Crawl-delay: 10
 
 ## Magento sitemap: uncomment and replace the URL to your Magento sitemap file
-# Sitemap: http://www.example.com/sitemap/sitemap.xml
+Sitemap: http://www.kokettekatinka.be/sitemap.xml
 
 ## DEVELOPMENT RELATED SETTINGS
 
@@ -45,6 +45,7 @@ Disallow: /*?mode*
 Disallow: /*?___from_store=*
 Disallow: /*?cat=*
 Disallow: /*?q=*
+Disallow: /*?p=*&
 
 
 ## Do not crawl 2-nd home page copy (example.com/index.php/). Uncomment it only if you activated Magento SEO URLs.
@@ -54,7 +55,7 @@ Disallow: /index.php/
 Disallow: /*?SID=
 
 ## Do not crawl checkout and user account pages
-Disallow: /checkout/
+#Disallow: /checkout/
 Disallow: /onestepcheckout/
 Disallow: /customer/
 Disallow: /customer/account/

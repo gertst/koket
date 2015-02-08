@@ -99,7 +99,7 @@ function isNew($product)
 <ol class="products-list" id="products-list" style="padding: 20px 20px;">
 <?php
 
-$collection = Mage::getModel('catalog/category')->load(5) /*8=assortiment kralen, 5=assortiment stoffen*/
+$collection = Mage::getModel('catalog/category')->load(2) /*2=all, 8=assortiment kralen, 5=assortiment stoffen*/
     ->getProductCollection()
     ->addAttributeToSelect('*')
     ->addFieldToFilter('visibility', array(
@@ -107,7 +107,7 @@ $collection = Mage::getModel('catalog/category')->load(5) /*8=assortiment kralen
         Mage_Catalog_Model_Product_Visibility::VISIBILITY_IN_CATALOG
     )) //showing just products visible in catalog or both search and catalog
     ->addAttributeToSort('created_at', 'DESC')
-    ->setPageSize(150) // limit number of results returned
+    ->setPageSize(9999) // limit number of results returned
     ->setCurPage(0);
 
 foreach ($collection as $product) {
@@ -116,16 +116,12 @@ foreach ($collection as $product) {
     <li class="item odd">
         <div class="">
 
-            <img class="img-to-scan"
-                 id="img-<?php echo $product->getId(); ?>"
+<!--            <img class="img-to-scan"-->
+<!--                 id="img---><?php //echo $product->getId(); ?><!--"-->
                  data-id="<?php echo $product->getId(); ?>"
-                 src="<?php echo Mage::helper('catalog/image')->init($product, 'thumbnail')->resize(252); ?>"
-                 width="252" height="252" alt="<?php echo $product->getName(); ?>">
-            <div class="colors" data-color-codes="<?php
-                    $_resource = $product->getResource();
-                    $colorCodes = $_resource->getAttributeRawValue($product->getId(), 'color_codes', 1);
-                    echo $colorCodes;
-            ?>"></div>
+<!--                 src="--><?php //echo Mage::helper('catalog/image')->init($product, 'thumbnail')->resize(252); ?><!--"-->
+<!--                 width="252" height="252" alt="--><?php //echo $product->getName(); ?><!--">-->
+
             <div><?php echo $product->getName(); ?></div>
 
         </div>
@@ -141,21 +137,7 @@ foreach ($collection as $product) {
 </ol>
 </div>
 
-<p style="margin-bottom: 40px;">Je vindt nog meer nieuwe producten op onze site <a href="http://www.kokettekatinka.be" target="koket">www.kokettekatinka.be</a></p>
 
-
-<script id="color-thief-output-template" type="text/x-mustache">
-    <div class="function get-palette">
-            <div class="swatches" data-id="{{id}}" >
-                {{#palette}}
-                <div class="swatch" style="background-color: rgb({{0}}, {{1}}, {{2}})"></div>
-                {{/palette}}
-            </div>
-
-    </div>
-</script>
-
-<script src="/js/stogo/color-edit.js"></script>
 
 
 </body>
