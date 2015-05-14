@@ -100,16 +100,7 @@ $empty_category_block = Mage::getModel('cms/block')
                         <?php if($_product->isSaleable()): ?>
                             <?php //GERT - show add btn only when not sold by external party ?>
                             <?php if($_product['workshop_externaly_sold'] == "0"): ?>
-                                <?php if (Mage::getStoreConfig('shoppersettings/ajax/cart')) : ?>
-                                    <?php if ( !($_product->getTypeInstance(true)->hasRequiredOptions($_product) || $_product->isGrouped()) ) { ?>
-                                    <p><a href="<?php echo $this->getAddToCartUrl($_product) ?>" title="<?php echo $this->__('Add to Cart') ?>" class="btn-cart ajax-cart btn-add-cart" data-url="<?php echo $this->getAddToCartUrl($_product); ?>" data-id="<?php echo $_product->getId(); ?>"><span></span><?php echo $this->__('Add to Cart') ?></a></p>
-                                    <?php } else { ?>
-                                    <p><a href="<?php echo $this->getAddToCartUrl($_product) ?>" title="<?php echo $this->__('Add to Cart') ?>" class="btn-cart show-options btn-add-cart" data-id="<?php echo $_product->getId(); ?>"><span></span><?php echo $this->__('Add to Cart') ?></a></p>
-                                    <?php }  ?>
-                                <?php else: ?>
-                                    <p><a href="<?php echo $this->getAddToCartUrl($_product) ?>" title="<?php echo $this->__('Add to Cart') ?>" class="btn-cart btn-add-cart"><span></span><?php echo $this->__('Add to Cart') ?></a></p>
-                                <?php endif; ?>
-
+                                <button type="submit" title="Inschrijven" class="button" onclick="window.location.href='<?php echo $_product->getProductUrl() ?>'"><span><span>Meer foto's & Inschrijven</span></span></button>
                             <?php endif; ?>
                         <?php else: ?>
                             <p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>

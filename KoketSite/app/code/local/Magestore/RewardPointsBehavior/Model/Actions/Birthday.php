@@ -69,10 +69,12 @@ class Magestore_RewardPointsBehavior_Model_Actions_Birthday extends Magestore_Re
             $transactionData['status'] = Magestore_RewardPoints_Model_Transaction::STATUS_ON_HOLD;
         }
 
-        // Set expire time for current transaction
-        $expireDays = (int) Mage::getStoreConfig(
-                        Magestore_RewardPoints_Helper_Calculation_Earning::XML_PATH_EARNING_EXPIRE, $storeId
-        );
+        //GERT: removed default expire and replaced by one month (31 days)
+//        // Set expire time for current transaction
+//        $expireDays = (int) Mage::getStoreConfig(
+//                        Magestore_RewardPoints_Helper_Calculation_Earning::XML_PATH_EARNING_EXPIRE, $storeId
+//        );
+        $expireDays = 31;
         $transactionData['expiration_date'] = $this->getExpirationDate($expireDays);
         $this->setData('transaction_data', $transactionData);
         return parent::prepareTransaction();

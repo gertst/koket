@@ -70,13 +70,13 @@ require_once $mageFilename;
 
 #Varien_Profiler::enable();
 
-if (isset($_SERVER['MAGE_IS_DEVELOPER_MODE'])) {
-    Mage::setIsDeveloperMode(true);
-}
+//if (isset($_SERVER['MAGE_IS_DEVELOPER_MODE'])) {
+//    Mage::setIsDeveloperMode(true);
+//}
 
 //gst: comment next lines to hide errors
-ini_set('display_errors', 1);
-Mage::setIsDeveloperMode(true);
+//ini_set('display_errors', 1);
+Mage::setIsDeveloperMode(false);
 
 umask(0);
 

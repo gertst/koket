@@ -6,6 +6,10 @@ body {
     border-top-width: 0;
 }
 
+a {
+    color: #7BAB65;
+}
+
 h1, h2, h3 {
     letter-spacing: 0em;
 }
@@ -372,15 +376,21 @@ header.fixed a.logo {
 .customer-account-create .account-create p.required {
     text-align: left;
     padding-left: 14px;
+    padding: 12px;
 }
 
 .account-create .buttons-set .back-link {
     float: left;
-    padding: 20px 14px;
+    padding: 20px 7px;
 }
 
 .account-create h2 {
     visibility: hidden;
+}
+
+.customer-account-create .account-create .buttons-set {
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 /*.account-create #form-validate li {*/
@@ -771,7 +781,14 @@ p.workshop-date {
 }
 
 .workshop h2.product-name a {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    margin-left: 0;
+}
+
+div.product-shop.workshop > div > div.desc.std > div > ul, div.product-shop > div > div > div > ul {
+    list-style: inside;
+    padding-left: 30px;
+    text-indent: -13px;
 }
 
 div#gifts {
@@ -843,11 +860,11 @@ p.show-all-new-products a {
     text-decoration: underline;
 }
 
-li.level1.nav-1-10 span {
+li.level1.nav-1-11 span {
     font-weight: bold;
 }
 
-li.level1.nav-2-5 span {
+li.level1.nav-2-7 span {
     font-weight: bold;
 }
 
@@ -960,6 +977,11 @@ div.inchoo-socialconnect-facebook {
     margin-bottom: 30px;
 }
 
+div.inchoo-socialconnect-facebook-inner {
+    padding: 11px 15px !important;
+    color: white;
+}
+
 #facebook-badge {
     border:none;
     overflow:hidden;
@@ -1002,3 +1024,49 @@ div.inchoo-socialconnect-facebook {
     }
 }
 
+.tp-caption.shopper_caption_underline_light {
+    padding: 3px 0px 10px !important;
+    text-shadow: 2px 2px 11px rgba(147, 150, 150, 1);
+}
+
+.btn-revolution-slider {
+    background: #f7f7f7;
+    background-image: -webkit-linear-gradient(top, #f7f7f7, #e8e8e8);
+    background-image: -moz-linear-gradient(top, #f7f7f7, #e8e8e8);
+    background-image: -ms-linear-gradient(top, #f7f7f7, #e8e8e8);
+    background-image: -o-linear-gradient(top, #f7f7f7, #e8e8e8);
+    background-image: linear-gradient(to bottom, #f7f7f7, #e8e8e8);
+    -webkit-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    border-radius: 0.3em;
+    font-family: "Yanone Kaffeesatz";
+    color: #525252;
+    font-size: 1.2em;
+    padding: 0.7em 1.4em;
+    text-decoration: none;
+}
+
+.btn-revolution-slider:hover {
+    background: #f0f0f0;
+    background-image: -webkit-linear-gradient(top, #f0f0f0, #dadcde);
+    background-image: -moz-linear-gradient(top, #f0f0f0, #dadcde);
+    background-image: -ms-linear-gradient(top, #f0f0f0, #dadcde);
+    background-image: -o-linear-gradient(top, #f0f0f0, #dadcde);
+    background-image: linear-gradient(to bottom, #f0f0f0, #dadcde);
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .breadcrumbs {
+         margin-left: 10px;
+    }
+}
+
+/*#shopping-cart-table .data-table tbody tr td:first-child {*/
+    /*padding: 1px;*/
+/*}*/
+
+.products-grid .hover .price-box .price-label, .products-grid .hover .price-box .label{
+    display:block;
+    color: rgb(108, 142, 93);
+}
