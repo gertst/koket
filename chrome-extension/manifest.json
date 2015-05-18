@@ -3,7 +3,7 @@
 
       "name": "Magento Order Invoice",
       "description": "Adds a 'Print Invoice'' button to a magento order",
-      "version": "0.1",
+      "version": "0.2",
 
       "content_scripts": [
             {

@@ -74,7 +74,10 @@ if (jQuery(".head-sales-order").length > 0) {
                         popup.document.write(html);
 
                         popup.focus();
-                        popup.print();
+                        setTimeout(function(){
+                            popup.print();
+                        }, 100);
+
                         //popup.document.close();
                         //popup.close();
                        // window.onfocus = function() { window.close(); }
