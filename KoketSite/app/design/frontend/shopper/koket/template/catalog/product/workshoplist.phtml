@@ -100,6 +100,19 @@ $empty_category_block = Mage::getModel('cms/block')
                         <?php if($_product->isSaleable()): ?>
                             <?php //GERT - show add btn only when not sold by external party ?>
                             <?php if($_product['workshop_externaly_sold'] == "0"): ?>
+                                <div class="info workshop-stock">
+                                    <?php
+                                    $stock = Mage::getModel('cataloginventory/stock_item')->loadByProduct($_product);
+                                    $stockQty = round($stock->getQty());
+                                    if ($stockQty > 0) {
+                                        if ($stockQty == 1) {
+                                            echo "Wees snel - nog 1 plaats vrij!";
+                                        } else {
+                                            echo "Nog $stockQty plaatsen vrij.";
+                                        }
+                                    }
+                                    ?>
+                                </div>
                                 <button type="submit" title="Inschrijven" class="button" onclick="window.location.href='<?php echo $_product->getProductUrl() ?>'"><span><span>Meer foto's & Inschrijven</span></span></button>
                             <?php endif; ?>
                         <?php else: ?>
@@ -121,7 +134,13 @@ $empty_category_block = Mage::getModel('cms/block')
         </li>
     <?php endforeach; ?>
     </ol>
-    <script type="text/javascript">decorateList('products-list', 'none-recursive')</script>
+    <script type="text/javascript">
+        decorateList('products-list', 'none-recursive');
+        jQuery("span:contains('Niet in voorraad')").html(function(){
+            return jQuery(this).html().replace("Niet in voorraad","Volzet! <br/><a href='mailto:astrid@kokettekatinka.be'>Mail ons</a> voor een plaatsje op de wachtlijst.");
+        });
+        jQuery("p.link-stock-alert").hide();
+    </script>
 
     <?php // GERT: I removed Grid Mode ?>
 

@@ -148,15 +148,24 @@ echo '<div class="product-category-title">'.$_category->getName().'</div>';
                     <?php //GERT - show qty only when not sold by external party ?>
                     <?php if($_product['workshop_externaly_sold'] == "0"): ?>
 
+                        <div class="info workshop-stock">
+                            <?php
+                            $stock = Mage::getModel('cataloginventory/stock_item')->loadByProduct($_product);
+                            $stockQty = round($stock->getQty());
+                            if ($stockQty > 0) {
+                                if ($stockQty == 1) {
+                                    echo "Wees snel - nog 1 plaats vrij!";
+                                } else {
+                                    echo "Nog $stockQty plaatsen vrij.";
+                                }
+                            }
+                            ?>
+                        </div>
+
                         <div class="qty-container clearfix">
                             <label for="qty"><?php echo $this->__('Qty') ?>:</label>
                             <input type="text" name="qty" id="qty" maxlength="12" value="<?php echo $this->getProductDefaultQty() * 1 ?>" title="<?php echo $this->__('Qty') ?>" class="input-text qty" />
                             <span class="unit"><?php echo $_product->getAttributeText('unit'); ?></span>
-
-
-                            <p> <?php //echo print_r($_product["stock_item"]->debug());
-                                //echo $_product["stock_item"]["is_qty_decimal"]
-                                ?></p>
                         </div>
 
                     <?php endif; ?>
@@ -319,6 +328,13 @@ echo '<div class="product-category-title">'.$_category->getName().'</div>';
 	            Object.extend(Validation.methods, nv);
 	        }
 	    }.bind(productAddToCartForm);
+
+        jQuery("span:contains('Niet in voorraad')").html(function(){
+            return jQuery(this).html().replace("Niet in voorraad","Volzet! <br/><a href='mailto:astrid@kokettekatinka.be'>Mail ons</a> voor een plaatsje op de wachtlijst.");
+        });
+        jQuery("p.link-stock-alert").hide();
+        jQuery("li.compare").hide();
+
     //]]>
     </script>
     </div>
