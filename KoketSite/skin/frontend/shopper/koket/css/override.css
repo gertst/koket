@@ -140,7 +140,7 @@ header a.logo {
 
 @media only screen and (max-width: 959px) and (min-width: 768px){
     header .grid_12 {
-        width: 100%;
+        width: 747px;
         margin: 0;
     }
 }
@@ -865,7 +865,7 @@ p.show-all-new-products a {
     text-decoration: underline;
 }
 
-li.level1.nav-1-11 span {
+li.level1.nav-1-10 span {
     font-weight: bold;
 }
 
@@ -1624,3 +1624,29 @@ input:invalid, textarea:invalid {
 .flip-clock-wrapper {
     margin: 2em 0px;
 }
+
+form#postComment .fieldset {
+    padding: 26px 2px 0 2px
+}
+
+form#postComment button.button.form-button {
+    padding-top: 10px;
+}
+
+form#postComment  .input-box {
+    padding: 7px 0px;
+}
+
+.block.block-blog {
+    text-align: center;
+}
+
+.block.block-blog p {
+    padding: 10px 30px;
+}
+
+.block.block-blog .actions {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
