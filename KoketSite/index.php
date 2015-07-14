@@ -75,8 +75,8 @@ require_once $mageFilename;
 //}
 
 //gst: comment next lines to hide errors
-//ini_set('display_errors', 1);
-Mage::setIsDeveloperMode(false);
+ini_set('display_errors', 1);
+Mage::setIsDeveloperMode(true);
 
 umask(0);
 

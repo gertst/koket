@@ -38,7 +38,7 @@
         echo $this->getLayout()->createBlock('cms/block')->setBlockId('shopper_empty_cart')->toHtml();
     } else { ?>
         <p><?php echo $this->__('You have no items in your shopping cart.') ?></p>
-        <p><?php echo $this->__('Click <a href="%s">here</a> to continue shopping.', $this->getContinueShoppingUrl()) ?></p>
+        <p><?php echo $this->__('Click <a href="%s">here</a> to continue shopping.', Mage::helper('core')->quoteEscape($this->getContinueShoppingUrl())) ?></p>
     <?php } ?>
     <?php echo $this->getChildHtml('shopping.cart.table.after'); ?>
 </div>

@@ -131,6 +131,41 @@ $empty_category_block = Mage::getModel('cms/block')
                     <p>&nbsp;</p>
                 </div>
             </div>
+
+            <script type="application/ld+json" >
+                {
+                    "@context": "http://schema.org",
+                    "@type": "Event",
+                    "name": "<?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?>",
+                    "description": "<?php echo $_helper->productAttribute($_product, strip_tags($_product->getShortDescription()), 'short_description') ?>",
+                    "startDate" : "<?php
+                        echo str_replace(" ", "T", $_product['workshop_date_technical']);
+                    ?>",
+                    "url" : "<?php echo $_product->getProductUrl(); ?>",
+                    "offers": {
+                        "@type": "Offer",
+                        "availability": "<?php echo $_product->isAvailable() ? 'http://schema.org/InStock' : 'http://schema.org/OutOfStock' ?>",
+                        "price" : <?php echo number_format((float)$_product->getFinalPrice(), 2, '.', '') ?>,
+                        "priceCurrency" : "<?php echo Mage::app()->getStore()->getCurrentCurrencyCode(); ?>",
+                        "url" : "<?php echo $_product->getProductUrl(); ?>"
+                    },
+                    "location" :
+                    {
+                        "@type" : "Place",
+                        "sameAs" : "http://www.kokettekatinka.be",
+                        "name" : "Kokette Katinka",
+                        "address" :
+                        {
+                            "@type" : "PostalAddress",
+                            "streetAddress" : "Lombardenstraat 32",
+                            "addressLocality" : "Antwerpen",
+                            "addressRegion" : "Antwerpen",
+                            "postalCode" : "2000"
+                        }
+                    }
+                }
+            </script>
+
         </li>
     <?php endforeach; ?>
     </ol>

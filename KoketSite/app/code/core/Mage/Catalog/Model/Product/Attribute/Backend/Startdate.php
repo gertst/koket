@@ -45,7 +45,8 @@ class Mage_Catalog_Model_Product_Attribute_Backend_Startdate extends Mage_Eav_Mo
     {
         $attributeName  = $this->getAttribute()->getName();
         $startDate      = $object->getData($attributeName);
-        if ($startDate === false) {
+        //if ($startDate === false) {
+        if (!isset($startDate)) { //bugfix GERT: http://tunca.it/blog/programming/magento-1-8-new-date-bug/
             return false;
         }
         if ($startDate == '' && $object->getSpecialPrice()) {

@@ -50,6 +50,14 @@
 
     <?php //GERT - get products for free when cart over 25 EUR ?>
     <?php //include "free-product.php" ?>
+    <?php
+    if(Mage::getSingleton('customer/session')->isLoggedIn()) {
+        $customerData = Mage::getSingleton('customer/session')->getCustomer();
+        if ($customerData->getId() == "253") { //gertst+1@gmail.com - stogos
+            include "free-product.php";
+        }
+    }
+    ?>
 
     <?php echo $this->getChildHtml('form_before') ?>
     <form action="<?php echo $this->getUrl('checkout/cart/updatePost') ?>" method="post">
@@ -104,7 +112,7 @@
                     <tr>
                         <td colspan="50" class="a-right">
                             <?php if($this->getContinueShoppingUrl()): ?>
-                                <button type="button" title="<?php echo $this->__('Continue Shopping') ?>" class="button button_white btn-continue" onclick="setLocation('<?php echo $this->getContinueShoppingUrl() ?>')"><span><span><?php echo $this->__('Continue Shopping') ?></span></span></button>
+                                <button type="button" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Continue Shopping')) ?>" class="button btn-continue" onclick="setLocation('<?php echo Mage::helper('core')->quoteEscape($this->getContinueShoppingUrl()) ?>')"><span><span><?php echo $this->__('Continue Shopping') ?></span></span></button>
                             <?php endif; ?>
 <button type="submit" name="update_cart_action" value="update_qty" title="<?php echo $this->__('Update Shopping Cart'); ?>" class="button button_white btn-update"><span><span><?php echo $this->__('Update Shopping Cart'); ?></span></span></button>
                             <button type="submit" name="update_cart_action" value="empty_cart" title="<?php echo $this->__('Clear Shopping Cart'); ?>" class="button button_white btn-empty" id="empty_cart_button"><span><span><?php echo $this->__('Clear Shopping Cart'); ?></span></span></button>
