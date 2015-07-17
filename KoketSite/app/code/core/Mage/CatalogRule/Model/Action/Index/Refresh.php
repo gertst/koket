@@ -118,7 +118,11 @@ class Mage_CatalogRule_Model_Action_Index_Refresh
 
         /** @var $coreDate Mage_Core_Model_Date */
         $coreDate  = $this->_factory->getModel('core/date');
-        $timestamp = $coreDate->gmtTimestamp('Today');
+        //$timestamp = $coreDate->gmtTimestamp('Today');
+        //GERT: replaced line above with line below. BUGFIX http://stackoverflow.com/questions/30236821/catalog-price-rules-disappear-after-mid-night-in-magento-site
+        $timestamp = Mage::app()->getLocale()->date(null, null, null, true)->get(Zend_Date::TIMESTAMP);
+
+
 
         foreach ($this->_app->getWebsites(false) as $website) {
             /** @var $website Mage_Core_Model_Website */
