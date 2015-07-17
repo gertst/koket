@@ -1,18 +1,18 @@
-<?php 
+<?php
 /**
  * Magestore
- * 
+ *
  * NOTICE OF LICENSE
- * 
+ *
  * This source file is subject to the Magestore.com license that is
  * available through the world-wide-web at this URL:
  * http://www.magestore.com/license-agreement.html
- * 
+ *
  * DISCLAIMER
- * 
+ *
  * Do not edit or add to this file if you wish to upgrade this extension to newer
  * version in the future.
- * 
+ *
  * @category    Magestore
  * @package     Magestore_RewardPoints
  * @copyright   Copyright (c) 2012 Magestore (http://www.magestore.com/)
@@ -21,7 +21,7 @@
 
 /**
  * Rewardpoints spending on Backend template
- * 
+ *
  * @see Magestore_RewardPoints_Block_Adminhtml_Order_Create_Form
  */
 ?>
@@ -147,8 +147,8 @@
     };
     rewardSlider.changeRuleEvent('reward_sales_rule');
     // $('rewardpoints-slider-container').hide();
-    uniqueAjax = new RewardPointsAjax('<?php echo $this->getUrl('rewardpoints/adminhtml_checkout/changePoint') ?>');
-    
+    uniqueAjax = new RewardPointsAjax('<?php echo $this->getUrl('rewardpointsadmin/adminhtml_checkout/changePoint') ?>');
+
     disableRewardAjax = true;
     changeRewardSalesRule($('reward_sales_rule'));
     disableRewardAjax = true;
@@ -169,7 +169,7 @@
                 <ul>
                 <?php foreach ($_checkboxRules as $_rule): ?>
                     <li>
-                        <input type="checkbox" value="<?php echo $_rule->getId() ?>" name="sales_checkbox_rule[]" id="sales_checkbox_rule_<?php echo $_rule->getId() ?>" onclick="checkUseSalesRule(this, '<?php echo $this->getUrl('rewardpoints/adminhtml_checkout/checkboxRule') ?>')"<?php if (in_array($_rule->getId(), $_checkedData)): ?> checked="checked"<?php endif ?> />
+                        <input type="checkbox" value="<?php echo $_rule->getId() ?>" name="sales_checkbox_rule[]" id="sales_checkbox_rule_<?php echo $_rule->getId() ?>" onclick="checkUseSalesRule(this, '<?php echo $this->getUrl('rewardpointsadmin/adminhtml_checkout/checkboxRule') ?>')"<?php if (in_array($_rule->getId(), $_checkedData)): ?> checked="checked"<?php endif ?> />
                         <label for="sales_checkbox_rule_<?php echo $_rule->getId() ?>" id="reward_rule_label_<?php echo $_rule->getId() ?>">
                             <?php echo $this->__('Spend %s', $_pointHelper->format($_rule->getPointsSpended(), $this->getStore())) ?>
                             <?php echo $this->__('and get %s off', $this->formatDiscount($_rule)) ?>
