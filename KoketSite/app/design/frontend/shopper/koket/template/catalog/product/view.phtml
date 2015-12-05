@@ -117,6 +117,20 @@ echo '<div class="product-category-title">'.$_category->getName().'</div>';
                 <?php echo $this->getTierPriceHtml() ?>
                 <?php echo $this->getChildHtml('extrahint') ?>
 
+                <div class="info-stock">
+                    <?php
+                    $stock = Mage::getModel('cataloginventory/stock_item')->loadByProduct($_product);
+                    $stockQty = round($stock->getQty());
+                    if ($stockQty > 0 && $stockQty <= 4) {
+                        if ($stockQty <= 2) {
+                            echo "Opgelet, heel beperkte voorraad!";
+                        } else {
+                            echo "Opgelet: laatste $stockQty " . $_product->getAttributeText('unit') . "!";
+                        }
+                    }
+                    ?>
+                </div>
+
                 <?php if ($_product->getShortDescription()):?>
                 <div class="short-description">
                     <div class="std"><?php echo $_helper->productAttribute($_product, nl2br($_product->getShortDescription()), 'short_description') ?></div>

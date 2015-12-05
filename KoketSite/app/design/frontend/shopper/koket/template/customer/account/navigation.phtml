@@ -33,7 +33,9 @@
             <?php $_links = $this->getLinks(); ?>
             <?php $_index = 1; ?>
 
-            <?php $_count = count($_links); /*hide subscriptions*/ unset($_links['subscriptions']); ?>
+            <?php $_count = count($_links);
+            /*hide subscriptions*/
+            unset($_links['subscriptions']); ?>
             <?php foreach ($_links as $_link): ?>
                 <?php $_last = ($_index++ >= $_count); ?>
                 <?php if ($this->isActive($_link)): ?>

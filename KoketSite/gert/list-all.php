@@ -1,144 +1,70 @@
 <?php
-/**
- * @author      MagePsycho <info@magepsycho.com>
- * @website     http://www.magepsycho.com
- * @category    using Header / Footer outside of Magento
- */
-$mageFilename = 'app/Mage.php';
-require_once $mageFilename;
-Mage::setIsDeveloperMode(true);
-ini_set('display_errors', 1);
-umask(0);
-Mage::app();
-Mage::getSingleton('core/session', array('name' => 'frontend'));
+function getcustomers() {
+    /* Magento's Mage.php path
+     * Mage Enabler users may skip these lines
+     */
+    require_once ("../magento/app/Mage.php");
+    umask(0);
+    Mage::app("default");
+    /* Magento's Mage.php path */
 
-$block = Mage::getSingleton('core/layout');
+    /* Get customer model, run a query */
+    $collection = Mage::getModel('customer/customer')
+        ->getCollection()
+        ->addAttributeToSelect('*');
 
-# HEAD BLOCK
-$headBlock = $block->createBlock('page/html_head'); // this wont give you the css/js inclusion
-// add js
-//$headBlock->addJs('prototype/prototype.js');
-# add css
-$headBlock->addCss('css/styles.css');
-$headBlock->getCssJsHtml();
-$headBlock->getIncludes();
-
-$storeId = 1;
-
-$_helper    = Mage::helper('catalog/output');
-
-
-function isNew($product)
-{
-    if ($product->getData('featured_product')) {
-        return true;
+    $result = array();
+    foreach ($collection as $customer) {
+        $result[] = $customer->toArray();
     }
 
-    if ($product->getData('news_from_date') == null && $product->getData('news_to_date') == null) {
-        return false;
-    }
-
-    if ($product->getData('news_from_date') !== null) {
-        if (date('Y-m-d', strtotime($product->getData('news_from_date'))) > date('Y-m-d', time())) {
-            return false;
-        }
-    }
-
-    if ($product->getData('news_to_date') !== null) {
-        if (date('Y-m-d', strtotime($product->getData('news_to_date'))) < date('Y-m-d', time())) {
-            return false;
-        }
-    }
-
-    return true;
+    return $result;
 }
-
-
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Kokette Katinka - Kralen, Stoffen en Juwelen</title>
-    <link type="text/css" rel="stylesheet" href="http://www.kokettekatinka.be/skin/m/1414439524/skin/frontend/shopper/default/css/styles.css,/skin/frontend/base/default/css/widgets.css,/skin/frontend/base/default/css/magestore/rewardpoints.css,/skin/frontend/base/default/css/rewardpointsbehavior/behavior.css,/skin/frontend/base/default/css/rewardpointsreferfriends/referfriends.css,/skin/frontend/shopper/default/css/cloud-zoom.css,/skin/frontend/shopper/default/js/fancybox/jquery.fancybox-1.3.4.css,/skin/frontend/shopper/default/css/slider.css,/skin/frontend/shopper/default/css/local.css,/skin/frontend/shopper/default/css/responsive.css,/skin/frontend/shopper/default/css/mobile.css,/skin/frontend/shopper/default/css/animation.css,/skin/frontend/shopper/default/css/settings.css,/skin/frontend/shopper/default/css/captions.css,/skin/frontend/shopper/koket/css/override.css" media="all" />
-    <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,400,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Alegreya:300,400,700' rel='stylesheet' type='text/css'>
+    <title>Customers</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        td {
+            padding: 5px;
+            border: 1px solid #000000;
+        }
+    </style>
 </head>
 <body>
-
-<script src="/js/queldorei/jquery-1.8.2.min.js"></script>
-<script src="/js/stogo/mustache.js"></script>
-<script src="/js/stogo/color-thief.min.js"></script>
-<script src="/js/stogo/colours.js"></script>
-
-<style type="text/css">
-    .swatch {
-        width: 3rem;
-        height: 2rem;
-        display: inline-block;
-        margin: 0;
-        background: #ddd;
-        border-top: white solid 10px;
-        /*border-top: white solid 5px;*/
+<table>
+    <tr>
+        <td>ID</td>
+        <td>Lastname</td>
+        <td>Firstname</td>
+        <td>Email</td>
+        <td>Is Active?</td>
+        <td>Date Created</td>
+        <td>Date Updated</td>
+    </tr>
+    <?php
+    $result = getcustomers();
+    if(count($result) > 0){
+        foreach($result as $key => $value){
+            echo "<tr>";
+            echo "<td>".$value['entity_id']."</td>";
+            echo "<td>".$value['lastname']."</td>";
+            echo "<td>".$value['firstname']."</td>";
+            echo "<td>".$value['email']."</td>";
+            echo "<td>";
+            echo $value['is_active'] == 1 ? "Yes" : "No";
+            echo "</td>";
+            echo "<td>".$value['created_at']."</td>";
+            echo "<td>".$value['updated_at']."</td>";
+            echo "</tr>";
+        }
+    }else{
+        echo "<tr><td colspan=\"7\">No records found</td></tr>";
     }
-    .swatch.selected {
-        border-top: black solid 0px;
-        border-bottom: white solid 10px;
-    }
-</style>
-
-<div class="page-title-bg" style="position: inherit;background-color: #eefaed">
-    <h1 style="padding: 30px 0;font-family: 'Yanone Kaffeesatz',Tahoma,sans-serif;text-transform: uppercase">
-        Color correct images
-    </h1>
-</div>
-
-<div class="category-products">
-<ol class="products-list" id="products-list" style="padding: 20px 20px;">
-<?php
-
-$collection = Mage::getModel('catalog/category')->load(2) /*2=all, 8=assortiment kralen, 5=assortiment stoffen*/
-    ->getProductCollection()
-    ->addAttributeToSelect('*')
-    ->addFieldToFilter('visibility', array(
-        Mage_Catalog_Model_Product_Visibility::VISIBILITY_BOTH,
-        Mage_Catalog_Model_Product_Visibility::VISIBILITY_IN_CATALOG
-    )) //showing just products visible in catalog or both search and catalog
-    ->addAttributeToSort('created_at', 'DESC')
-    ->setPageSize(9999) // limit number of results returned
-    ->setCurPage(0);
-
-foreach ($collection as $product) {
-    if (!strpos($product->getSku(), "sample") ) {
     ?>
-    <li class="item odd">
-        <div class="">
-
-<!--            <img class="img-to-scan"-->
-<!--                 id="img---><?php //echo $product->getId(); ?><!--"-->
-                 data-id="<?php echo $product->getId(); ?>"
-<!--                 src="--><?php //echo Mage::helper('catalog/image')->init($product, 'thumbnail')->resize(252); ?><!--"-->
-<!--                 width="252" height="252" alt="--><?php //echo $product->getName(); ?><!--">-->
-
-            <div><?php echo $product->getName(); ?></div>
-
-        </div>
-
-    </li>
-
-<?php
-    }//if
-}
-
-
-?>
-</ol>
-</div>
-
-
-
-
+</table>
 </body>
 </html>

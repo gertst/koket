@@ -176,6 +176,49 @@ header a.logo {
     margin: 0 0;
 }
 
+.sub-header {
+    background-color: #DAECD2;
+    font-family: "yanone kaffeesatz";
+    font-size: 17px;
+    color: #322c29;
+    padding: 8px 30px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+    border-bottom: #BCCEB5 1px solid;
+}
+
+.info-banner{
+    margin: 0;
+    position: relative;
+    float: left;
+    font-size: 24px;
+    color: #281f55;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .info-banner{
+        display: none;
+    }
+}
+
+.info-banner .regular {
+    width: 532px;
+    margin-right: 30px;
+}
+
+.info-banner .item .calc-price-box {
+   margin: 0;
+    padding: 0;
+}
+
+.info-banner .regular img {
+    width: 532px;
+    height: 252px;
+}
+
 @media only screen and (max-width: 767px) {
     .row {
         margin: 0 auto;
@@ -508,13 +551,22 @@ div.account-create .page-title {
     color:#fff
 }
 
+.products-grid .availability {
+    line-height: normal;
+}
+
+.availability.out-of-stock span {
+    font-weight: normal;
+    color: #D85620;
+}
+
 .products-grid li.item {
     border: none;
     background: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    height: 303px; /*to avoid empty grid cells when product name on 2 lines */
+    /*height: 303px; *//*to avoid empty grid cells when product name on 2 lines */
 }
 
 .products-grid .product-image img {
@@ -731,6 +783,27 @@ li.success-msg a, li.error-msg a {
     margin-left: 30px;
 }
 
+.message.naaipatroon  {
+    background-image: url("/media/koket/acties/bg-naaipatroon.gif?6");
+    background-repeat: repeat-x;
+    padding-top: 60px;
+}
+
+.a-btn {
+    display: block;
+    width:180px;
+    height: 20px;
+    background: #70b76a;
+    padding: 10px;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+}
+
+.a-btn:hover {
+   color: #eefaed;
+}
+
 .account-create .info h2{
     padding: 12px 0;
     font-family: "yanone kaffeesatz";
@@ -801,40 +874,98 @@ div#gifts {
     background-color: #d5ebcb;
 }
 
+
 #gifts h2 {
     font-size: 1.7rem;
     font-family: Yanone Kaffeesatz;
 }
 
-#gifts p {
-    padding-top: 10px;
+#gifts .info {
+    background: #A2D18D;
+    margin: 10px 0 0 0;
+    padding: 20px;
 }
 
-
-
-#gifts ul {
-    padding-top: 25px;
+#gifts .kies {
+    margin: 30px 0px 20px 0;
+    font-family: Yanone Kaffeesatz;
+    font-size: 19px;
 }
 
-#gifts li {
-    float: left;
-    padding-right: 1px;
-    width: 180px;
-}
-
-#gifts button {
+#gifts .button {
     padding-top: 10px;
     padding-bottom: 40px;
+    text-transform: uppercase;
 }
 
-@media only screen and (min-width: 960px){
+#gifts .cycle-slideshow {
+    width: 100%;
+    margin: auto;
+    clear: both;
+    margin-top: 20px;
+}
+
+#gifts .cycle-slide {
+    width: 100%;
+
+    /*height: auto;*/
+    float: left;
+    visibility: hidden;
+}
+
+#gifts .cycle-slide .element {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    display: block;
+}
+
+#gifts .label {
+    font-size: 24px;
+    font-family: Yanone Kaffeesatz;
+    margin: 9px 0 14px 0;
+}
+
+#gifts .price {
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+#gifts .special-price {
+    color: #2B2560;
+}
+
+#gifts .special-price span {
+    font-size: 24px;
+    font-family: Yanone Kaffeesatz;
+    text-transform: uppercase;
+}
+
+#gifts .budget-too-low {
+    background: #A5D490;
+    padding: 4px 8px;
+    margin: 10px 10px 3px 0px;
+}
+
+@media only screen and (max-width: 479px){
+
+    div#gifts {
+
+    }
+
+    #gifts .cycle-slide {
+
+    }
+
     #gifts button {
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    #gifts p.label {
-        /*min-height: 58px;*/
-    }
+}
+
+.center {
+    text-align: center;
+    clear:both;
 }
 
 .cms-nieuw ul.products-grid {
@@ -1637,9 +1768,6 @@ form#postComment  .input-box {
     padding: 7px 0px;
 }
 
-.block.block-blog {
-    text-align: center;
-}
 
 .block.block-blog p {
     padding: 10px 30px;
@@ -1650,3 +1778,35 @@ form#postComment  .input-box {
     margin-bottom: 24px;
 }
 
+.info-stock {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+.free-shipping-msg {
+    padding: 11px 10px;
+    background-color: #BBEAA5;
+    color: #2B2560;
+    border-top: 1px solid #9DC58A;
+    border-bottom: 1px solid #9DC58A;
+}
+
+.special-price .promo-percent {
+    font-family: "Yanone Kaffeesatz";
+    font-size: 2.7rem;
+    color: #C47F9E;
+}
+
+.item .special-price .promo-percent {
+    font-size: 1.7rem;
+    color: #6C8E5D;
+}
+
+.product-view .product-shop .price-box .price-label {
+    color: #C47F9E;
+}
+
+.product-view .product-shop .price-box .price {
+    font-size: 32px;
+}

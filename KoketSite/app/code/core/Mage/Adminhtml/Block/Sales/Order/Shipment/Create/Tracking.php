@@ -73,6 +73,7 @@ class Mage_Adminhtml_Block_Sales_Order_Shipment_Create_Tracking extends Mage_Adm
         $carrierInstances = Mage::getSingleton('shipping/config')->getAllCarriers(
             $this->getShipment()->getStoreId()
         );
+        $carriers['bpost'] = Mage::helper('sales')->__('bpost');//added by GERT
         $carriers['DPD'] = Mage::helper('sales')->__('DPD');//added by GERT
         $carriers['custom'] = Mage::helper('sales')->__('Custom Value');
         foreach ($carrierInstances as $code => $carrier) {

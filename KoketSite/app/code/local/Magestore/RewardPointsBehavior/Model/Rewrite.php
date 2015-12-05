@@ -36,16 +36,18 @@ class Magestore_RewardPointsBehavior_Model_Rewrite extends Magestore_RewardPoint
      * @return Magestore_RewardPoints_Model_Transaction
      */
     public function sendUpdateBalanceEmail($rewardAccount = null) {
-        if (($this->getData('action') == 'birthday')&&Mage::helper('rewardpointsbehavior')->getBirthdayConfig('enable_send', Mage::app()->getStore()->getId())) {
+        if (($this->getData('action') == 'birthday')&& $this->getStatus() == Magestore_RewardPoints_Model_Transaction::STATUS_COMPLETED &&Mage::helper('rewardpointsbehavior')->getBirthdayConfig('enable_send', Mage::app()->getStore()->getId())) {
             if (!Mage::getStoreConfigFlag(self::XML_PATH_EMAIL_ENABLE, $this->getStoreId())) {
                 return $this;
             }
             if (is_null($rewardAccount)) {
                 $rewardAccount = $this->getRewardAccount();
             }
-            if (!$rewardAccount->getIsNotification()) {
-                return $this;
-            }
+//            GERT: commented the lines below, to make sure that the birthday mail is send,
+//            no matter the checkbox to receive email notifications
+//            if (!$rewardAccount->getIsNotification()) {
+//                return $this;
+//            }
             $customer = $this->getCustomer();
             if (!$customer) {
                 $customer = Mage::getModel('customer/customer')->load($rewardAccount->getCustomerId());

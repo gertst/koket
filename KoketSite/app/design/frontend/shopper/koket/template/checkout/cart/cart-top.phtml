@@ -52,12 +52,28 @@
         ?>
         <?php $_items = $this->getRecentItems() ?>
         <?php if(count($_items)): ?>
-        <p class="block-subtitle text-recently"><?php echo $this->__('Recently added item(s)') ?></p>
-        <ol id="cart-sidebar" class="mini-products-list">
-            <?php foreach($_items as $_item): ?>
-            <?php echo $this->getItemHtml($_item) ?>
-            <?php endforeach; ?>
-        </ol>
+
+            <?php
+            //GERT start
+            $eurToFreeShipping = (float)Mage::getStoreConfig('carriers/matrixrate/free_shipping_threshold_BE') - (float)$this->getSubtotal();
+            if ((float)$eurToFreeShipping <= 35) {
+                if ((float)$eurToFreeShipping > 0) {
+                    echo "<div class='free-shipping-msg'><b>TIP:</b> Voeg nog voor ". Mage::helper('checkout')->formatPrice($eurToFreeShipping) . " aan artikelen toe voor <b>gratis verzending</b> binnen België! <a href='/verzenden-en-retourneren'>(meer)</a></div>";
+                } else {
+                    echo "<div class='free-shipping-msg'>Vanaf " . Mage::helper('checkout')->formatPrice((float)Mage::getStoreConfig('carriers/matrixrate/free_shipping_threshold_BE')) . " wordt je pakje <b>gratis verzonden</b> binnen België! <a href='/verzenden-en-retourneren'>(meer)</a></div>";
+                }
+            }
+            //GERT end
+            ?>
+        <div>
+            <p class="block-subtitle text-recently"><?php echo $this->__('Recently added item(s)') ?></p>
+
+            <ol id="cart-sidebar" class="mini-products-list">
+                <?php foreach($_items as $_item): ?>
+                <?php echo $this->getItemHtml($_item) ?>
+                <?php endforeach; ?>
+            </ol>
+        </div>
         <div class="subtotal-wrapper">
         <div class="subtotal">
             <?php if ($this->canApplyMsrp()): ?>

@@ -120,5 +120,15 @@ if ( $config['design']['below_logo'] ) {
     </div>
 
 </div>
+<?php
+//GERT add extra info below top menu
+//if(Mage::getSingleton('customer/session')->isLoggedIn()) {
+//    $customerData = Mage::getSingleton('customer/session')->getCustomer();
+//    if ($customerData->getId() == "253") { //gertst+1@gmail.com - stogos
+//        //GERT: add next line to have static page on each page, below menu
+//        echo $this->getLayout()->createBlock('cms/block')->setBlockId('header_info_on_each_page')->toHTML();
+//    }
+//}
+?>
 <!-- HEADER EOF -->
 <?php echo $this->getChildHtml('slideshow'); ?>

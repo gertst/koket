@@ -87,7 +87,7 @@ $collection = Mage::getModel('catalog/category')->load(2)
 
 foreach ($collection as $product) {
     if (!strpos($product->getSku(), "sample") && isNew($product)) {
-    ?>
+        ?>
     <li class="item odd">
         <div class="f-left">
             <a href="<?php echo $product->getProductUrl(); ?>" target="koket"

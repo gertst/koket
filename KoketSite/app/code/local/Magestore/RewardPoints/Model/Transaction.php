@@ -168,7 +168,7 @@ class Magestore_RewardPoints_Model_Transaction extends Mage_Core_Model_Abstract
                 ->setData('holding_balance', 0)
                 ->setData('spent_balance', 0)
                 ->setData('is_notification', 0)
-                ->setData('expire_notification', 0)
+                ->setData('expire_notification', 1) /*GERT: default to 0 */
                 ->save();
         }
         if ($rewardAccount->getPointBalance() + $this->getPointAmount() < 0) {

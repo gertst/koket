@@ -395,9 +395,16 @@ $_specialPriceStoreLabel = $this->getProductAttribute('special_price')->getStore
             <?php else: ?>
                 <p class="special-price">
                     <span class="price-label"><?php echo $_specialPriceStoreLabel ?></span>
-                <span class="price" id="product-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
-                    <?php echo $_coreHelper->formatPrice($_finalPrice, false) ?>
+                    <span class="promo-percent">
+                    <?php //GERT: added % promo
+                    $percent = 100 - ($_finalPrice/$_regularPrice) * 100;
+                    echo "-" . round($percent, 0, PHP_ROUND_HALF_UP) . "% !"
+                    ?>
                 </span>
+                    <span class="price" id="product-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
+                        <?php echo $_coreHelper->formatPrice($_finalPrice, false) ?>
+                    </span>
+
                 </p>
             <?php endif; ?>
         <?php endif; ?>

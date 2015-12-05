@@ -451,6 +451,7 @@ class Mage_Core_Model_Email_Template extends Mage_Core_Model_Template
         $mail->setFrom($this->getSenderEmail(), $this->getSenderName());
 
         //GERT REPLACED TO TEST MAILS LOCALLY: http://inchoo.net/magento/magento-l-e-s-s/
+        $subject = $this->getTemplateId();
 //        try {
 //            $mail->send();
 //            $this->_mail = null;
@@ -471,9 +472,9 @@ class Mage_Core_Model_Email_Template extends Mage_Core_Model_Template
 
             /* START LESS - (L)ocalhost (E)mail (S)erver (S)imulator */
             if($this->isPlain()) {
-                Mage::log($text, null, 'inchoo_less_email_ok_text_'.$time.'.log', true);
+                Mage::log($text, null, 'inchoo_less_email_ok_text_'.$time."-".$subject.'.log', true);
             } else {
-                Mage::log($text, null, 'inchoo_less_email_ok_text_'.$time.'.html', true);
+                Mage::log($text, null, 'inchoo_less_email_ok_text_'.$time."-".$subject.'.html', true);
                 //Mage::log($text, null, 'inchoo_less_email_ok_text_'.$time.'-'.$this->getProcessedTemplateSubject($variables).'.html', true);
             }
             /* END LESS - (L)ocalhost (E)mail (S)erver (S)imulator */
@@ -485,10 +486,10 @@ class Mage_Core_Model_Email_Template extends Mage_Core_Model_Template
 
             /* START LESS - (L)ocalhost (E)mail (S)erver (S)imulator */
             if($this->isPlain()) {
-                Mage::log($text, null, 'inchoo_less_email_exception_text_'.$time.'.log', true);
+                Mage::log($text, null, 'inchoo_less_email_exception_text_'.$time."-".$subject.'.log', true);
             } else {
                 //Mage::log($text, null, 'inchoo_less_email_exception_text_'.$time.'-'.$this->getProcessedTemplateSubject($variables).'.html', true);
-                Mage::log($text, null, 'inchoo_less_email_exception_text_'.$time.'.html', true);
+                Mage::log($text, null, 'inchoo_less_email_exception_text_'.$time."-".$subject.'.html', true);
 
             }
             /* END LESS - (L)ocalhost (E)mail (S)erver (S)imulator */
