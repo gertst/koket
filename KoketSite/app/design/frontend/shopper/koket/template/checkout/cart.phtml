@@ -49,6 +49,19 @@
     <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
 
 
+
+
+    <?php //GERT - get products for free when cart over 25 EUR ?>
+    <?php //include "free-product.php" ?>
+    <?php
+//    if(Mage::getSingleton('customer/session')->isLoggedIn()) {
+//        $customerData = Mage::getSingleton('customer/session')->getCustomer();
+//        if ($customerData->getId() == "253") { //gertst+1@gmail.com - stogos
+            include "free-product.php";
+//        }
+//    }
+    ?>
+
     <?php
     //GERT start
     $quote = Mage::getModel('checkout/session')->getQuote();
@@ -63,17 +76,6 @@
         }
     }
     //GERT end
-    ?>
-
-    <?php //GERT - get products for free when cart over 25 EUR ?>
-    <?php //include "free-product.php" ?>
-    <?php
-    //if(Mage::getSingleton('customer/session')->isLoggedIn()) {
-      //  $customerData = Mage::getSingleton('customer/session')->getCustomer();
-        //if ($customerData->getId() == "253") { //gertst+1@gmail.com - stogos
-            //include "free-product.php";
-        //}
-    //}
     ?>
 
     <?php echo $this->getChildHtml('form_before') ?>

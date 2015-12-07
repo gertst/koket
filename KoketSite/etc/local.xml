@@ -39,19 +39,19 @@
                 <table_prefix><![CDATA[mag_]]></table_prefix>
             </db>
             <default_setup>
-                <!----------LOCAL-------->
-                <connection>
-                    <host><![CDATA[localhost]]></host>
-                    <username><![CDATA[localUser]]></username>
-                    <password><![CDATA[]]></password><!--GbszmJ4/8fW8WN36qv-->
-                    <dbname><![CDATA[kokettek_koket]]></dbname>
-                    <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
-                    <model><![CDATA[mysql4]]></model>
-                    <type><![CDATA[pdo_mysql]]></type>
-                    <pdoType><![CDATA[]]></pdoType>
-                    <active>1</active>
-                </connection>
-                <!----------ONLINE-------->
+                <!----------LOCAL--------> 
+                <!--<connection>-->
+                    <!--<host><![CDATA[localhost]]></host>-->
+                    <!--<username><![CDATA[root]]></username>-->
+                    <!--<password><![CDATA[]]></password>&lt;!&ndash;GbszmJ4/8fW8WN36qv&ndash;&gt;-->
+                    <!--<dbname><![CDATA[kokettek_koket]]></dbname>-->
+                    <!--<initStatements><![CDATA[SET NAMES utf8]]></initStatements>-->
+                    <!--<model><![CDATA[mysql4]]></model>-->
+                    <!--<type><![CDATA[pdo_mysql]]></type>-->
+                    <!--<pdoType><![CDATA[]]></pdoType>-->
+                    <!--<active>1</active>-->
+                <!--</connection>-->
+                <!----------ONLINE Siteground-------->
                 <!--<connection>-->
                     <!--<host><![CDATA[localhost]]></host>-->
                     <!--<username><![CDATA[kokettek_main]]></username>-->
@@ -63,6 +63,18 @@
                     <!--<pdoType><![CDATA[]]></pdoType>-->
                     <!--<active>1</active>-->
                 <!--</connection>-->
+                <!----------online CloudVPS-------->
+                <connection>
+                    <host><![CDATA[localhost]]></host>
+                    <username><![CDATA[gert_mage1]]></username>
+                    <password><![CDATA[RXMiPkUxVZ4n]]></password>
+                    <dbname><![CDATA[gert_mage1]]></dbname>
+                    <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
+                    <model><![CDATA[mysql4]]></model>
+                    <type><![CDATA[pdo_mysql]]></type>
+                    <pdoType><![CDATA[]]></pdoType>
+                    <active>1</active>
+                </connection>
             </default_setup>
         </resources>
         <session_save><![CDATA[db]]></session_save>

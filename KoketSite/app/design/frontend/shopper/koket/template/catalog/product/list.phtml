@@ -246,9 +246,9 @@ $empty_category_block = Mage::getModel('cms/block')
         </li>
         <?php
             //GERT add extra info below top menu
-            if(Mage::getSingleton('customer/session')->isLoggedIn()) {
-                $customerData = Mage::getSingleton('customer/session')->getCustomer();
-                if ($customerData->getId() == "253") { //gertst+1@gmail.com - stogos
+//            if(Mage::getSingleton('customer/session')->isLoggedIn()) {
+//                $customerData = Mage::getSingleton('customer/session')->getCustomer();
+//                if ($customerData->getId() == "253") { //gertst+1@gmail.com - stogos
                 //GERT show random banner
                 $i++;
                 if($i == $randomAdIndex){ ?>
@@ -267,8 +267,8 @@ $empty_category_block = Mage::getModel('cms/block')
                         </div>
                     </div>
                 </div>
-        <?php       }
-                }
+        <?php       //}
+                //}
              } ?>
         <?php endforeach ?>
     </ul>
