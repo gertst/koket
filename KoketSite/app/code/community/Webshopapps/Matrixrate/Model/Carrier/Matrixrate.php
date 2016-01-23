@@ -114,11 +114,21 @@ class Webshopapps_Matrixrate_Model_Carrier_Matrixrate
 
      	$freeShipping=false;
 
-        //gert: calculate tax
+        //gert: calculate tax (not needed anymore)
+        /*
         $tax = 0;
+        $total = "";
         foreach ($request->getAllItems() as $item) {
-            $tax += $item->getTaxAmount();
+            $tax += ($item->getTaxAmount());
+            $total .= (($item->getPrice() * $item->getQty()) + $item->getTaxAmount()) . ", ";
+
         }
+        */
+
+        $quote = Mage::getModel('checkout/session')->getQuote();
+        $quoteData= $quote->getData();
+        $grandTotal=$quoteData['grand_total'];
+        $grandTotalExclShipping = $grandTotal - Mage::getSingleton('checkout/session')->getQuote()->getShippingAddress()->getShippingAmount();
 
 
         //changed by GERT to check on BE and neighbouring countries and enable free shipping when threshold is met
@@ -135,7 +145,8 @@ class Webshopapps_Matrixrate_Model_Carrier_Matrixrate
             $threshold = $this->getConfigData('free_shipping_threshold_LU');
         }
 
-        if ($threshold > 0 && $request->getPackageValue() + $tax >= $threshold) {
+        //if ($threshold > 0 && $request->getPackageValue() + $tax >= $threshold) {
+        if ($threshold > 0 && $grandTotalExclShipping >= $threshold) {
             $freeShipping=true;
         }
 
@@ -156,12 +167,13 @@ class Webshopapps_Matrixrate_Model_Carrier_Matrixrate
 			$method->setPrice('0.00');
 			$method->setMethodTitle($this->getConfigData('free_method_text'));
 			$result->append($method);
-			
+
 			if ($this->getConfigData('show_only_free')) {
 				return $result;
 			}
 		}
-     	
+
+
 	   foreach ($ratearray as $rate)
 		{
 		   if (!empty($rate) && $rate['price'] >= 0) {
