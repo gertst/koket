@@ -1,181 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/skin/frontend/shopper/koket/css/override.css" description="5C9E56" line="494" />
+    <bookmark url="file://$PROJECT_DIR$/skin/frontend/shopper/koket/css/override.css" description="5C9E56" line="498" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9614c42-bc15-4ff5-ac12-205185ba7f5f" name="Default" comment="" />
+    <list default="true" id="a9614c42-bc15-4ff5-ac12-205185ba7f5f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/persistent/checkout/onepage/billing.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gert/colors-rainbow.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gert/colors-similar-get.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gert/colors-similar.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/stogo/color-thief.min.js" afterPath="$PROJECT_DIR$/js/stogo/color-thief.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/koket/acties/gratis-oorbellen_2x.png" afterPath="$PROJECT_DIR$/media/koket/acties/gratis-oorbellen_2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Queldorei/ShopperSettings/Helper/Data.php" afterPath="$PROJECT_DIR$/app/code/local/Queldorei/ShopperSettings/Helper/Data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Sales/Order/View.php" afterPath="$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Sales/Order/View.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/color-edit-save.php" afterPath="$PROJECT_DIR$/color-edit-save.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/stogo/color-edit.js" afterPath="$PROJECT_DIR$/js/stogo/color-edit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/color-edit.php" afterPath="$PROJECT_DIR$/color-edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/stogo/colours.js" afterPath="$PROJECT_DIR$/js/stogo/colours.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/free-product.php" afterPath="$PROJECT_DIR$/free-product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-shopping-products-list.php" afterPath="$PROJECT_DIR$/google-shopping-products-list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/page/html/header.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/page/html/header.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gert/list-product-orders-and-stock.php" afterPath="$PROJECT_DIR$/gert/list-product-orders-and-stock.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/catalog/product/list.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/catalog/product/list.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/shopper/default/css/local.css" afterPath="$PROJECT_DIR$/skin/frontend/shopper/default/css/local.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/local.xml" afterPath="$PROJECT_DIR$/app/etc/local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/shopper/default/css/mobile.css" afterPath="$PROJECT_DIR$/skin/frontend/shopper/default/css/mobile.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/shopper/koket/css/override.css" afterPath="$PROJECT_DIR$/skin/frontend/shopper/koket/css/override.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/sales/order/totals.phtml" afterPath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/sales/order/totals.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/catalog/product/view.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/catalog/product/view.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="KoketSite.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1447605250912" ignored="false" />
-    <file path="/override.css" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1449515174992" ignored="false" />
-    <file path="/a.dummy" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1449341782970" ignored="false" />
-    <file path="/Mage_XmlConnect.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1401531961320" ignored="false" />
-    <file path="/Magestore_RewardPointsReport.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1400700975530" ignored="false" />
-    <file path="/Mage_Review.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1400701490603" ignored="false" />
-    <file path="/view.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1437386940221" ignored="false" />
-    <file path="/dummy.xml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1432568065086" ignored="false" />
-    <file path="/translate.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1430556008907" ignored="false" />
-    <file path="/price.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1437815824529" ignored="false" />
-    <file path="/default.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1436213118631" ignored="false" />
-    <file path="/cart.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1437762029998" ignored="false" />
-    <file path="/default1800.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1401619931305" ignored="false" />
-    <file path="/Mage_Checkout.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1422798747765" ignored="false" />
-    <file path="/info.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1422820275982" ignored="false" />
-    <file path="/item.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1401619882865" ignored="false" />
-    <file path="/tmp.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1429446801361" ignored="false" />
-    <file path="/Magestore_RewardPoints.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1416832323710" ignored="false" />
-    <file path="/point.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1401618413728" ignored="false" />
-    <file path="/rewardpoints.js" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1405024201064" ignored="false" />
-    <file path="/name.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1401619118168" ignored="false" />
-    <file path="/label.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1401619438224" ignored="false" />
-    <file path="/captions.css" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1401647900181" ignored="false" />
-    <file path="/wrapper.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1403893624049" ignored="false" />
-    <file path="/onestep.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1403893435847" ignored="false" />
-    <file path="/checkout.js" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1405101209478" ignored="false" />
-    <file path="/*.regexp" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1449425416512" ignored="false" />
-    <file path="/tmp.txt" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1402215489052" ignored="false" />
-    <file path="/sidebar.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1402221869462" ignored="false" />
-    <file path="/stogoSendMailToNewCustomer.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1406661755579" ignored="false" />
-    <file path="/newsletter_unsub_success.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404843377391" ignored="false" />
-    <file path="/Mage_Newsletter.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1402234350034" ignored="false" />
-    <file path="/subscribe.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1402235616560" ignored="false" />
-    <file path="/subscribe_home.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1402236007079" ignored="false" />
-    <file path="/Mage_Widget.xml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1402671721491" ignored="false" />
-    <file path="/Mage_Eav.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1403286430703" ignored="false" />
-    <file path="/Mage_Core.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1403287179767" ignored="false" />
-    <file path="/Mage_Customer.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1406052685048" ignored="false" />
-    <file path="/Links.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1403900901084" ignored="false" />
-    <file path="/local.xml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1436192625631" ignored="false" />
-    <file path="/cms.xml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1403969340717" ignored="false" />
-    <file path="/Matrixrate.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1412620129608" ignored="false" />
-    <file path="/system.xml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1412618827329" ignored="false" />
-    <file path="/list-orders.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404157124415" ignored="false" />
-    <file path="/*.txt" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404235126856" ignored="false" />
-    <file path="/Standard.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404239979752" ignored="false" />
-    <file path="/TBT_Enhancedgrid.xml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404243769060" ignored="false" />
-    <file path="/register.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1427222905772" ignored="false" />
-    <file path="/account_new.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1405021531437" ignored="false" />
-    <file path="/header.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1446839332970" ignored="false" />
-    <file path="/Observer.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404541301040" ignored="false" />
-    <file path="/testmail.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404572951738" ignored="false" />
-    <file path="/link.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404648287411" ignored="false" />
-    <file path="/onepage.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1405109052313" ignored="false" />
-    <file path="$PROJECT_DIR$/app/code/local/ParadoxLabs/StorePickup/Model/Carrier/Pickup.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404710913472" ignored="false" />
-    <file path="/account_password_reset_confirmation.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1405021739773" ignored="false" />
-    <file path="/creditmemo_new.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1405105852594" ignored="false" />
-    <file path="/invoice_new.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404757690181" ignored="false" />
-    <file path="/invoice_new_guest.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404757701912" ignored="false" />
-    <file path="/order_update.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1405017984827" ignored="false" />
-    <file path="/order_update_guest.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404757760155" ignored="false" />
-    <file path="/shipment_new.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404762037283" ignored="false" />
-    <file path="/shipment_new_guest.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404762201609" ignored="false" />
-    <file path="/shipment_update.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1405017998179" ignored="false" />
-    <file path="/shipment_update_guest.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1405018007729" ignored="false" />
-    <file path="/admin_password_new.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1405536169576" ignored="false" />
-    <file path="/newsletter_subscr_confirm.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404758196085" ignored="false" />
-    <file path="/password_new.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404758706806" ignored="false" />
-    <file path="/product_price_alert.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404759019616" ignored="false" />
-    <file path="/product_stock_alert.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404759098054" ignored="false" />
-    <file path="/wishlist_share.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404759135881" ignored="false" />
-    <file path="/creditmemo_new_guest.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404759835082" ignored="false" />
-    <file path="/creditmemo_update.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404760013556" ignored="false" />
-    <file path="/creditmemo_update_guest.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1405017976362" ignored="false" />
-    <file path="/invoice_update.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404760718554" ignored="false" />
-    <file path="/order_new.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1405107813753" ignored="false" />
-    <file path="/order_new_guest.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1405107832886" ignored="false" />
-    <file path="/newsletter_subscr_success.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1427555562683" ignored="false" />
-    <file path="/invite.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404845999693" ignored="false" />
-    <file path="/notify_changed_point_by_admin.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404847420482" ignored="false" />
-    <file path="/update_point.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404847610583" ignored="false" />
-    <file path="/before_expire_transaction.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404848260080" ignored="false" />
-    <file path="/update_balance.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404848707037" ignored="false" />
-    <file path="/behavior_birthday.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1405017112900" ignored="false" />
-    <file path="/email_template.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404846545020" ignored="false" />
-    <file path="/Mage_Adminhtml.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1423055863521" ignored="false" />
-    <file path="/.htaccess" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1431689757455" ignored="false" />
-    <file path="/Mage_Sendfriend.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1404935226924" ignored="false" />
-    <file path="/IWD_Opc.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1422803151381" ignored="false" />
-    <file path="/Earning.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1405240607139" ignored="false" />
-    <file path="/Magestore_RewardPointsBehavior.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1405280148339" ignored="false" />
-    <file path="/Netzarbeiter_CustomerActivation.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1405713383914" ignored="false" />
-    <file path="/sale.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1405449853703" ignored="false" />
-    <file path="/Mage_Catalog.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1430940211038" ignored="false" />
-    <file path="/top.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1405877585886" ignored="false" />
-    <file path="/IndexController.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1405888115064" ignored="false" />
-    <file path="/ajaxwishlist.js" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1405884651731" ignored="false" />
-    <file path="/list.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1447706132196" ignored="false" />
-    <file path="/Mage_Tax.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1406058052810" ignored="false" />
-    <file path="/footer.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1423336817463" ignored="false" />
-    <file path="/bulk-new-passwords.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1406302419240" ignored="false" />
-    <file path="/sites" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1406456249145" ignored="false" />
-    <file path="/cart-top.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1437760258108" ignored="false" />
-    <file path="/jquery.priceslider.js" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1407005065667" ignored="false" />
-    <file path="/workshopview.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1436357230205" ignored="false" />
-    <file path="/workshoplist.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1436608144032" ignored="false" />
-    <file path="/addproduct.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1409003068397" ignored="false" />
-    <file path="/free-product.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1449425517477" ignored="false" />
-    <file path="/tmp.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1414959073024" ignored="false" />
-    <file path="/New.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1409334986070" ignored="false" />
-    <file path="/new.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1447361533081" ignored="false" />
-    <file path="/success.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1420490415039" ignored="false" />
-    <file path="/Mage_ProductAlert.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1411853130167" ignored="false" />
-    <file path="/create-sample.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1414263977558" ignored="false" />
-    <file path="/Magestore_RewardPointsRule.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1413635848479" ignored="false" />
-    <file path="/Mage_CatalogSearch.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1413659000787" ignored="false" />
-    <file path="/login.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1427223602701" ignored="false" />
-    <file path="/Pointearn.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1414437030472" ignored="false" />
-    <file path="/Cart.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1414440170318" ignored="false" />
-    <file path="/robots.txt" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1415715974134" ignored="false" />
-    <file path="/facebook.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1432567448652" ignored="false" />
-    <file path="/Mage_CatalogInventory.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1416431649763" ignored="false" />
-    <file path="/Mage_Wishlist.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1416431621874" ignored="false" />
-    <file path="/Mage_GiftMessage.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1416833986227" ignored="false" />
-    <file path="/inline.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1416859810602" ignored="false" />
-    <file path="/color-edit.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1417642582163" ignored="false" />
-    <file path="/color-edit-save.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1417641126331" ignored="false" />
-    <file path="/colors.js" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1417635344690" ignored="false" />
-    <file path="/color-edit.js" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1417643829662" ignored="false" />
-    <file path="/colours.js" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1417643003810" ignored="false" />
-    <file path="/import-newsletter-subscriptions.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1420897562093" ignored="false" />
-    <file path="/Mollie_Mpm.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1422797396960" ignored="false" />
-    <file path="/Inchoo_SocialConnect.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1423772867813" ignored="false" />
-    <file path="/styles.css" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1423301974491" ignored="false" />
-    <file path="/receipt-footer.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1423944026603" ignored="false" />
-    <file path="/forgotpassword.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1427224911888" ignored="false" />
-    <file path="/mini.login.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1427223550849" ignored="false" />
-    <file path="/index.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1438327373012" ignored="false" />
-    <file path="/Template.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1438537650926" ignored="false" />
-    <file path="/Email.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1430648395398" ignored="false" />
-    <file path="/Mage_Bundle.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1430940196071" ignored="false" />
-    <file path="/local.css" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1430940755216" ignored="false" />
-    <file path="/revolution.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1431593865044" ignored="false" />
-    <file path="/500.shtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1431631660333" ignored="false" />
-    <file path="/404.shtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1431631753959" ignored="false" />
-    <file path="/list-product-orders-and-stock.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1431865777784" ignored="false" />
-    <file path="/list-all.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1431762844797" ignored="false" />
-    <file path="/dirsize.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1431797467404" ignored="false" />
-    <file path="/receipt-header.html" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1431977429758" ignored="false" />
-    <file path="/printReceipt.js" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1431977626312" ignored="false" />
-    <file path="/deals.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1434228875335" ignored="false" />
-    <file path="/Config.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1433580777006" ignored="false" />
-    <file path="/media.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1435927586352" ignored="false" />
-    <file path="/items.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1436188855312" ignored="false" />
-    <file path="/style.css" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1436195300503" ignored="false" />
-    <file path="/AW_Blog.csv" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1436608980893" ignored="false" />
-    <file path="/post.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1437578843700" ignored="false" />
-    <file path="/menu.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1436198197837" ignored="false" />
-    <file path="/index.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1436269112042" ignored="false" />
-    <file path="/richsnippets.xml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1436269147580" ignored="false" />
-    <file path="/blog.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1437573173456" ignored="false" />
-    <file path="/Post.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1437579614950" ignored="false" />
-    <file path="/main.js" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1438343610705" ignored="false" />
-    <file path="/Transaction.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1438536107927" ignored="false" />
-    <file path="/Rewrite.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1438536415423" ignored="false" />
-    <file path="/redirect-on-login.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1441214973641" ignored="false" />
-    <file path="/navigation.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1441219072558" ignored="false" />
-    <file path="/edit.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1441313097229" ignored="false" />
-    <file path="/responsive.css" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1446408282576" ignored="false" />
+    <ignored path="$PROJECT_DIR$/includes/" />
+    <file path="/Dummy.txt" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1467315037372" ignored="false" />
+    <file path="/a.dummy" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1467315272152" ignored="false" />
+    <file path="/media.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1457262605955" ignored="false" />
+    <file path="/google-shopping-products-list.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1457272409368" ignored="false" />
+    <file path="/local.xml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1457272576810" ignored="false" />
+    <file path="/list.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1457725817717" ignored="false" />
+    <file path="/override.css" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1462628706145" ignored="false" />
+    <file path="/colors-similar.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1460810056235" ignored="false" />
+    <file path="/colors-similar-get.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1458587615259" ignored="false" />
+    <file path="/color-edit.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1457886142207" ignored="false" />
+    <file path="/view.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1458506855292" ignored="false" />
+    <file path="/dummy.xml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1458506096128" ignored="false" />
+    <file path="/post.phtml" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1462627044558" ignored="false" />
+    <file path="/*.regexp" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1467396765829" ignored="false" />
+    <file path="/free-product.php" changelist="a9614c42-bc15-4ff5-ac12-205185ba7f5f" time="1467395109984" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,19 +75,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="override.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skin/frontend/shopper/koket/css/override.css">
+      <file leaf-file-name="color-edit.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/color-edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1859" column="17" selection-start="34759" selection-end="34759" vertical-scroll-proportion="0.0">
+            <state line="141" column="31" selection-start="4866" selection-end="4866" vertical-scroll-proportion="-0.5714286">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pattern-logo-sint.gif" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/skin/frontend/shopper/default/images/pattern-logo-sint.gif">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="colours.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/stogo/colours.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="1" selection-start="0" selection-end="975" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colors-similar.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gert/colors-similar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="162" column="13" selection-start="4388" selection-end="4438" vertical-scroll-proportion="-18.047619">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.phtml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/koket/template/catalog/product/view.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="122" column="32" selection-start="4788" selection-end="4788" vertical-scroll-proportion="0.25647667">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="free-product.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/free-product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="4" selection-start="663" selection-end="663" vertical-scroll-proportion="-6.285714">
+              <folding>
+                <marker date="1467395331000" expanded="true" signature="1871:2181" placeholder="..." />
+                <marker date="1467395331000" expanded="true" signature="2548:2646" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colors-similar-get.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gert/colors-similar-get.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="101" column="0" selection-start="3459" selection-end="3459" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -234,24 +150,26 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/design/frontend/rwd/default/template/aw_blog/post.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/aw_blog/post.phtml" />
-        <option value="$PROJECT_DIR$/app/code/community/AW/Blog/Model/Blog.php" />
-        <option value="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/customer/account/navigation.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/customer/form/edit.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/customer/form/edit.phtml" />
-        <option value="$PROJECT_DIR$/skin/frontend/shopper/default/css/responsive.css" />
-        <option value="$PROJECT_DIR$/app/design/frontend/shopper/default/template/catalog/product/list.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/page/html/header.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/catalog/product/new.phtml" />
-        <option value="$PROJECT_DIR$/LICENSE_AFL.txt" />
+        <option value="$PROJECT_DIR$/app/design/frontend/shopper/default/template/catalog/product/view/media.phtml" />
         <option value="$PROJECT_DIR$/google-shopping-products-list.php" />
-        <option value="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/checkout/cart.phtml" />
+        <option value="$PROJECT_DIR$/app/etc/local.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/shopper/default/template/catalog/product/list.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/catalog/product/list.phtml" />
-        <option value="$PROJECT_DIR$/free-product.php" />
+        <option value="$PROJECT_DIR$/js/stogo/colours.js" />
+        <option value="$PROJECT_DIR$/gert/colors-similar-get.php" />
+        <option value="$PROJECT_DIR$/gert/colors-similar.php" />
+        <option value="$PROJECT_DIR$/color-edit.php" />
         <option value="$PROJECT_DIR$/skin/frontend/shopper/koket/css/override.css" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/aw_blog/post.phtml" />
+        <option value="$PROJECT_DIR$/free-product.php" />
+        <option value="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/catalog/product/view.phtml" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -332,6 +250,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -470,62 +389,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="skin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="media" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -540,11 +403,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="media" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="queldorei" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -558,15 +417,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="media" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="queldorei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopper" />
+              <option name="myItemId" value="stogo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -580,11 +435,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="media" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="koket" />
+              <option name="myItemId" value="gert" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -598,15 +449,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="media" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="koket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="acties" />
+              <option name="myItemId" value="errors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -751,166 +594,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="koket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="koket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="koket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="checkout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="koket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="checkout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cart" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1008,6 +691,324 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="product" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="product" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aw_blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KoketSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="code" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1120,77 +1121,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="etc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KoketSite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Block" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Product" />
+              <option name="myItemId" value="Helper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1198,13 +1135,13 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="140" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="139" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/matrixrates.csv" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Google Drive/B.U.T/typescript/MK5-Simulator" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="149" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="939" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="937" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="939" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="145" />
     <property name="GoToClass.includeJavaFiles" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
@@ -1212,7 +1149,6 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
@@ -1227,45 +1163,50 @@
   </component>
   <component name="PublishConfig" serverName="kokettekatinka.be" serverId="afd05d0a-5c4d-47fe-94fc-1a7b9997ed78" autoUpload="true">
     <servers>
+      <server id="05708a4b-48de-42ec-a67f-a2e871a911db">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/public_html/staging" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
       <server id="4246512c-e7c3-4962-b967-397db456c455">
-        <serverdata />
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
       </server>
       <server id="5b49daee-1dd1-4494-a038-a5326eba7080">
         <serverdata>
           <mappings>
-            <mapping deploy="/public_html" local="$PROJECT_DIR$" web="/" />
+            <mapping local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </server>
       <server id="afd05d0a-5c4d-47fe-94fc-1a7b9997ed78">
         <serverdata>
           <mappings>
-            <mapping deploy="/public_html" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/www" local="$PROJECT_DIR$" />
           </mappings>
-          <excludedPaths>
-            <ExcludedPath>
-              <option name="local" value="true" />
-              <option name="path" value="$PROJECT_DIR$/var" />
-            </ExcludedPath>
-          </excludedPaths>
         </serverdata>
       </server>
     </servers>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/media/koket/acties" />
-      <recent name="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/catalog/product" />
-      <recent name="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/customer/form" />
-      <recent name="$PROJECT_DIR$/editor" />
-      <recent name="$PROJECT_DIR$/app/design/frontend/shopper/koket" />
+      <recent name="$PROJECT_DIR$/gert" />
+      <recent name="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/persistent/checkout/onepage" />
+      <recent name="$PROJECT_DIR$/koket" />
+      <recent name="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/sales/order/view/tab" />
+      <recent name="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/checkout/onepage" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/editor/img/assets" />
-      <recent name="$PROJECT_DIR$/app/design/frontend/shopper/koket/template" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/gert" />
-      <recent name="$PROJECT_DIR$/js/stogo" />
+      <recent name="$PROJECT_DIR$/app/design/frontend/shopper/koket/template/checkout/onepage/shipping_method" />
+      <recent name="$PROJECT_DIR$/app/code/community/Meanbee/gmailactions" />
+      <recent name="$PROJECT_DIR$/var/connect" />
+      <recent name="$PROJECT_DIR$/app/etc/modules" />
+      <recent name="$PROJECT_DIR$/app/design/frontend/base/default/layout/meanbee/gmailactions" />
     </key>
   </component>
   <component name="RunManager">
@@ -1274,20 +1215,6 @@
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="afd05d0a-5c4d-47fe-94fc-1a7b9997ed78" server_name="kokettekatinka.be">
@@ -1349,17 +1276,18 @@
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30677292" sideWeight="0.48637015" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855093" sideWeight="0.5874822" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40106243" sideWeight="0.72955525" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23098996" sideWeight="0.71978754" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4050465" sideWeight="0.72955525" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23098996" sideWeight="0.6932271" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40106243" sideWeight="0.27044475" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38778222" sideWeight="0.27044475" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31635582" sideWeight="0.5989376" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27044475" sideWeight="0.59495354" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1427,110 +1355,111 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/koket/template/page/html/header.phtml">
+    <entry file="file://$PROJECT_DIR$/google-shopping-products-list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="110" selection-start="5906" selection-end="6006" vertical-scroll-proportion="0.62982005">
-          <folding>
-            <marker date="1446986945000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state line="158" column="61" selection-start="6151" selection-end="6151" vertical-scroll-proportion="0.6826087" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/koket/template/catalog/product/list.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="76" selection-start="8292" selection-end="8292" vertical-scroll-proportion="0.51038575" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/default/template/catalog/product/list.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="5" selection-start="15" selection-end="15" vertical-scroll-proportion="0.062176164" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/default/template/catalog/product/view/media.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="17" selection-start="5103" selection-end="5103" vertical-scroll-proportion="0.5466321" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/stogo/color-edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.38329238" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/stogo/colours.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="1" selection-start="0" selection-end="975" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skin/frontend/shopper/default/images/pattern-logo.gif">
+    <entry file="file://$PROJECT_DIR$/gert/colors-similar-get.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="0" selection-start="3459" selection-end="3459" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gert/colorpicker.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/queldorei/shopper/footer_banner_2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/color-edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="31" selection-start="4866" selection-end="4866" vertical-scroll-proportion="-0.5714286">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/queldorei/shopper/footer_banner_1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/aw_blog/post.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="24" selection-start="7107" selection-end="7107" vertical-scroll-proportion="0.49550897">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skin/frontend/shopper/default/images/php.ini">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/aw_blog/blog.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/koket/template/checkout/cart/cart-top.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="9" selection-start="1890" selection-end="2203" vertical-scroll-proportion="0.5163934">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Queldorei/ShopperSettings/etc/cms.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="290" column="117" selection-start="22677" selection-end="22677" vertical-scroll-proportion="0.45736435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/koket/acties/gratis-oorbellen_2x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/queldorei/shopper/footer_banner_gratis_oorbellen.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/queldorei/shopper/footer_banner_gratis_oorbellen.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skin/frontend/shopper/koket/css/override.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1859" column="17" selection-start="34759" selection-end="34759" vertical-scroll-proportion="0.0">
+        <state line="1892" column="66" selection-start="35414" selection-end="35415" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/koket/template/checkout/cart.phtml">
+    <entry file="file://$PROJECT_DIR$/app/code/local/Queldorei/ShopperSettings/Helper/Data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="11" selection-start="2199" selection-end="2199" vertical-scroll-proportion="0.55737704">
-          <folding>
-            <marker date="1449348228000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state line="50" column="53" selection-start="1349" selection-end="1362" vertical-scroll-proportion="0.22038567">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/koket/acties/gratis-oorbellen.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/koket/template/catalog/product/list.phtml">
+    <entry file="file://$PROJECT_DIR$/gert/colors-similar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="210" column="133" selection-start="13909" selection-end="14026" vertical-scroll-proportion="0.5441176">
+        <state line="162" column="13" selection-start="4388" selection-end="4438" vertical-scroll-proportion="-18.047619">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/free-product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="208" selection-start="2866" selection-end="2866" vertical-scroll-proportion="0.5764706">
+        <state line="21" column="4" selection-start="663" selection-end="663" vertical-scroll-proportion="-6.285714">
           <folding>
-            <element signature="e#6#309#0" expanded="true" />
+            <marker date="1467395331000" expanded="true" signature="1871:2181" placeholder="..." />
+            <marker date="1467395331000" expanded="true" signature="2548:2646" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skin/frontend/shopper/default/images/pattern-logo-sint.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/shopper/koket/template/catalog/product/view.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="32" selection-start="4788" selection-end="4788" vertical-scroll-proportion="0.25647667">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

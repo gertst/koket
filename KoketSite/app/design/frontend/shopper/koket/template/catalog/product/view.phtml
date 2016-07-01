@@ -120,7 +120,7 @@ echo '<div class="product-category-title">'.$_category->getName().'</div>';
                 <div class="info-stock">
                     <?php
                     $stock = Mage::getModel('cataloginventory/stock_item')->loadByProduct($_product);
-                    $stockQty = round($stock->getQty());
+                    $stockQty = ($stock->getQty());
                     if ($stockQty > 0 && $stockQty <= 4) {
                         if ($stockQty <= 2) {
                             echo "Opgelet, heel beperkte voorraad!";
@@ -465,6 +465,90 @@ echo '<div class="product-category-title">'.$_category->getName().'</div>';
 	<!-- RELATED -->
 	<?php echo $this->getChildHtml('content_related') ?>
 	<!-- RELATED -->
+
+    <!-- GERT: similar colors -->
+    <?php if (strlen($_product["color_hue1"])>0) : ?>
+
+        <div class="similar-container"></div>
+
+        <script>
+
+            function rgbToHsl(r, g, b){
+                r /= 255, g /= 255, b /= 255;
+                var max = Math.max(r, g, b), min = Math.min(r, g, b);
+                var h, s, l = (max + min) / 2;
+
+                if(max == min){
+                    h = s = 0; // achromatic
+                }else{
+                    var d = max - min;
+                    s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+                    switch(max){
+                        case r: h = (g - b) / d + (g < b ? 6 : 0); break;
+                        case g: h = (b - r) / d + 2; break;
+                        case b: h = (r - g) / d + 4; break;
+                    }
+                    h /= 6;
+                }
+
+                return [h, s, l];
+            }
+
+            function hslToRgb(h, s, l){
+                var r, g, b;
+
+                if(s == 0){
+                    r = g = b = l; // achromatic
+                }else{
+                    var hue2rgb = function hue2rgb(p, q, t){
+                        if(t < 0) t += 1;
+                        if(t > 1) t -= 1;
+                        if(t < 1/6) return p + (q - p) * 6 * t;
+                        if(t < 1/2) return q;
+                        if(t < 2/3) return p + (q - p) * (2/3 - t) * 6;
+                        return p;
+                    }
+
+                    var q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+                    var p = 2 * l - q;
+                    r = hue2rgb(p, q, h + 1/3);
+                    g = hue2rgb(p, q, h);
+                    b = hue2rgb(p, q, h - 1/3);
+                }
+
+                return [Math.round(r * 255), Math.round(g * 255), Math.round(b * 255)];
+            }
+
+            function getHue(pixelData){
+                return rgbToHsl(pixelData[0], pixelData[1], pixelData[2])[0];
+            }
+
+            jQuery(window).on("load", function() {
+                loadSimilarColors();
+            });
+
+            function loadSimilarColors() {
+                //console.log("similar colors loaded");
+                var hslList = "<?php echo $_product["colors_hsl"] ?>".split(",");
+                if (hslList.length == 1) {
+                    for (var i=0; i<hslList.length; i++) {
+                        var hslData = hslList[i].split("-");
+                        var pixelData = hslToRgb(parseFloat(hslData[0]),parseFloat(hslData[1]),parseFloat(hslData[2]));
+                        var contrast = hslData[2] < 0.5 ? "#FFFFFF" : "#000000";
+                        jQuery(".similar-container").append("<div class='similar slider-container nr" + i + "'></div>");
+                        jQuery(".similar.slider-container.nr" + i ).load("/gert/colors-similar-get.php?r=" + pixelData[0] + "&g=" + pixelData[1] + "&b=" + pixelData[2] + "&hue=" + getHue(pixelData),
+                        function() {
+                            jQuery(".similar.slider-container:last").css("background-color", "rgb(" + pixelData[0] + ", " + pixelData[1] + ", " + pixelData[2] + ")");
+                            jQuery(".holder h3:last").css("color", contrast);
+                        });
+
+                    }
+                }
+            }
+        </script>
+        <!-- GERT: end similar colors -->
+    <?php endif; ?>
+
 
 </div>
 

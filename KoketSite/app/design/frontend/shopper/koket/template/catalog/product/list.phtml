@@ -130,26 +130,33 @@ $empty_category_block = Mage::getModel('cms/block')
 
 
 
-    //GERT init random nr to display ad
+        //GERT init random nr to display ad
 
-    $adBlock = Mage::getModel('cms/block')->load('random_product_list_ad');
+        $adBlock = Mage::getModel('cms/block')->load('random_product_list_ad');
 
-    if ($adBlock->getIsActive()) {
-        $randomAdIndex = (rand(1,4) * 6); //get a random position
-    } else {
         $randomAdIndex = -1;
-    }
 
-    $_collectionSize = $_productCollection->count();
+        if (!isset($_COOKIE['ad_expiration_at_session_end'])) {
+            if ($adBlock->getIsActive()) {
+                $randomAdIndex = (rand(1,4) * 6); //get a random position
+                setcookie("ad_expiration_at_session_end", "appels", time()+60);
+            }
 
-    $pageLayout = $this->getLayout()->getBlock('root')->getTemplate();
-    if ( strpos($pageLayout, '2columns') ) {
-        $grid_class = 'two_columns_' . Mage::getStoreConfig('shoppersettings/catalog/grid_columns_2col');
-    } else {
-        $grid_class = 'one_column_' . Mage::getStoreConfig('shoppersettings/catalog/grid_columns_1col');
-    }
-    $imgX = 252;
-    $imgY = $helper->calculateHeight($imgX);
+        }
+
+
+
+
+        $_collectionSize = $_productCollection->count();
+
+        $pageLayout = $this->getLayout()->getBlock('root')->getTemplate();
+        if ( strpos($pageLayout, '2columns') ) {
+            $grid_class = 'two_columns_' . Mage::getStoreConfig('shoppersettings/catalog/grid_columns_2col');
+        } else {
+            $grid_class = 'one_column_' . Mage::getStoreConfig('shoppersettings/catalog/grid_columns_1col');
+        }
+        $imgX = 252;
+        $imgY = $helper->calculateHeight($imgX);
     ?>
     <ul class="products-grid <?php echo $grid_class; ?>">
     <?php $i=0; foreach ($_productCollection as $_product): ?>

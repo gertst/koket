@@ -22,7 +22,7 @@ Mage::app();
     </tr>
 
     <?php
-    $fromDate = date("Y-m-d H:i:s", mktime(1, 2, 3, 4, 5, 2014));
+    $fromDate = date("Y-m-d H:i:s", mktime(0, 0, 0, 1, 1, 2014));
     $toDate = date("Y-m-d H:i:s", time());
 
     $collection = Mage::getModel('catalog/product')->getCollection();

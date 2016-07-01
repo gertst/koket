@@ -95,6 +95,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
     .box-up-sell2 .jcarousel-list .button-container button.button span span {background-image:url(../images/icon_cart_listing@2x.png);}
     .data-table .btn-edit2 {background-image:url(../images/icon_edit@2x.png);}
     .new-label, .sale-label {background-image:url(../images/labels@2x.png);}
+    .sale-label-solden {background-image:url(../images/labels-solden@2x.png);}
     .product-view .product-img-box .zoom #handle {background-image:url(../images/magnifier_handle@2x.png);}
     .toolbar-switch .toolbar-title {background-image:url("../images/selectbox_arrow@2x.png")}
 

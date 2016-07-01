@@ -18,7 +18,10 @@ $quote = Mage::getSingleton('checkout/session')->getQuote();
 $items = $quote->getAllItems();
 $priceInclVat = 0;
 foreach ($items as $item) {
-    $priceInclVat += $item->getRowTotalInclTax();
+    $product = $item->getProduct();
+    if (!$product->getData('special_price')) {
+        $priceInclVat += $item->getRowTotalInclTax();
+    }
 }
 
 $products = Mage::getModel('catalog/category')->load($category_id_to_check);

@@ -48,7 +48,12 @@ class Queldorei_ShopperSettings_Helper_Data extends Mage_Core_Helper_Abstract
 			$html .= '<div class="new-label new-' . $this->getCfg('labels/new_label_position') . '"></div>';
 		}
 		if ($this->getCfg("labels/sale_label") && $this->_isOnSale($product)) {
-			$html .= '<div class="sale-label sale-' . $this->getCfg('labels/sale_label_position') . '"></div>';
+            $soldenOn = Mage::getModel("core/variable")->loadByCode("custom_var_solden_on_off");
+            if ($soldenOn->getValue("text") == "on") {
+                $html .= '<div class="sale-label sale-label-solden sale-' . $this->getCfg('labels/sale_label_position') . '"></div>';
+            } else {
+                $html .= '<div class="sale-label sale-' . $this->getCfg('labels/sale_label_position') . '"></div>';
+            }
 		}
 
 		return $html;

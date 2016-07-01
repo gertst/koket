@@ -332,10 +332,13 @@ body.non-responsive {min-width:1200px;}
 .links li a:hover {color:#777; text-decoration: none;}
 .links li.separator{ padding:0 12px; background:url("../images/links_separator.png") 50% 50% no-repeat; }
 
-header { position:relative; z-index:10020;
+header { position:relative;
  -webkit-box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.15);
     -moz-box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.15);
          box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.15);}
+header.fixed {
+    z-index:10020;
+}
 .logo { float:none; display: inline-block; }
 header a.logo {  text-decoration:none !important; margin:34px 0; }
 header a.logo img{ max-width:100%; height:auto;width:auto\9; /* ie8 */ }
@@ -652,6 +655,7 @@ footer address{ margin-left:10px; }
 a.product-image {display:block;position:relative;}
 
 .new-label, .sale-label {position: absolute; z-index:10000; width:91px; height:91px; background:url(../images/labels.png) 0 0 no-repeat; }
+.sale-label-solden {position: absolute; z-index:10000; width:91px; height:91px; background:url(../images/labels-solden.png) 0 0 no-repeat; }
 .sale-top-left {top:-4px; left:-4px; background-position:-182px 0;}
 .sale-top-right {top:-4px; right:-4px; background-position:-273px 0;}
 .sale-bottom-left {bottom:-4px; left:-4px; background-position:-182px -91px;}
