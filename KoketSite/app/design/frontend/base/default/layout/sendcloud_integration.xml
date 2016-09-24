@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+  <sendcloud_servicepoints_onepage>
+    <reference name="head">
+      <action method="addJs">
+        <script>sendcloud/onepage.js</script>
+      </action>
+      <block type="page/html" name="sendcloud_jsvalues" template="sendcloud/servicepointpicker.phtml" />
+    </reference>
+  </sendcloud_servicepoints_onepage>
+  <sendcloud_servicepoints_onestepcheckout>
+    <reference name="head">
+      <action method="addJs">
+        <script>sendcloud/onestepcheckout.js</script>
+      </action>
+      <block type="page/html" name="sendcloud_jsvalues" template="sendcloud/servicepointpicker.phtml" />
+    </reference>
+  </sendcloud_servicepoints_onestepcheckout>
+
+
+  <checkout_onepage_index>
+    <update handle="sendcloud_servicepoints_onepage" />
+  </checkout_onepage_index>
+
+  <onestepcheckout_index_index>
+    <update handle="sendcloud_servicepoints_onestepcheckout" />
+  </onestepcheckout_index_index>
+</layout>

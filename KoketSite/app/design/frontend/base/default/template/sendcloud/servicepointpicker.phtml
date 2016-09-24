@@ -1,0 +1,17 @@
+
+<?php if(Mage::getStoreConfig('sendcloudintegration/servicepointpicker/isenabled')) { ?>
+<script>
+var SC_enabled = true;
+//var SC_language = '<?php //echo explode('_', Mage::app()->getLocale()->getLocaleCode())[0]; ?>';
+var SC_language = 'nl';
+var SC_public_key = '<?php echo Mage::getStoreConfig('sendcloudintegration/apisettings/publickey');?>';
+var SC_shippingmethods = <?php echo json_encode(split(',', Mage::getStoreConfig('sendcloudintegration/servicepointpicker/shippingmethods')));?>;
+var SC_url = 'https://sendcloudapp.com/release.js';
+<?php
+if(gethostname() == 'web.sendcloud.web.sendcloud') {
+  echo "SC_url = 'http://localhost:1337/all.js';";
+}
+?>
+</script>
+
+<?php } ?>

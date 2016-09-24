@@ -1,0 +1,386 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <sendcloudintegration translate="label">
+            <label><![CDATA[<div style="line-height: 20px;margin-left: -14px;"><img src="https://www.sendcloud.nl/favicon.ico" class="sendcloudicon" alt="" border="0" style="vertical-align: top;margin: 4px 3px 0 0; height: 11px; width: 11px;">SendCloud</div><style>h3 .sendcloudicon {visibility:hidden}</style>]]></label>
+            <!--<label><![CDATA[<div style="margin-left: -19px;height: 48px;overflow: hidden;width: 200px;"><img style="margin-top:-48px;" src="https://www.sendcloud.nl/wp-content/themes/sendcloud/images/sendcloud-logo.png" /></div>]]></label>-->
+            <tab>sales</tab>
+            <class>admin-system-config-sendcloud</class>
+            <frontend_type>text</frontend_type>
+            <sort_order>321</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>0</show_in_store>
+            <groups>
+                <introduction translate="label comment">
+                    <label>Introduction</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <expanded>1</expanded>
+                    <comment><![CDATA[<div style="height: 48px;overflow: hidden;width: 200px;float:right;padding:10px;"><a href="http://www.sendcloud.nl/"><img style="margin-top:-48px;" src="https://www.sendcloud.nl/wp-content/themes/sendcloud/images/sendcloud-logo.png" /></a></div>Shipping made simple, SendCloud saves you time and money.
+                    This is the module that integrates your Magento shop with the SendCloud platform.
+                    You can receive your API settings from the<a target="_blank" href="https://panel.sendcloud.nl/accounts/login/">SendCloud panel</a>.]]></comment>
+                </introduction>
+                <apisettings translate="label">
+                    <label>API settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>100</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <expanded>1</expanded>
+                    <fields>
+                        <!-- New fields go here -->
+                        <publickey translate="label comment">
+                            <label>Public key</label>
+                            <frontend_type>Text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </publickey>
+                        <secretkey translate="label comment">
+                            <label>Secret key</label>
+                            <frontend_type>Text</frontend_type>
+                            <sort_order>12</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </secretkey>
+                    </fields>
+                </apisettings>
+
+                <configuration translate="label">
+                    <label>Configuration</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>200</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <expanded>1</expanded>
+                    <fields>
+                        <addresstwoashousenumber translate="label comment">
+                            <label>Use address 2 field as housenumber</label>
+                            <comment>
+                                <![CDATA[Often OneStepCheckout uses the address 2 field as housenumber.]]>
+                            </comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </addresstwoashousenumber>
+
+                        <scanandgo translate="label comment">
+                            <label>Scan&amp;go enabled</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </scanandgo>
+                    </fields>
+                </configuration>
+
+                <process>
+                  <label>Order Process</label>
+                  <frontend_type>text</frontend_type>
+                  <sort_order>300</sort_order>
+                  <show_in_default>1</show_in_default>
+                  <show_in_website>1</show_in_website>
+                  <show_in_store>0</show_in_store>
+                  <expanded>1</expanded>
+                  <comment>
+                  </comment>
+                  <!-- <comment>
+                    1. Klant maakt order aan
+                        - Order status naar: "Wachtende"
+                    2. Betaling komt door
+                        - Order status naar: "Betaald"
+                    3. SC module stuurt de order automatisch naar SendCloud en maakt een pakbon aan
+                        - Order status naar: "In behandeling"
+                    4. De producten worden verstuurd en met scan&amp;go-oplossing wordt de verzending aangemeld
+                        - Order status naar: "Verzonden"
+                    5. Pakje komt aan bij klant
+                        - Order status naar: "Compleet"
+                  </comment> -->
+
+                  <fields>
+
+                    <transfercondition translate="label comment">
+                        <label>Transfer status condition</label>
+                        <comment>
+                            <![CDATA[When an order has the above status, then a label will be created in the SendCloud panel.]]>
+                        </comment>
+                        <frontend_type>select</frontend_type>
+                        <!-- adding a source model -->
+                        <source_model>adminhtml/system_config_source_order_status</source_model>
+                        <sort_order>4</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>0</show_in_store>
+                    </transfercondition>
+
+                    <announcestatuschange>
+                        <label>Change order status after announcement</label>
+                        <comment>
+                            <![CDATA[After announcing the parcel, change order in the above status. Our recommendation is to create a status.]]>
+                        </comment>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_order_status</source_model>
+                        <sort_order>14</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>0</show_in_store>
+                    </announcestatuschange>
+
+                    <deliverystatuschange>
+                        <label>Change order status after delivery</label>
+                        <comment>
+                            <![CDATA[After delivery the parcel, change order in the above status. Our recommendation is the status "complete".]]>
+                        </comment>
+                        <frontend_type>select</frontend_type>
+                        <source_model>adminhtml/system_config_source_order_status</source_model>
+                        <sort_order>24</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>0</show_in_store>
+                    </deliverystatuschange>
+                  </fields>
+                </process>
+
+
+                <servicepointpicker>
+                  <label>Service point picker</label>
+                  <frontend_type>text</frontend_type>
+                  <sort_order>300</sort_order>
+                  <show_in_default>1</show_in_default>
+                  <show_in_website>1</show_in_website>
+                  <show_in_store>0</show_in_store>
+                  <expanded>1</expanded>
+                  <fields>
+                    <isenabled>
+                      <label>Service Point Picker enabled</label>
+                      <frontend_type>select</frontend_type>
+                      <source_model>adminhtml/system_config_source_yesno</source_model>
+                      <sort_order>1</sort_order>
+                      <show_in_default>1</show_in_default>
+                      <show_in_website>1</show_in_website>
+                      <show_in_store>0</show_in_store>
+                    </isenabled>
+
+                    <shippingmethods>
+                        <label>Add service point picker to following shipping methods</label>
+                        <comment>
+                            <![CDATA[In above shipping methods a service point button will be injected]]>
+                        </comment>
+                        <frontend_type>multiselect</frontend_type>
+                        <source_model>adminhtml/system_config_source_shipping_allmethods</source_model>
+                        <sort_order>10</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                    </shippingmethods>
+                  </fields>
+                </servicepointpicker>
+
+                <!--
+                Design options for the service point picker
+                -->
+                <!-- <servicepointpickertheme>
+                  <label>Service point picker design options</label>
+                  <frontend_type>text</frontend_type>
+                  <sort_order>500</sort_order>
+                  <show_in_default>1</show_in_default>
+                  <show_in_website>1</show_in_website>
+                  <show_in_store>0</show_in_store>
+                  <expanded>0</expanded>
+
+                  <fields>
+                    <title translate="label">
+                      <label>Button text</label>
+                      <frontend_type>text</frontend_type>
+                      <sort_order>1</sort_order>
+                      <show_in_default>1</show_in_default>
+                      <show_in_website>1</show_in_website>
+                      <show_in_store>1</show_in_store>
+                    </title>
+
+                    <bgcolor translate="label">
+                      <label>Background color</label>
+                      <frontend_type>text</frontend_type>
+                      <sort_order>2</sort_order>
+                      <show_in_default>1</show_in_default>
+                      <show_in_website>1</show_in_website>
+                      <show_in_store>1</show_in_store>
+                    </bgcolor>
+
+                    <logo translate="label">
+                      <label>Logo</label>
+                      <frontend_type>text</frontend_type>
+                      <sort_order>3</sort_order>
+                      <show_in_default>1</show_in_default>
+                      <show_in_website>1</show_in_website>
+                      <show_in_store>1</show_in_store>
+                    </logo>
+
+                    <font translate="label">
+                      <label>Font??</label>
+                      <frontend_type>text</frontend_type>
+                      <sort_order>4</sort_order>
+                      <show_in_default>1</show_in_default>
+                      <show_in_website>1</show_in_website>
+                      <show_in_store>1</show_in_store>
+                    </font>
+                  </fields>
+                </servicepointpickertheme> -->
+
+                <extrafunctionality translate="label">
+                    <label>Extra functionality</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>600</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <expanded>0</expanded>
+                    <fields>
+                        <notifycustomer translate="label comment">
+                            <label>Notify customer after converting to shipped</label>
+                            <comment>
+                                <![CDATA[SendCloud offers a bulk order action which changes the status to shipped. Enabling this option will notify the customer of these changed orders]]>
+                            </comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </notifycustomer>
+                    </fields>
+                </extrafunctionality>
+
+            </groups>
+        </sendcloudintegration>
+
+        <carriers>
+          <groups>
+            <sendcloudcarrier translate="label" module="shipping">
+              <label>SendCloud</label>
+              <frontend_type>text</frontend_type>
+              <sort_order>10</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>0</show_in_store>
+              <comment>
+                  <![CDATA[This shipping method is optional. We recommend using flat rate, table rates, and/or free shipping to your needs. You can use this shipping method for the service point picker.]]>
+              </comment>
+              <!-- <expanded>0</expanded>  -->
+              <fields>
+                <title translate="label">
+                  <label>Title</label>
+                  <frontend_type>text</frontend_type>
+                  <default>SendCloud</default>
+                  <sort_order>1</sort_order>
+                  <show_in_default>1</show_in_default>
+                  <show_in_website>1</show_in_website>
+                  <show_in_store>1</show_in_store>
+                </title>
+                <methodname translate="label">
+                  <label>Method Name</label>
+                  <frontend_type>text</frontend_type>
+                  <default>Service Point Chooser</default>
+                  <sort_order>1</sort_order>
+                  <show_in_default>1</show_in_default>
+                  <show_in_website>1</show_in_website>
+                  <show_in_store>1</show_in_store>
+                </methodname>
+                <enabled translate="label">
+                  <label>Enabled</label>
+                  <frontend_type>select</frontend_type>
+                  <source_model>adminhtml/system_config_source_enabledisable</source_model>
+                  <sort_order>2</sort_order>
+                  <show_in_default>1</show_in_default>
+                  <show_in_website>1</show_in_website>
+                  <show_in_store>0</show_in_store>
+                </enabled>
+                <price translate="label">
+                  <label>Price</label>
+                  <frontend_type>text</frontend_type>
+                  <sort_order>3</sort_order>
+                  <show_in_default>1</show_in_default>
+                  <show_in_website>1</show_in_website>
+                  <show_in_store>1</show_in_store>
+                  <comment>Set the price for this shipping method</comment>
+                </price>
+                <free_shipping_enable translate="label">
+                  <label>Free shipping from specified price</label>
+                  <frontend_type>select</frontend_type>
+                  <source_model>adminhtml/system_config_source_enabledisable</source_model>
+                  <sort_order>4</sort_order>
+                  <show_in_default>1</show_in_default>
+                  <show_in_website>1</show_in_website>
+                  <show_in_store>1</show_in_store>
+                </free_shipping_enable>
+                <free_shipping_subtotal translate="label">
+                  <label>Free shipping from this price</label>
+                  <frontend_type>text</frontend_type>
+                  <sort_order>5</sort_order>
+                  <show_in_default>1</show_in_default>
+                  <show_in_website>1</show_in_website>
+                  <show_in_store>1</show_in_store>
+                </free_shipping_subtotal>
+                <sallowspecific translate="label">
+                  <label>Ship to Applicable Countries</label>
+                  <frontend_type>select</frontend_type>
+                  <sort_order>7</sort_order>
+                  <frontend_class>shipping-applicable-country</frontend_class>
+                  <source_model>adminhtml/system_config_source_shipping_allspecificcountries</source_model>
+                  <show_in_default>1</show_in_default>
+                  <show_in_website>1</show_in_website>
+                  <show_in_store>0</show_in_store>
+                </sallowspecific>
+                <specificcountry translate="label">
+                  <label>Ship to Specific Countries</label>
+                  <frontend_type>multiselect</frontend_type>
+                  <sort_order>8</sort_order>
+                  <source_model>adminhtml/system_config_source_country</source_model>
+                  <show_in_default>1</show_in_default>
+                  <show_in_website>1</show_in_website>
+                  <show_in_store>0</show_in_store>
+                  <can_be_empty>1</can_be_empty>
+                </specificcountry>
+
+                <sortorder translate="label">
+                  <label>Sort Order</label>
+                  <frontend_type>text</frontend_type>
+                  <sort_order>10</sort_order>
+                  <show_in_default>1</show_in_default>
+                  <show_in_website>1</show_in_website>
+                  <show_in_store>0</show_in_store>
+                </sortorder>
+              </fields>
+            </sendcloudcarrier>
+          </groups>
+        </carriers>
+    </sections>
+
+
+    <adminhtml>
+      <acl>
+          <resources>
+            <admin>
+              <children>
+                <sendcloudintegration module="sendcloud_integration">
+                      <title>SendCloud Integration</title>
+                </sendcloudintegration>
+              </children>
+            </admin>
+          </resources>
+      </acl>
+  </adminhtml>
+</config>

@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <!-- Module definition and version -->
+        <SendCloud_Integration>
+            <version>1.2.0</version>
+        </SendCloud_Integration>
+    </modules>
+
+
+    <admin>
+      <routers>
+        <!-- <adminhtml>
+          <args>
+            <modules>
+              <sendcloud_integration after="Mage_Adminhtml">SendCloudIntegration_Adminhtml</sendcloud_integration>
+            </modules>
+          </args>
+        </adminhtml> -->
+        <sendcloud_integration>
+            <use>admin</use>
+            <args>
+                <module>SendCloud_Integration</module>
+                <frontName>sendcloudintegration</frontName>
+            </args>
+        </sendcloud_integration>
+      </routers>
+    </admin>
+
+    <!-- <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                      <sendcloud_integration after="Mage_Adminhtml">SendCloudIntegration_Adminhtml</sendcloud_integration>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin> -->
+    <!-- <sendcloud_integration>
+        <use>admin</use>
+        <args>
+            <module>SendCloud_Integration</module>
+            <frontName>sendcloudintegration</frontName>
+        </args>
+    </sendcloud_integration> -->
+
+    <frontend>
+        <layout>
+            <updates>
+                <sendcloud_integration>
+                    <file>sendcloud_integration.xml</file>
+                </sendcloud_integration>
+            </updates>
+        </layout>
+    </frontend>
+
+    <adminhtml>
+        <!-- Linking all translations -->
+        <translate>
+            <modules>
+                <sendcloud_integration>
+                    <files>
+                        <default>SendCloud_Integration.csv</default>
+                    </files>
+                </sendcloud_integration>
+            </modules>
+        </translate>
+    </adminhtml>
+
+    <default>
+      <carriers>
+          <sendcloudcarrier>
+              <active>1</active>
+              <model>sendcloud_integration/carrier</model>
+              <title>SendCloud carrier</title>
+              <sort_order>10</sort_order>
+              <sallowspecific>0</sallowspecific>
+              <express_max_weight>1</express_max_weight>
+          </sendcloudcarrier>
+      </carriers>
+    </default>
+
+    <crontab>
+        <jobs>
+            <sendcloud_integration>
+                <schedule><cron_expr>*/10 * * * *</cron_expr></schedule>
+                <run><model>sendcloud_integration/order_observer::check_parcels</model></run>
+            </sendcloud_integration>
+        </jobs>
+    </crontab>
+
+    <global>
+        <models>
+            <sendcloud_integration>
+                <class>SendCloud_Integration_Model</class>
+            </sendcloud_integration>
+
+            <pdfcustomiser>
+                <rewrite>
+                  <mypdf>SendCloud_Integration_Model_Order_Pdf_Fooman</mypdf>
+                </rewrite>
+            </pdfcustomiser>
+
+            <sales>
+                <rewrite>
+                    <order_pdf_shipment>SendCloud_Integration_Model_Order_Pdf_Shipment</order_pdf_shipment>
+                    <order_pdf_invoice>SendCloud_Integration_Model_Order_Pdf_Invoice</order_pdf_invoice>
+                </rewrite>
+            </sales>
+        </models>
+
+        <helpers>
+            <sendcloud_integration>
+                <class>SendCloud_Integration_Helper</class>
+            </sendcloud_integration>
+        </helpers>
+
+        <events>
+            <sales_order_save_after>
+                <observers>
+                    <!-- the ordering of these observers is important! -->
+                    <sendcloud_integration_servicepoint>
+                        <type>singleton</type>
+                        <class>SendCloud_Integration_Model_Order_ServicePoint</class>
+                        <method>after_order_save</method>
+                    </sendcloud_integration_servicepoint>
+
+                    <sendcloud_integration_observer>
+                        <type>singleton</type>
+                        <class>SendCloud_Integration_Model_Order_Observer</class>
+                        <method>after_order_save</method>
+                    </sendcloud_integration_observer>
+
+                </observers>
+            </sales_order_save_after>
+
+            <checkout_controller_onepage_save_shipping_method>
+              <observers>
+                <checkout_controller_onepage_save_shipping_method>
+                      <type>model</type>
+                      <class>SendCloud_Integration_Model_Order_ServicePoint</class>
+                      <method>after_shippingmethod_save</method>
+                  </checkout_controller_onepage_save_shipping_method>
+              </observers>
+            </checkout_controller_onepage_save_shipping_method>
+
+            <adminhtml_widget_container_html_before>
+                <observers>
+                    <sendcloud_integration_singletransfer>
+                        <type>singleton</type>
+                        <class>SendCloud_Integration_Model_Order_Transfer</class>
+                        <method>inject_button</method>
+                    </sendcloud_integration_singletransfer>
+                </observers>
+            </adminhtml_widget_container_html_before>
+
+            <adminhtml_block_html_before>
+                <observers>
+                    <sendcloud_integration_masstransfer>
+                        <type>singleton</type>
+                        <class>SendCloud_Integration_Model_Order_Transfer</class>
+                        <method>inject_mass_action</method>
+                    </sendcloud_integration_masstransfer>
+                </observers>
+            </adminhtml_block_html_before>
+        </events>
+
+        <resources>
+            <sendcloud_integration_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </sendcloud_integration_write>
+
+            <sendcloud_integration_setup>
+                <setup>
+                    <module>SendCloud_Integration</module>
+                    <class>SendCloud_Integration_Model_Resource_Mysql4_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </sendcloud_integration_setup>
+        </resources>
+    </global>
+
+
+</config>

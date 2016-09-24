@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Meanbee_Gmailactions>
+            <version>1.0.0</version>
+        </Meanbee_Gmailactions>
+    </modules>
+    <global>
+        <blocks>
+            <meanbee_gmailactions>
+                <class>Meanbee_Gmailactions_Block</class>
+            </meanbee_gmailactions>
+        </blocks>
+        <helpers>
+            <meanbee_gmailactions>
+                <class>Meanbee_Gmailactions_Helper</class>
+            </meanbee_gmailactions>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <meanbee_gmailactions>
+                    <file>meanbee/gmailactions/gmailactions.xml</file>
+                </meanbee_gmailactions>
+            </updates>
+        </layout>
+    </frontend>
+    <adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <meanbee_gmailactions_options>
+                                            <title>Gmail Actions Configuration</title>
+                                        </meanbee_gmailactions_options>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+    <default>
+        <meanbee_gmailactions_options>
+            <order_email>
+                <enabled>1</enabled>
+            </order_email>
+            <shipment_email>
+                <enabled>1</enabled>
+            </shipment_email>
+            <creditmemo_email>
+                <enabled>1</enabled>
+                <action_name>View Credit Memo</action_name>
+                <description>Open credit memo in browser</description>
+            </creditmemo_email>
+        </meanbee_gmailactions_options>
+    </default>
+</config>
