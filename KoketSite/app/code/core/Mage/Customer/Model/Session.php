@@ -213,7 +213,7 @@ class Mage_Customer_Model_Session extends Mage_Core_Model_Session_Abstract
 
         if ($customer->authenticate($username, $password)) {
             $this->setCustomerAsLoggedIn($customer);
-            $this->renewSession();
+            //$this->renewSession();
             return true;
         }
         return false;

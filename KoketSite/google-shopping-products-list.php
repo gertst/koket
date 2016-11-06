@@ -103,6 +103,12 @@ echo "<pre>";
                 $title_temp .= " - koopjes/solden/actie";
             }
 
+            //no Maggy London
+            $pos = strpos($title_temp, "Maggy London");
+            if ($pos > 0) {
+                continue;
+            }
+
             $product_data['title'] = $title_temp;
 
 
