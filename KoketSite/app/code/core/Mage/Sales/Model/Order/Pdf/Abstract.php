@@ -442,8 +442,10 @@ abstract class Mage_Sales_Model_Order_Pdf_Abstract extends Varien_Object
             }
 
             $yShipments = $this->y;
-            $totalShippingChargesText = "(" . Mage::helper('sales')->__('Total Shipping Charges') . " "
-                . $order->formatPriceTxt($order->getShippingAmount()) . ")";
+            //gert: removed verzendkosten: was excl BTW
+            //$totalShippingChargesText = "(" . Mage::helper('sales')->__('Total Shipping Charges') . " "
+            //    . $order->formatPriceTxt($order->getShippingAmount()) . ")";
+            $totalShippingChargesText = "";
 
             $page->drawText($totalShippingChargesText, 285, $yShipments - $topMargin, 'UTF-8');
             $yShipments -= $topMargin + 10;

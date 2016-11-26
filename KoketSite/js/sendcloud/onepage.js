@@ -44,10 +44,10 @@ document.addEventListener('DOMContentLoaded', function() {
         };
 
         SC.spp.onselect(function(service_point) {
-            location_picker_input.value = service_point;
+            location_picker_input.value = service_point + jQuery(".list-group-item.ng-scope.active").text();
 //        console.log("gert: ");
 //        console.log(service_point);
-//        console.log(jQuery(".list-group-item.ng-scope.active").text());
+//        console.log("$$$$$$$$$" + jQuery(".list-group-item.ng-scope.active").text());
 //        jQuery("#ordercomment-comment").val(jQuery(".list-group-item.ng-scope.active").text());
         });
 
