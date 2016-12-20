@@ -125,7 +125,22 @@ echo '<div class="product-category-title">'.$_category->getName().'</div>';
                         if ($stockQty <= 2) {
                             echo "Opgelet, heel beperkte voorraad!";
                         } else {
-                            echo "Opgelet: laatste $stockQty " . $_product->getAttributeText('unit') . "!";
+                            echo "Opgelet: laatste " . $_product->getAttributeText('unit') . "!";
+                        }
+                    }
+                    if (false && $stockQty >= 25) {
+                        $categoryIds = $_product->getCategoryIds();
+
+                        $categoryAssortimentKralen = 8;
+                        $categoryOnderdelen = 9;
+                        $categoryHangers = 45;
+                        $isInCategory = in_array($categoryAssortimentKralen, $categoryIds) || in_array($categoryOnderdelen, $categoryIds) || in_array($categoryHangers, $categoryIds);
+
+                        if ($stockQty >= 25 && $isInCategory) {
+                            echo "<p class='volumekorting'>Volumekorting: 25% EXTRA KORTING vanaf 25 stuks</p>";
+                        }
+                        if ($stockQty >= 100 && $isInCategory) {
+                            echo "<p class='volumekorting'>Volumekorting: 50% EXTRA KORTING vanaf 100 stuks</p>";
                         }
                     }
                     ?>
@@ -216,7 +231,7 @@ echo '<div class="product-category-title">'.$_category->getName().'</div>';
                  **/
 
                 ?>
-                <?php if ($_product->getData('toon_staaltje') == 1
+                <?php if (false && $_product->getData('toon_staaltje') == 1
                         && !strrpos($_product->getSku(), "sample") ) : ?>
 
 
