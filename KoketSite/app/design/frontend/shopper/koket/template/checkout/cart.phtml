@@ -57,24 +57,24 @@
 //    if(Mage::getSingleton('customer/session')->isLoggedIn()) {
 //        $customerData = Mage::getSingleton('customer/session')->getCustomer();
 //        if ($customerData->getId() == "253") { //gertst+1@gmail.com - stogos
-            include "free-product.php";
+            //include "free-product.php";
 //        }
-//    }
+//    } gert
     ?>
 
     <?php
     //GERT start
-    $quote = Mage::getModel('checkout/session')->getQuote();
-    $quoteData= $quote->getData();
-    $grandTotal=$quoteData['grand_total'];
-    $eurToFreeShipping = (float)Mage::getStoreConfig('carriers/matrixrate/free_shipping_threshold_BE') - (float)$grandTotal;
-    if ((float)$eurToFreeShipping <= 35) {
-        if ((float)$eurToFreeShipping > 0) {
-            echo "<div class='free-shipping-msg'><b>TIP:</b> Voeg nog voor ". Mage::helper('checkout')->formatPrice($eurToFreeShipping) . " aan artikelen toe voor <b>gratis verzending</b> binnen België! <a href='/verzenden-en-retourneren'>(meer)</a></div>";
-        } else {
-            echo "<div class='free-shipping-msg'>Vanaf " . Mage::helper('checkout')->formatPrice((float)Mage::getStoreConfig('carriers/matrixrate/free_shipping_threshold_BE')) . " wordt je pakje <b>gratis verzonden</b> binnen België! <a href='/verzenden-en-retourneren'>(meer)</a></div>";
-        }
-    }
+//    $quote = Mage::getModel('checkout/session')->getQuote();
+//    $quoteData= $quote->getData();
+//    $grandTotal=$quoteData['grand_total'];
+//    $eurToFreeShipping = (float)Mage::getStoreConfig('carriers/matrixrate/free_shipping_threshold_BE') - (float)$grandTotal;
+//    if ((float)$eurToFreeShipping <= 35) {
+//        if ((float)$eurToFreeShipping > 0) {
+//            echo "<div class='free-shipping-msg'><b>TIP:</b> Voeg nog voor ". Mage::helper('checkout')->formatPrice($eurToFreeShipping) . " aan artikelen toe voor <b>gratis verzending</b> binnen België! <a href='/verzenden-en-retourneren'>(meer)</a></div>";
+//        } else {
+//            echo "<div class='free-shipping-msg'>Vanaf " . Mage::helper('checkout')->formatPrice((float)Mage::getStoreConfig('carriers/matrixrate/free_shipping_threshold_BE')) . " wordt je pakje <b>gratis verzonden</b> binnen België! <a href='/verzenden-en-retourneren'>(meer)</a></div>";
+//        }
+//    }
     //GERT end
     ?>
 

@@ -128,14 +128,14 @@ echo '<div class="product-category-title">'.$_category->getName().'</div>';
                             echo "Opgelet: laatste " . $_product->getAttributeText('unit') . "!";
                         }
                     }
-                    if (false && $stockQty >= 25) {
+                    if ($stockQty >= 25) {
                         $categoryIds = $_product->getCategoryIds();
 
                         $categoryAssortimentKralen = 8;
                         $categoryOnderdelen = 9;
                         $categoryHangers = 45;
                         $isInCategory = in_array($categoryAssortimentKralen, $categoryIds) || in_array($categoryOnderdelen, $categoryIds) || in_array($categoryHangers, $categoryIds);
-
+                        echo "<p>&nbsp;</p>";
                         if ($stockQty >= 25 && $isInCategory) {
                             echo "<p class='volumekorting'>Volumekorting: 25% EXTRA KORTING vanaf 25 stuks</p>";
                         }
