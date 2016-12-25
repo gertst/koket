@@ -109,7 +109,7 @@ echo "<pre>";
                 continue;
             }
 
-            $product_data['title'] = $title_temp;
+            $product_data['title'] = "UITVERKOOP! " . $title_temp;
 
 
             $product_data['description'] = substr(iconv("UTF-8","UTF-8//IGNORE",$product->getDescription()), 0, 900);
